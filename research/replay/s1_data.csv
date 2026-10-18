@@ -1,0 +1,980 @@
+city,date,question,lo_f,hi_f,yes_24h,yes_6h,p_model,won
+Chicago,2026-09-18,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.001,0.001,0.0076,0
+Chicago,2026-09-18,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.001,0.001,0.0891,0
+Chicago,2026-09-18,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,0.08,0.2376,0
+Chicago,2026-09-18,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,,0.1447,1
+Chicago,2026-09-18,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,,0.36,0.0201,0
+Chicago,2026-09-18,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,,0.06,0.0006,0
+Chicago,2026-09-18,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.03,0.0109,0.0,0
+Chicago,2026-09-18,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,0.01,0.001,0.0,0
+Chicago,2026-09-18,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,0.001,0.002,0.0,0
+Chicago,2026-09-18,Will the highest temperature in Chicago be 82°F or higher on,82.0,,0.001,0.001,0.0,0
+Chicago,2026-09-19,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,,0.1447,1
+Chicago,2026-09-19,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.21,0.32,0.0201,0
+Chicago,2026-09-19,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.16,0.24,0.0006,0
+Chicago,2026-09-19,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.07,0.1,0.0,0
+Chicago,2026-09-19,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,0.02,0.0501,0.0,0
+Chicago,2026-09-19,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,0.003,0.002,0.0,0
+Chicago,2026-09-19,Will the highest temperature in Chicago be between 82-83°F o,82.0,83.0,0.001,0.004,0.0,0
+Chicago,2026-09-19,Will the highest temperature in Chicago be between 84-85°F o,84.0,85.0,0.001,0.001,0.0,0
+Chicago,2026-09-19,Will the highest temperature in Chicago be between 86-87°F o,86.0,87.0,0.001,0.001,0.0,0
+Chicago,2026-09-19,Will the highest temperature in Chicago be 88°F or higher on,88.0,,0.001,0.001,0.0,0
+Chicago,2026-09-20,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.001,0.001,0.0,0
+Chicago,2026-09-20,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.001,0.001,0.0029,0
+Chicago,2026-09-20,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.01,0.002,0.052,0
+Chicago,2026-09-20,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,0.005,0.2096,0
+Chicago,2026-09-20,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,,0.1929,0
+Chicago,2026-09-20,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,0.28,0.0406,1
+Chicago,2026-09-20,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,,0.02,0.0019,0
+Chicago,2026-09-20,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.002,0.002,0.0,0
+Chicago,2026-09-20,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.001,0.002,0.0,0
+Chicago,2026-09-20,Will the highest temperature in Chicago be 78°F or higher on,78.0,,0.001,0.001,0.0,0
+Chicago,2026-09-21,Will the highest temperature in Chicago be between 54-55°F o,54.0,55.0,0.001,0.001,0.0,0
+Chicago,2026-09-21,Will the highest temperature in Chicago be between 56-57°F o,56.0,57.0,0.001,0.001,0.0001,0
+Chicago,2026-09-21,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,0.001,0.0022,0.0038,0
+Chicago,2026-09-21,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.01,0.001,0.0601,0
+Chicago,2026-09-21,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,,,0.2186,0
+Chicago,2026-09-21,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,,0.37,0.1815,0
+Chicago,2026-09-21,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,,0.0344,1
+Chicago,2026-09-21,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,0.004,0.0015,0
+Chicago,2026-09-21,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.001,0.001,0.0,0
+Chicago,2026-09-21,Will the highest temperature in Chicago be 72°F or higher on,72.0,,0.004,0.001,0.0,0
+Chicago,2026-09-22,Will the highest temperature in Chicago be between 54-55°F o,54.0,55.0,0.001,0.001,0.0003,0
+Chicago,2026-09-22,Will the highest temperature in Chicago be between 56-57°F o,56.0,57.0,0.002,0.002,0.0118,0
+Chicago,2026-09-22,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,,0.002,0.1118,0
+Chicago,2026-09-22,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,,,0.2423,0
+Chicago,2026-09-22,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,,,0.12,1
+Chicago,2026-09-22,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,,,0.0136,0
+Chicago,2026-09-22,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,0.0041,0.0003,0
+Chicago,2026-09-22,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.001,0.001,0.0,0
+Chicago,2026-09-22,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.001,0.001,0.0,0
+Chicago,2026-09-22,Will the highest temperature in Chicago be 72°F or higher on,72.0,,0.001,0.001,0.0,0
+Chicago,2026-09-23,Will the highest temperature in Chicago be between 56-57°F o,56.0,57.0,0.001,0.001,0.0,0
+Chicago,2026-09-23,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,0.001,0.001,0.0,0
+Chicago,2026-09-23,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.02,0.013,0.001,0
+Chicago,2026-09-23,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,,0.0391,0.027,0
+Chicago,2026-09-23,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,,0.2985,0.1646,0
+Chicago,2026-09-23,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,0.51,0.2292,0
+Chicago,2026-09-23,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,0.15,0.0729,1
+Chicago,2026-09-23,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.001,0.006,0.0053,0
+Chicago,2026-09-23,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.001,0.001,0.0001,0
+Chicago,2026-09-23,Will the highest temperature in Chicago be 74°F or higher on,74.0,,0.001,0.001,0.0,0
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,0.001,0.001,0.0,0
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.001,0.001,0.0,0
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.005,0.001,0.0,0
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,,0.02,0.0004,0
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.18,0.13,0.0136,0
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,,0.1203,1
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,0.3663,0.2423,0
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.03,0.03,0.1114,0
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.005,0.001,0.0117,0
+Chicago,2026-09-24,Will the highest temperature in Chicago be 76°F or higher on,76.0,,0.001,0.001,0.0003,0
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,0.001,0.001,0.0,0
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.002,0.001,0.0002,0
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.01,0.032,0.0098,0
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,,0.06,0.1018,1
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,0.34,0.2411,0
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,0.45,0.1305,0
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,0.15,0.0161,0
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.03,0.003,0.0005,0
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.002,0.001,0.0,0
+Chicago,2026-09-25,Will the highest temperature in Chicago be 76°F or higher on,76.0,,0.001,0.001,0.0,0
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.001,0.001,0.0,0
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.02,0.001,0.0003,0
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,,0.0127,0.0132,0
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,0.118,0.1186,0
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,0.41,0.2424,1
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,,0.1131,0
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.06,0.08,0.012,0
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.003,0.001,0.0003,0
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.001,0.001,0.0,0
+Chicago,2026-09-26,Will the highest temperature in Chicago be 78°F or higher on,78.0,,0.001,0.001,0.0,0
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.001,0.001,0.0,0
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.001,0.001,0.0,0
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.001,0.002,0.0,0
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.001,0.001,0.0002,0
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.05,0.0987,0.0107,0
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,0.39,0.1067,0
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,,,0.2419,1
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.14,0.04,0.1252,0
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.001,0.002,0.0148,0
+Chicago,2026-09-27,Will the highest temperature in Chicago be 78°F or higher on,78.0,,0.002,0.001,0.0004,0
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.001,0.001,0.0,0
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.003,0.001,0.0,0
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,0.023,0.0004,0
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.0847,0.16,0.0144,0
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,,0.46,0.1238,1
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,,0.34,0.242,0
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.04,0.02,0.1081,0
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,0.002,0.002,0.011,0
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,0.001,0.001,0.0003,0
+Chicago,2026-09-28,Will the highest temperature in Chicago be 82°F or higher on,82.0,,0.001,0.001,0.0,0
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.001,0.001,0.0,0
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.001,0.001,0.0,0
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.001,0.002,0.0,0
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.02,0.003,0.0001,0
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,,0.1703,0.0067,0
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,,0.57,0.0831,0
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,,,0.2351,1
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,0.01,0.0085,0.1518,0
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 82-83°F o,82.0,83.0,0.001,0.001,0.0224,0
+Chicago,2026-09-29,Will the highest temperature in Chicago be 84°F or higher on,84.0,,0.001,0.001,0.0008,0
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,0.001,0.1186,0
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.46,0.001,0.2424,0
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,0.876,0.1131,1
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.04,0.2569,0.012,0
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.02,0.018,0.0003,0
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.0076,0.001,0.0,0
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,0.0049,0.001,0.0,0
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,0.001,0.001,0.0,0
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 82-83°F o,82.0,83.0,0.001,0.001,0.0,0
+Chicago,2026-09-30,Will the highest temperature in Chicago be 84°F or higher on,84.0,,0.001,0.001,0.0,0
+Chicago,2026-10-01,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.01,0.004,0.0022,0
+Chicago,2026-10-01,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.05,0.067,0.0436,0
+Chicago,2026-10-01,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.07,0.0983,0.1979,0
+Chicago,2026-10-01,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,0.28,0.2051,1
+Chicago,2026-10-01,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,,0.37,0.0485,0
+Chicago,2026-10-01,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.24,0.16,0.0026,0
+Chicago,2026-10-01,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.111,0.0483,0.0,0
+Chicago,2026-10-01,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,0.001,0.0033,0.0,0
+Chicago,2026-10-01,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,0.001,0.001,0.0,0
+Chicago,2026-10-01,Will the highest temperature in Chicago be 82°F or higher on,82.0,,0.001,0.001,0.0,0
+Chicago,2026-10-02,Will the highest temperature in Chicago be between 56-57°F o,56.0,57.0,0.001,0.001,0.0001,0
+Chicago,2026-10-02,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,0.001,0.001,0.0051,0
+Chicago,2026-10-02,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.006,0.001,0.0718,0
+Chicago,2026-10-02,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,,0.17,0.2284,0
+Chicago,2026-10-02,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,,0.4,0.166,0
+Chicago,2026-10-02,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,,0.0275,1
+Chicago,2026-10-02,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.0306,0.0146,0.001,0
+Chicago,2026-10-02,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.002,0.001,0.0,0
+Chicago,2026-10-02,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.001,0.001,0.0,0
+Chicago,2026-10-02,Will the highest temperature in Chicago be 74°F or higher on,74.0,,0.001,0.001,0.0,0
+Chicago,2026-10-03,Will the highest temperature in Chicago be between 56-57°F o,56.0,57.0,0.001,0.001,0.0,0
+Chicago,2026-10-03,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,0.001,0.001,0.0,0
+Chicago,2026-10-03,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.001,0.001,0.0,0
+Chicago,2026-10-03,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.006,0.002,0.0029,0
+Chicago,2026-10-03,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.06,0.04,0.052,0
+Chicago,2026-10-03,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,0.32,0.2096,0
+Chicago,2026-10-03,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,,0.1929,1
+Chicago,2026-10-03,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.06,0.08,0.0406,0
+Chicago,2026-10-03,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.0014,0.002,0.0019,0
+Chicago,2026-10-03,Will the highest temperature in Chicago be 74°F or higher on,74.0,,0.001,0.001,0.0,0
+Chicago,2026-10-04,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.001,0.001,0.0,0
+Chicago,2026-10-04,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.002,0.001,0.0,0
+Chicago,2026-10-04,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.006,0.012,0.0004,0
+Chicago,2026-10-04,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.02,0.034,0.014,0
+Chicago,2026-10-04,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,0.13,0.1221,0
+Chicago,2026-10-04,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,,,0.2422,1
+Chicago,2026-10-04,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,,0.33,0.1097,0
+Chicago,2026-10-04,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.0202,0.004,0.0113,0
+Chicago,2026-10-04,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,0.002,0.001,0.0003,0
+Chicago,2026-10-04,Will the highest temperature in Chicago be 80°F or higher on,80.0,,0.001,0.001,0.0,0
+Chicago,2026-10-05,Will the highest temperature in Chicago be between 54-55°F o,54.0,55.0,0.001,0.001,0.0,0
+Chicago,2026-10-05,Will the highest temperature in Chicago be between 56-57°F o,56.0,57.0,0.001,0.001,0.0,0
+Chicago,2026-10-05,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,0.001,0.001,0.0,0
+Chicago,2026-10-05,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.001,0.005,0.0,0
+Chicago,2026-10-05,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.004,0.006,0.0029,0
+Chicago,2026-10-05,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,,,0.052,0
+Chicago,2026-10-05,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.27,0.4,0.2096,0
+Chicago,2026-10-05,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,0.4518,0.1929,1
+Chicago,2026-10-05,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.157,0.052,0.0406,0
+Chicago,2026-10-05,Will the highest temperature in Chicago be 72°F or higher on,72.0,,0.003,0.005,0.0022,0
+Chicago,2026-10-06,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.001,0.001,0.0,0
+Chicago,2026-10-06,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.001,0.001,0.0,0
+Chicago,2026-10-06,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.001,0.001,0.0,0
+Chicago,2026-10-06,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.005,0.0013,0.0,0
+Chicago,2026-10-06,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.013,0.006,0.0017,0
+Chicago,2026-10-06,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,0.127,0.0371,0
+Chicago,2026-10-06,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,,0.45,0.1868,0
+Chicago,2026-10-06,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,,0.44,0.2146,1
+Chicago,2026-10-06,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.02,0.0222,0.0563,0
+Chicago,2026-10-06,Will the highest temperature in Chicago be 78°F or higher on,78.0,,0.002,0.002,0.0039,0
+Chicago,2026-10-07,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.001,0.001,0.0,0
+Chicago,2026-10-07,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.001,0.001,0.0,0
+Chicago,2026-10-07,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.001,0.001,0.0,0
+Chicago,2026-10-07,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.003,0.002,0.0,0
+Chicago,2026-10-07,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.02,0.002,0.0004,0
+Chicago,2026-10-07,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.07,0.05,0.0153,0
+Chicago,2026-10-07,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.3094,0.18,0.1273,0
+Chicago,2026-10-07,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,,0.52,0.2416,1
+Chicago,2026-10-07,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,0.12,0.25,0.1048,0
+Chicago,2026-10-07,Will the highest temperature in Chicago be 82°F or higher on,82.0,,0.008,0.0111,0.0125,0
+Chicago,2026-10-08,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,0.001,0.001,0.0,0
+Chicago,2026-10-08,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.001,0.001,0.0,0
+Chicago,2026-10-08,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.001,0.001,0.0,0
+Chicago,2026-10-08,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.0233,0.002,0.0,0
+Chicago,2026-10-08,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,0.01,0.0032,0
+Chicago,2026-10-08,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.18,0.06,0.0542,0
+Chicago,2026-10-08,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,0.44,0.2123,0
+Chicago,2026-10-08,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.2222,0.4,0.1897,1
+Chicago,2026-10-08,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.002,0.02,0.0387,0
+Chicago,2026-10-08,Will the highest temperature in Chicago be 76°F or higher on,76.0,,0.001,0.001,0.002,0
+Chicago,2026-10-09,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.001,0.001,0.0,0
+Chicago,2026-10-09,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.0012,0.002,0.0001,0
+Chicago,2026-10-09,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.006,0.0137,0.0043,0
+Chicago,2026-10-09,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,,0.0651,0
+Chicago,2026-10-09,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,,,0.2232,1
+Chicago,2026-10-09,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,,,0.1747,0
+Chicago,2026-10-09,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,,,0.0312,0
+Chicago,2026-10-09,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.031,0.097,0.0013,0
+Chicago,2026-10-09,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,0.002,0.002,0.0,0
+Chicago,2026-10-09,Will the highest temperature in Chicago be 80°F or higher on,80.0,,0.001,0.001,0.0,0
+Chicago,2026-10-10,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.005,0.001,0.0,0
+Chicago,2026-10-10,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.008,0.001,0.0001,0
+Chicago,2026-10-10,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,,0.01,0.0038,0
+Chicago,2026-10-10,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,0.1653,0.09,0.0601,0
+Chicago,2026-10-10,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,,0.4,0.2186,1
+Chicago,2026-10-10,Will the highest temperature in Chicago be between 82-83°F o,82.0,83.0,,0.46,0.1815,0
+Chicago,2026-10-10,Will the highest temperature in Chicago be between 84-85°F o,84.0,85.0,0.0242,0.03,0.0344,0
+Chicago,2026-10-10,Will the highest temperature in Chicago be between 86-87°F o,86.0,87.0,0.002,0.002,0.0015,0
+Chicago,2026-10-10,Will the highest temperature in Chicago be between 88-89°F o,88.0,89.0,0.001,0.001,0.0,0
+Chicago,2026-10-10,Will the highest temperature in Chicago be 90°F or higher on,90.0,,0.001,0.001,0.0,0
+Chicago,2026-10-11,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.001,0.001,0.0,0
+Chicago,2026-10-11,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.001,0.001,0.0,0
+Chicago,2026-10-11,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.001,0.001,0.0,0
+Chicago,2026-10-11,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.004,0.001,0.0,0
+Chicago,2026-10-11,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.024,0.008,0.0006,0
+Chicago,2026-10-11,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.05,0.031,0.0197,0
+Chicago,2026-10-11,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.3218,0.308,0.1433,0
+Chicago,2026-10-11,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,,0.56,0.2381,1
+Chicago,2026-10-11,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,0.13,0.11,0.0904,0
+Chicago,2026-10-11,Will the highest temperature in Chicago be 82°F or higher on,82.0,,0.004,0.003,0.0093,0
+Chicago,2026-10-12,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.001,0.001,0.0,0
+Chicago,2026-10-12,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.001,0.001,0.0,0
+Chicago,2026-10-12,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,0.005,0.001,0.0,0
+Chicago,2026-10-12,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,0.007,0.002,0.0001,0
+Chicago,2026-10-12,Will the highest temperature in Chicago be between 82-83°F o,82.0,83.0,,0.05,0.0057,0
+Chicago,2026-10-12,Will the highest temperature in Chicago be between 84-85°F o,84.0,85.0,,,0.0759,0
+Chicago,2026-10-12,Will the highest temperature in Chicago be between 86-87°F o,86.0,87.0,,,0.2311,1
+Chicago,2026-10-12,Will the highest temperature in Chicago be between 88-89°F o,88.0,89.0,,,0.1607,0
+Chicago,2026-10-12,Will the highest temperature in Chicago be between 90-91°F o,90.0,91.0,0.004,0.005,0.0255,0
+Chicago,2026-10-12,Will the highest temperature in Chicago be 92°F or higher on,92.0,,0.001,0.001,0.001,0
+Chicago,2026-10-13,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.001,0.001,0.0001,0
+Chicago,2026-10-13,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.003,0.001,0.005,0
+Chicago,2026-10-13,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.09,0.013,0.0704,0
+Chicago,2026-10-13,Will the highest temperature in Chicago be between 78-79°F o,78.0,79.0,,,0.2274,1
+Chicago,2026-10-13,Will the highest temperature in Chicago be between 80-81°F o,80.0,81.0,,0.5326,0.1678,0
+Chicago,2026-10-13,Will the highest temperature in Chicago be between 82-83°F o,82.0,83.0,,0.17,0.0283,0
+Chicago,2026-10-13,Will the highest temperature in Chicago be between 84-85°F o,84.0,85.0,0.02,0.004,0.0011,0
+Chicago,2026-10-13,Will the highest temperature in Chicago be between 86-87°F o,86.0,87.0,0.001,0.001,0.0,0
+Chicago,2026-10-13,Will the highest temperature in Chicago be between 88-89°F o,88.0,89.0,0.001,0.001,0.0,0
+Chicago,2026-10-13,Will the highest temperature in Chicago be 90°F or higher on,90.0,,0.001,0.001,0.0,0
+Chicago,2026-10-14,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.005,0.001,0.0014,0
+Chicago,2026-10-14,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.015,0.001,0.0337,0
+Chicago,2026-10-14,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.13,0.001,0.1802,0
+Chicago,2026-10-14,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,,0.7829,0.2196,1
+Chicago,2026-10-14,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,,0.23,0.0611,0
+Chicago,2026-10-14,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.14,0.04,0.0039,0
+Chicago,2026-10-14,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.016,0.01,0.0001,0
+Chicago,2026-10-14,Will the highest temperature in Chicago be between 74-75°F o,74.0,75.0,0.001,0.002,0.0,0
+Chicago,2026-10-14,Will the highest temperature in Chicago be between 76-77°F o,76.0,77.0,0.001,0.001,0.0,0
+Chicago,2026-10-14,Will the highest temperature in Chicago be 78°F or higher on,78.0,,0.001,0.001,0.0,0
+Chicago,2026-10-15,Will the highest temperature in Chicago be between 56-57°F o,56.0,57.0,0.013,0.001,0.0,0
+Chicago,2026-10-15,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,0.072,0.001,0.0003,0
+Chicago,2026-10-15,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.21,0.08,0.0125,0
+Chicago,2026-10-15,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.35,0.27,0.1152,0
+Chicago,2026-10-15,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,,,0.2424,0
+Chicago,2026-10-15,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.048,0.1696,0.1165,1
+Chicago,2026-10-15,Will the highest temperature in Chicago be between 68-69°F o,68.0,69.0,0.001,0.0274,0.0128,0
+Chicago,2026-10-15,Will the highest temperature in Chicago be between 70-71°F o,70.0,71.0,0.001,0.003,0.0003,0
+Chicago,2026-10-15,Will the highest temperature in Chicago be between 72-73°F o,72.0,73.0,0.001,0.001,0.0,0
+Chicago,2026-10-15,Will the highest temperature in Chicago be 74°F or higher on,74.0,,0.001,0.001,0.0,0
+Chicago,2026-10-16,Will the highest temperature in Chicago be between 50-51°F o,50.0,51.0,0.001,0.001,0.0001,0
+Chicago,2026-10-16,Will the highest temperature in Chicago be between 52-53°F o,52.0,53.0,0.001,0.001,0.0046,0
+Chicago,2026-10-16,Will the highest temperature in Chicago be between 54-55°F o,54.0,55.0,0.021,0.001,0.0677,0
+Chicago,2026-10-16,Will the highest temperature in Chicago be between 56-57°F o,56.0,57.0,,,0.2254,1
+Chicago,2026-10-16,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,,,0.1713,0
+Chicago,2026-10-16,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,,0.012,0.0297,0
+Chicago,2026-10-16,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,,0.012,0.0012,0
+Chicago,2026-10-16,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.006,0.003,0.0,0
+Chicago,2026-10-16,Will the highest temperature in Chicago be between 66-67°F o,66.0,67.0,0.001,0.001,0.0,0
+Chicago,2026-10-16,Will the highest temperature in Chicago be 68°F or higher on,68.0,,0.001,0.001,0.0,0
+Chicago,2026-10-17,Will the highest temperature in Chicago be between 48-49°F o,48.0,49.0,0.001,0.001,0.0,0
+Chicago,2026-10-17,Will the highest temperature in Chicago be between 50-51°F o,50.0,51.0,0.001,0.001,0.0008,0
+Chicago,2026-10-17,Will the highest temperature in Chicago be between 52-53°F o,52.0,53.0,0.001,0.001,0.0237,0
+Chicago,2026-10-17,Will the highest temperature in Chicago be between 54-55°F o,54.0,55.0,0.081,0.11,0.1558,0
+Chicago,2026-10-17,Will the highest temperature in Chicago be between 56-57°F o,56.0,57.0,,0.64,0.2334,1
+Chicago,2026-10-17,Will the highest temperature in Chicago be between 58-59°F o,58.0,59.0,,0.24,0.0799,0
+Chicago,2026-10-17,Will the highest temperature in Chicago be between 60-61°F o,60.0,61.0,0.015,0.011,0.0062,0
+Chicago,2026-10-17,Will the highest temperature in Chicago be between 62-63°F o,62.0,63.0,0.001,0.001,0.0001,0
+Chicago,2026-10-17,Will the highest temperature in Chicago be between 64-65°F o,64.0,65.0,0.001,0.001,0.0,0
+Chicago,2026-10-17,Will the highest temperature in Chicago be 66°F or higher on,66.0,,0.001,0.001,0.0,0
+London,2026-09-18,Will the highest temperature in London be 25°C or higher on ,77.0,,0.001,0.001,0.0,0
+London,2026-09-19,Will the highest temperature in London be between 73-74°F on,73.0,74.0,0.015,0.0164,0.0104,0
+London,2026-09-19,Will the highest temperature in London be between 75-76°F on,75.0,76.0,0.2,0.04,0.0002,0
+London,2026-09-19,Will the highest temperature in London be between 77-78°F on,77.0,78.0,0.38,0.1229,0.0,0
+London,2026-09-19,Will the highest temperature in London be between 79-80°F on,79.0,80.0,0.1,0.55,0.0,0
+London,2026-09-19,Will the highest temperature in London be between 81-82°F on,81.0,82.0,0.03,0.12,0.0,1
+London,2026-09-19,Will the highest temperature in London be 83°F or higher on ,83.0,,0.002,0.01,0.0,0
+London,2026-09-20,Will the highest temperature in London be between 67-68°F on,67.0,68.0,0.2079,0.0899,0.2343,0
+London,2026-09-20,Will the highest temperature in London be between 69-70°F on,69.0,70.0,0.45,0.45,0.1536,0
+London,2026-09-20,Will the highest temperature in London be between 71-72°F on,71.0,72.0,0.13,0.31,0.023,1
+London,2026-09-20,Will the highest temperature in London be between 73-74°F on,73.0,74.0,0.09,0.05,0.0008,0
+London,2026-09-20,Will the highest temperature in London be between 75-76°F on,75.0,76.0,0.01,0.002,0.0,0
+London,2026-09-20,Will the highest temperature in London be 77°F or higher on ,77.0,,0.01,0.001,0.0,0
+London,2026-09-21,Will the highest temperature in London be 28°C or higher on ,82.4,,0.001,0.001,0.0,0
+London,2026-09-22,Will the highest temperature in London be 26°C or higher on ,78.8,,,,0.0342,0
+London,2026-09-23,Will the highest temperature in London be between 57-58°F on,57.0,58.0,0.01,0.004,0.0,0
+London,2026-09-23,Will the highest temperature in London be between 59-60°F on,59.0,60.0,0.11,0.3,0.0,0
+London,2026-09-23,Will the highest temperature in London be between 61-62°F on,61.0,62.0,0.4785,0.4318,0.0,1
+London,2026-09-23,Will the highest temperature in London be between 63-64°F on,63.0,64.0,0.48,0.41,0.0,0
+London,2026-09-23,Will the highest temperature in London be between 65-66°F on,65.0,66.0,0.0925,0.003,0.0,0
+London,2026-09-23,Will the highest temperature in London be 67°F or higher on ,67.0,,0.006,0.001,0.9999,0
+London,2026-09-24,Will the highest temperature in London be 26°C or higher on ,78.8,,0.001,0.001,0.0,0
+London,2026-09-25,Will the highest temperature in London be 32°C or higher on ,89.6,,0.001,0.001,0.0,0
+London,2026-09-26,Will the highest temperature in London be between 56-57°F on,56.0,57.0,0.0103,0.004,0.0,0
+London,2026-09-26,Will the highest temperature in London be between 58-59°F on,58.0,59.0,0.16,0.09,0.0,0
+London,2026-09-26,Will the highest temperature in London be between 60-61°F on,60.0,61.0,0.53,0.53,0.0,1
+London,2026-09-26,Will the highest temperature in London be between 62-63°F on,62.0,63.0,0.43,0.32,0.0005,0
+London,2026-09-26,Will the highest temperature in London be between 64-65°F on,64.0,65.0,0.01,0.064,0.0171,0
+London,2026-09-26,Will the highest temperature in London be 66°F or higher on ,66.0,,0.0493,0.004,0.9211,0
+London,2026-09-27,Will the highest temperature in London be 27°C or higher on ,80.6,,0.001,0.001,0.0,0
+London,2026-09-28,Will the highest temperature in London be 24°C or higher on ,75.2,,0.001,0.001,0.0,0
+London,2026-09-29,Will the highest temperature in London be 28°C or higher on ,82.4,,0.001,0.001,0.0017,0
+London,2026-09-30,Will the highest temperature in London be 26°C or higher on ,78.8,,0.002,0.0032,0.0024,0
+London,2026-10-01,Will the highest temperature in London be between 62-63°F on,62.0,63.0,,0.06,0.0001,0
+London,2026-10-01,Will the highest temperature in London be between 64-65°F on,64.0,65.0,,0.64,0.0057,0
+London,2026-10-01,Will the highest temperature in London be between 66-67°F on,66.0,67.0,0.5057,0.24,0.0759,1
+London,2026-10-01,Will the highest temperature in London be between 68-69°F on,68.0,69.0,0.16,0.02,0.2311,0
+London,2026-10-01,Will the highest temperature in London be between 70-71°F on,70.0,71.0,0.03,0.002,0.1607,0
+London,2026-10-01,Will the highest temperature in London be 72°F or higher on ,72.0,,0.01,0.001,0.0324,0
+London,2026-10-02,Will the highest temperature in London be 26°C or higher on ,78.8,,0.001,0.001,0.0,0
+London,2026-10-03,Will the highest temperature in London be 26°C or higher on ,78.8,,0.001,0.001,0.0,0
+London,2026-10-04,Will the highest temperature in London be 27°C or higher on ,80.6,,0.001,0.001,0.0,0
+London,2026-10-05,Will the highest temperature in London be between 56-57°F on,56.0,57.0,0.28,0.002,0.0,0
+London,2026-10-05,Will the highest temperature in London be between 58-59°F on,58.0,59.0,0.2261,0.13,0.0,0
+London,2026-10-05,Will the highest temperature in London be between 60-61°F on,60.0,61.0,0.5,0.61,0.0,0
+London,2026-10-05,Will the highest temperature in London be between 62-63°F on,62.0,63.0,0.43,0.25,0.0,1
+London,2026-10-05,Will the highest temperature in London be between 64-65°F on,64.0,65.0,0.02,0.075,0.0001,0
+London,2026-10-05,Will the highest temperature in London be 66°F or higher on ,66.0,,0.01,0.002,0.9993,0
+London,2026-10-06,Will the highest temperature in London be between 62-63°F on,62.0,63.0,0.02,0.001,0.0001,0
+London,2026-10-06,Will the highest temperature in London be between 64-65°F on,64.0,65.0,0.15,0.04,0.0057,0
+London,2026-10-06,Will the highest temperature in London be between 66-67°F on,66.0,67.0,0.48,0.33,0.0759,0
+London,2026-10-06,Will the highest temperature in London be between 68-69°F on,68.0,69.0,0.43,0.43,0.2311,0
+London,2026-10-06,Will the highest temperature in London be between 70-71°F on,70.0,71.0,0.07,0.05,0.1607,1
+London,2026-10-06,Will the highest temperature in London be 72°F or higher on ,72.0,,0.01,0.0106,0.0324,0
+London,2026-10-07,Will the highest temperature in London be between 60-61°F on,60.0,61.0,0.07,0.005,0.2423,0
+London,2026-10-07,Will the highest temperature in London be between 62-63°F on,62.0,63.0,0.35,0.2792,0.12,0
+London,2026-10-07,Will the highest temperature in London be between 64-65°F on,64.0,65.0,0.21,0.69,0.0136,1
+London,2026-10-07,Will the highest temperature in London be between 66-67°F on,66.0,67.0,0.17,0.25,0.0003,0
+London,2026-10-07,Will the highest temperature in London be between 68-69°F on,68.0,69.0,0.0476,0.011,0.0,0
+London,2026-10-07,Will the highest temperature in London be 70°F or higher on ,70.0,,0.01,0.003,0.0,0
+London,2026-10-08,Will the highest temperature in London be 18°C or higher on ,64.4,,0.004,0.0082,0.0,0
+London,2026-10-09,Will the highest temperature in London be between 60-61°F on,60.0,61.0,0.01,0.06,0.0208,0
+London,2026-10-09,Will the highest temperature in London be between 62-63°F on,62.0,63.0,0.23,0.52,0.1468,0
+London,2026-10-09,Will the highest temperature in London be between 64-65°F on,64.0,65.0,,0.4131,0.2369,0
+London,2026-10-09,Will the highest temperature in London be between 66-67°F on,66.0,67.0,0.19,0.07,0.0873,0
+London,2026-10-09,Will the highest temperature in London be between 68-69°F on,68.0,69.0,0.03,0.01,0.0073,0
+London,2026-10-09,Will the highest temperature in London be 70°F or higher on ,70.0,,0.01,0.001,0.0002,0
+London,2026-10-10,Will the highest temperature in London be between 58-59°F on,58.0,59.0,0.03,0.07,0.2241,1
+London,2026-10-10,Will the highest temperature in London be between 60-61°F on,60.0,61.0,0.0945,0.44,0.0662,0
+London,2026-10-10,Will the highest temperature in London be between 62-63°F on,62.0,63.0,,0.63,0.0045,0
+London,2026-10-10,Will the highest temperature in London be between 64-65°F on,64.0,65.0,0.1499,0.08,0.0001,0
+London,2026-10-10,Will the highest temperature in London be between 66-67°F on,66.0,67.0,0.054,0.011,0.0,0
+London,2026-10-10,Will the highest temperature in London be 68°F or higher on ,68.0,,0.01,0.004,0.0,0
+London,2026-10-11,Will the highest temperature in London be between 57-58°F on,57.0,58.0,0.0388,0.0213,0.1504,0
+London,2026-10-11,Will the highest temperature in London be between 59-60°F on,59.0,60.0,0.23,0.21,0.2356,0
+London,2026-10-11,Will the highest temperature in London be between 61-62°F on,61.0,62.0,,0.35,0.0843,1
+London,2026-10-11,Will the highest temperature in London be between 63-64°F on,63.0,64.0,0.43,0.27,0.0069,0
+London,2026-10-11,Will the highest temperature in London be between 65-66°F on,65.0,66.0,,0.008,0.0001,0
+London,2026-10-11,Will the highest temperature in London be 67°F or higher on ,67.0,,0.01,0.003,0.0,0
+London,2026-10-12,Will the highest temperature in London be between 56-57°F on,56.0,57.0,0.026,0.024,0.0009,0
+London,2026-10-12,Will the highest temperature in London be between 58-59°F on,58.0,59.0,0.16,0.25,0.0256,0
+London,2026-10-12,Will the highest temperature in London be between 60-61°F on,60.0,61.0,,0.35,0.1611,1
+London,2026-10-12,Will the highest temperature in London be between 62-63°F on,62.0,63.0,0.26,0.29,0.231,0
+London,2026-10-12,Will the highest temperature in London be between 64-65°F on,64.0,65.0,0.06,0.04,0.0756,0
+London,2026-10-12,Will the highest temperature in London be 66°F or higher on ,66.0,,0.01,0.0019,0.0066,0
+London,2026-10-13,Will the highest temperature in London be between 57-58°F on,57.0,58.0,0.04,0.006,0.0,0
+London,2026-10-13,Will the highest temperature in London be between 59-60°F on,59.0,60.0,0.09,0.09,0.0,0
+London,2026-10-13,Will the highest temperature in London be between 61-62°F on,61.0,62.0,0.37,0.36,0.0,1
+London,2026-10-13,Will the highest temperature in London be between 63-64°F on,63.0,64.0,0.48,0.57,0.0025,0
+London,2026-10-13,Will the highest temperature in London be between 65-66°F on,65.0,66.0,,0.04,0.0477,0
+London,2026-10-13,Will the highest temperature in London be 67°F or higher on ,67.0,,0.01,0.005,0.8176,0
+London,2026-10-14,Will the highest temperature in London be between 56-57°F on,56.0,57.0,0.03,0.08,0.0,1
+London,2026-10-14,Will the highest temperature in London be between 58-59°F on,58.0,59.0,0.29,0.43,0.0,0
+London,2026-10-14,Will the highest temperature in London be between 60-61°F on,60.0,61.0,0.38,0.3,0.002,0
+London,2026-10-14,Will the highest temperature in London be between 62-63°F on,62.0,63.0,0.2,0.06,0.0417,0
+London,2026-10-14,Will the highest temperature in London be between 64-65°F on,64.0,65.0,0.03,0.034,0.1948,0
+London,2026-10-14,Will the highest temperature in London be 66°F or higher on ,66.0,,0.002,0.0011,0.3996,0
+London,2026-10-15,Will the highest temperature in London be between 53-54°F on,53.0,54.0,,0.03,0.0,0
+London,2026-10-15,Will the highest temperature in London be between 55-56°F on,55.0,56.0,0.15,0.33,0.0,0
+London,2026-10-15,Will the highest temperature in London be between 57-58°F on,57.0,58.0,0.35,0.4,0.0,1
+London,2026-10-15,Will the highest temperature in London be between 59-60°F on,59.0,60.0,0.2885,0.18,0.0,0
+London,2026-10-15,Will the highest temperature in London be between 61-62°F on,61.0,62.0,0.03,0.0388,0.0,0
+London,2026-10-15,Will the highest temperature in London be 63°F or higher on ,63.0,,0.01,0.002,0.9996,0
+London,2026-10-16,Will the highest temperature in London be 20°C or higher on ,68.0,,0.002,0.001,0.0,0
+London,2026-10-17,Will the highest temperature in London be 19°C or higher on ,66.2,,0.001,0.001,0.0,0
+Miami,2026-09-18,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0001,0
+Miami,2026-09-18,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,,0.005,0.0055,0
+Miami,2026-09-18,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.01,0.02,0.0745,0
+Miami,2026-09-18,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.02,0.03,0.2302,0
+Miami,2026-09-18,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,0.2,0.1625,0
+Miami,2026-09-18,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0262,1
+Miami,2026-09-18,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.001,0
+Miami,2026-09-18,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,,,0.0,0
+Miami,2026-09-18,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.005,0.001,0.0,0
+Miami,2026-09-18,Will the highest temperature in Miami be 96°F or higher on S,96.0,,0.005,0.002,0.0,0
+Miami,2026-09-19,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.001,0
+Miami,2026-09-19,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.003,0.004,0.027,0
+Miami,2026-09-19,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,,0.04,0.1646,0
+Miami,2026-09-19,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,,,0.2292,0
+Miami,2026-09-19,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.0729,0
+Miami,2026-09-19,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0053,1
+Miami,2026-09-19,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0001,0
+Miami,2026-09-19,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.002,0.001,0.0,0
+Miami,2026-09-19,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.001,0.001,0.0,0
+Miami,2026-09-19,Will the highest temperature in Miami be 96°F or higher on S,96.0,,0.001,0.001,0.0,0
+Miami,2026-09-20,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.0087,0.0001,0
+Miami,2026-09-20,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.004,0.017,0.004,0
+Miami,2026-09-20,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.02,0.06,0.0626,0
+Miami,2026-09-20,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.05,0.11,0.221,0
+Miami,2026-09-20,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.1781,0
+Miami,2026-09-20,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0328,1
+Miami,2026-09-20,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,0.14,0.0014,0
+Miami,2026-09-20,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.002,0.007,0.0,0
+Miami,2026-09-20,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.001,0.001,0.0,0
+Miami,2026-09-20,Will the highest temperature in Miami be 96°F or higher on S,96.0,,0.001,0.001,0.0,0
+Miami,2026-09-21,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.001,0.001,0.0,0
+Miami,2026-09-21,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.005,0.001,0.0005,0
+Miami,2026-09-21,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.005,0.002,0.0167,0
+Miami,2026-09-21,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,,0.0062,0.1326,0
+Miami,2026-09-21,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,,0.18,0.2408,0
+Miami,2026-09-21,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.0999,0
+Miami,2026-09-21,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0094,1
+Miami,2026-09-21,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0002,0
+Miami,2026-09-21,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,,0.001,0.0,0
+Miami,2026-09-21,Will the highest temperature in Miami be 94°F or higher on S,94.0,,0.005,0.001,0.0,0
+Miami,2026-09-22,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.002,0.003,0.0,0
+Miami,2026-09-22,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-09-22,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.015,0.0015,0
+Miami,2026-09-22,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.0133,0.04,0.0346,0
+Miami,2026-09-22,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,,,0.1818,0
+Miami,2026-09-22,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.2184,0
+Miami,2026-09-22,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0599,1
+Miami,2026-09-22,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0037,0
+Miami,2026-09-22,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,,,0.0001,0
+Miami,2026-09-22,Will the highest temperature in Miami be 94°F or higher on S,94.0,,0.001,0.001,0.0,0
+Miami,2026-09-23,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.004,0.001,0.0027,0
+Miami,2026-09-23,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.009,0.01,0.0498,0
+Miami,2026-09-23,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,,,0.2068,0
+Miami,2026-09-23,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,,,0.1961,1
+Miami,2026-09-23,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,,0.33,0.0425,0
+Miami,2026-09-23,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.0021,0
+Miami,2026-09-23,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0,0
+Miami,2026-09-23,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,0.03,0.01,0.0,0
+Miami,2026-09-23,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.003,0.001,0.0,0
+Miami,2026-09-23,Will the highest temperature in Miami be 94°F or higher on S,94.0,,0.001,0.001,0.0,0
+Miami,2026-09-24,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-09-24,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0,0
+Miami,2026-09-24,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.002,0.001,0.0016,0
+Miami,2026-09-24,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,,0.02,0.0354,0
+Miami,2026-09-24,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,0.06,0.1835,0
+Miami,2026-09-24,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.2172,0
+Miami,2026-09-24,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0587,1
+Miami,2026-09-24,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,,,0.0036,0
+Miami,2026-09-24,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,,,0.0001,0
+Miami,2026-09-24,Will the highest temperature in Miami be 96°F or higher on S,96.0,,0.0014,0.001,0.0,0
+Miami,2026-09-25,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.001,0.001,0.0,0
+Miami,2026-09-25,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-09-25,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.0033,0.001,0.001,0
+Miami,2026-09-25,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.02,0.002,0.0277,0
+Miami,2026-09-25,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.01,0.01,0.1664,0
+Miami,2026-09-25,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.2282,0
+Miami,2026-09-25,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0715,0
+Miami,2026-09-25,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0051,1
+Miami,2026-09-25,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,,0.01,0.0001,0
+Miami,2026-09-25,Will the highest temperature in Miami be 94°F or higher on S,94.0,,0.001,0.001,0.0,0
+Miami,2026-09-26,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.001,0.001,0.0,0
+Miami,2026-09-26,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-09-26,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.005,0.001,0.0,0
+Miami,2026-09-26,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.0288,0.026,0.0022,0
+Miami,2026-09-26,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.06,0.0364,0.0436,0
+Miami,2026-09-26,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.1979,1
+Miami,2026-09-26,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.2051,0
+Miami,2026-09-26,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0485,0
+Miami,2026-09-26,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,,0.03,0.0026,0
+Miami,2026-09-26,Will the highest temperature in Miami be 94°F or higher on S,94.0,,0.001,0.003,0.0,0
+Miami,2026-09-27,Will the highest temperature in Miami be between 74-75°F on ,74.0,75.0,0.001,0.001,0.0,0
+Miami,2026-09-27,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.001,0.001,0.0,0
+Miami,2026-09-27,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-09-27,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.002,0.002,0.0001,0
+Miami,2026-09-27,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.02,0.003,0.0042,0
+Miami,2026-09-27,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.05,0.09,0.0639,0
+Miami,2026-09-27,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.2221,0
+Miami,2026-09-27,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.1764,1
+Miami,2026-09-27,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.032,0
+Miami,2026-09-27,Will the highest temperature in Miami be 92°F or higher on S,92.0,,,0.004,0.0015,0
+Miami,2026-09-28,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.001,0.001,0.0,0
+Miami,2026-09-28,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-09-28,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.0015,0.0015,0.0,0
+Miami,2026-09-28,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.001,0.001,0.0004,0
+Miami,2026-09-28,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,,0.03,0.0136,0
+Miami,2026-09-28,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,0.13,0.1203,0
+Miami,2026-09-28,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.2423,1
+Miami,2026-09-28,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,0.18,0.1114,0
+Miami,2026-09-28,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.01,0.02,0.0117,0
+Miami,2026-09-28,Will the highest temperature in Miami be 94°F or higher on S,94.0,,0.001,0.004,0.0003,0
+Miami,2026-09-29,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.005,0.001,0.0157,0
+Miami,2026-09-29,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,,0.001,0.1291,0
+Miami,2026-09-29,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.02,0.0623,0.2414,0
+Miami,2026-09-29,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,,,0.1031,1
+Miami,2026-09-29,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,,,0.01,0
+Miami,2026-09-29,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.0002,0
+Miami,2026-09-29,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,0.048,0.0,0
+Miami,2026-09-29,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,0.01,0.005,0.0,0
+Miami,2026-09-29,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.0031,0.001,0.0,0
+Miami,2026-09-29,Will the highest temperature in Miami be 94°F or higher on S,94.0,,0.005,0.001,0.0,0
+Miami,2026-09-30,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.005,0.001,0.0014,0
+Miami,2026-09-30,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.01,0.006,0.0329,0
+Miami,2026-09-30,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,,,0.1785,0
+Miami,2026-09-30,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,,,0.2208,0
+Miami,2026-09-30,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,,,0.0624,1
+Miami,2026-09-30,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,0.34,0.004,0
+Miami,2026-09-30,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,0.047,0.076,0.0001,0
+Miami,2026-09-30,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,0.004,0.007,0.0,0
+Miami,2026-09-30,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.005,0.001,0.0,0
+Miami,2026-09-30,Will the highest temperature in Miami be 94°F or higher on S,94.0,,0.001,0.001,0.0,0
+Miami,2026-10-01,Will the highest temperature in Miami be between 76-77°F on ,76.0,77.0,0.003,0.002,0.0321,0
+Miami,2026-10-01,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.0461,0.001,0.1768,0
+Miami,2026-10-01,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,,0.22,0.2219,0
+Miami,2026-10-01,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,,,0.0636,1
+Miami,2026-10-01,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,,,0.0042,0
+Miami,2026-10-01,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.0001,0
+Miami,2026-10-01,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,0.03,0.03,0.0,0
+Miami,2026-10-01,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,0.006,0.0021,0.0,0
+Miami,2026-10-01,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.001,0.001,0.0,0
+Miami,2026-10-01,Will the highest temperature in Miami be 94°F or higher on O,94.0,,0.001,0.001,0.0,0
+Miami,2026-10-02,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.005,0.001,0.0,0
+Miami,2026-10-02,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.002,0.001,0.0021,0
+Miami,2026-10-02,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.005,0.003,0.0426,0
+Miami,2026-10-02,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.05,0.03,0.1964,0
+Miami,2026-10-02,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.2065,0
+Miami,2026-10-02,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0496,1
+Miami,2026-10-02,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,0.0783,0.0027,0
+Miami,2026-10-02,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.005,0.006,0.0,0
+Miami,2026-10-02,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.003,0.001,0.0,0
+Miami,2026-10-02,Will the highest temperature in Miami be 96°F or higher on O,96.0,,0.001,0.001,0.0,0
+Miami,2026-10-03,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0074,0
+Miami,2026-10-03,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.006,0.001,0.0876,0
+Miami,2026-10-03,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.0203,0.0119,0.237,0
+Miami,2026-10-03,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.1465,1
+Miami,2026-10-03,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0207,0
+Miami,2026-10-03,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0007,0
+Miami,2026-10-03,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.0137,0.0103,0.0,0
+Miami,2026-10-03,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.002,0.001,0.0,0
+Miami,2026-10-03,Will the highest temperature in Miami be between 96-97°F on ,96.0,97.0,0.001,0.001,0.0,0
+Miami,2026-10-03,Will the highest temperature in Miami be 98°F or higher on O,98.0,,0.001,0.001,0.0,0
+Miami,2026-10-04,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0015,0
+Miami,2026-10-04,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.005,0.005,0.0346,0
+Miami,2026-10-04,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.003,0.0024,0.1818,0
+Miami,2026-10-04,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,0.082,0.2184,0
+Miami,2026-10-04,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0599,1
+Miami,2026-10-04,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0037,0
+Miami,2026-10-04,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.019,0.006,0.0001,0
+Miami,2026-10-04,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.002,0.001,0.0,0
+Miami,2026-10-04,Will the highest temperature in Miami be between 96-97°F on ,96.0,97.0,0.005,0.005,0.0,0
+Miami,2026-10-04,Will the highest temperature in Miami be 98°F or higher on O,98.0,,0.001,0.001,0.0,0
+Miami,2026-10-05,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0015,0
+Miami,2026-10-05,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.001,0.001,0.0346,0
+Miami,2026-10-05,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.001,0.0059,0.1818,0
+Miami,2026-10-05,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.05,0.0454,0.2184,0
+Miami,2026-10-05,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0599,1
+Miami,2026-10-05,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0037,0
+Miami,2026-10-05,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.04,0.0158,0.0001,0
+Miami,2026-10-05,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.003,0.003,0.0,0
+Miami,2026-10-05,Will the highest temperature in Miami be between 96-97°F on ,96.0,97.0,0.001,0.001,0.0,0
+Miami,2026-10-05,Will the highest temperature in Miami be 98°F or higher on O,98.0,,0.001,0.001,0.0,0
+Miami,2026-10-06,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-10-06,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0001,0
+Miami,2026-10-06,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.001,0.003,0.0042,0
+Miami,2026-10-06,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.002,0.0406,0.0639,0
+Miami,2026-10-06,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.07,0.0702,0.2221,0
+Miami,2026-10-06,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.1764,1
+Miami,2026-10-06,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.032,0
+Miami,2026-10-06,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.011,0.0108,0.0013,0
+Miami,2026-10-06,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.003,0.004,0.0,0
+Miami,2026-10-06,Will the highest temperature in Miami be 96°F or higher on O,96.0,,0.001,0.001,0.0,0
+Miami,2026-10-07,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-10-07,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0003,0
+Miami,2026-10-07,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.005,0.01,0.0132,0
+Miami,2026-10-07,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.006,0.02,0.1186,0
+Miami,2026-10-07,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.0683,0.05,0.2424,0
+Miami,2026-10-07,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.1131,1
+Miami,2026-10-07,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.012,0
+Miami,2026-10-07,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.07,0.06,0.0003,0
+Miami,2026-10-07,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.006,0.004,0.0,0
+Miami,2026-10-07,Will the highest temperature in Miami be 96°F or higher on O,96.0,,0.001,0.001,0.0,0
+Miami,2026-10-08,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-10-08,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0002,0
+Miami,2026-10-08,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.002,0.001,0.0101,0
+Miami,2026-10-08,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.009,0.003,0.1034,0
+Miami,2026-10-08,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.0667,0.05,0.2414,0
+Miami,2026-10-08,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.1287,1
+Miami,2026-10-08,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0157,0
+Miami,2026-10-08,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.03,0.05,0.0004,0
+Miami,2026-10-08,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.005,0.003,0.0,0
+Miami,2026-10-08,Will the highest temperature in Miami be 96°F or higher on O,96.0,,0.001,0.001,0.0,0
+Miami,2026-10-09,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0,0
+Miami,2026-10-09,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.002,0.002,0.0008,0
+Miami,2026-10-09,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.005,0.006,0.0225,0
+Miami,2026-10-09,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.06,0.0701,0.1522,0
+Miami,2026-10-09,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.2349,1
+Miami,2026-10-09,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0828,0
+Miami,2026-10-09,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.05,0.0408,0.0067,0
+Miami,2026-10-09,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.002,0.001,0.0001,0
+Miami,2026-10-09,Will the highest temperature in Miami be between 96-97°F on ,96.0,97.0,0.001,0.001,0.0,0
+Miami,2026-10-09,Will the highest temperature in Miami be 98°F or higher on O,98.0,,0.001,0.001,0.0,0
+Miami,2026-10-10,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0,0
+Miami,2026-10-10,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.002,0.003,0.0001,0
+Miami,2026-10-10,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.001,0.002,0.0059,0
+Miami,2026-10-10,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.018,0.018,0.0773,0
+Miami,2026-10-10,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,0.24,0.232,0
+Miami,2026-10-10,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,0.65,0.159,1
+Miami,2026-10-10,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.1,0.1177,0.0249,0
+Miami,2026-10-10,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.004,0.003,0.0009,0
+Miami,2026-10-10,Will the highest temperature in Miami be between 96-97°F on ,96.0,97.0,0.003,0.001,0.0,0
+Miami,2026-10-10,Will the highest temperature in Miami be 98°F or higher on O,98.0,,0.001,0.001,0.0,0
+Miami,2026-10-11,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.005,0.001,0.0002,0
+Miami,2026-10-11,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.001,0.001,0.0104,0
+Miami,2026-10-11,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.03,0.02,0.1051,0
+Miami,2026-10-11,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.2417,0
+Miami,2026-10-11,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,0.71,0.127,1
+Miami,2026-10-11,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.18,0.16,0.0152,0
+Miami,2026-10-11,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.011,0.01,0.0004,0
+Miami,2026-10-11,Will the highest temperature in Miami be between 96-97°F on ,96.0,97.0,0.001,0.001,0.0,0
+Miami,2026-10-11,Will the highest temperature in Miami be between 98-99°F on ,98.0,99.0,0.005,0.001,0.0,0
+Miami,2026-10-11,Will the highest temperature in Miami be 100°F or higher on ,100.0,,0.001,0.001,0.0,0
+Miami,2026-10-12,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0,0
+Miami,2026-10-12,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.001,0.001,0.0,0
+Miami,2026-10-12,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.001,0.0067,0.0002,0
+Miami,2026-10-12,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.019,0.028,0.0081,0
+Miami,2026-10-12,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0922,1
+Miami,2026-10-12,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.2387,0
+Miami,2026-10-12,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,,,0.1411,0
+Miami,2026-10-12,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.004,0.004,0.019,0
+Miami,2026-10-12,Will the highest temperature in Miami be between 96-97°F on ,96.0,97.0,0.002,0.001,0.0006,0
+Miami,2026-10-12,Will the highest temperature in Miami be 98°F or higher on O,98.0,,0.001,0.001,0.0,0
+Miami,2026-10-13,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-10-13,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.001,0.0,0
+Miami,2026-10-13,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.001,0.001,0.0022,0
+Miami,2026-10-13,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.005,0.005,0.0436,0
+Miami,2026-10-13,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.18,0.1238,0.1979,0
+Miami,2026-10-13,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.2051,1
+Miami,2026-10-13,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,0.12,0.0485,0
+Miami,2026-10-13,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.007,0.007,0.0026,0
+Miami,2026-10-13,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.001,0.001,0.0,0
+Miami,2026-10-13,Will the highest temperature in Miami be 96°F or higher on O,96.0,,0.005,0.005,0.0,0
+Miami,2026-10-14,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.001,0.001,0.0,0
+Miami,2026-10-14,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.004,0.001,0
+Miami,2026-10-14,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.002,0.003,0.0277,0
+Miami,2026-10-14,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.012,0.031,0.1664,0
+Miami,2026-10-14,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,,0.2282,1
+Miami,2026-10-14,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.0715,0
+Miami,2026-10-14,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,0.0463,0.0051,0
+Miami,2026-10-14,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.005,0.001,0.0001,0
+Miami,2026-10-14,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.001,0.001,0.0,0
+Miami,2026-10-14,Will the highest temperature in Miami be 96°F or higher on O,96.0,,0.001,0.001,0.0,0
+Miami,2026-10-15,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.0018,0.001,0.0,0
+Miami,2026-10-15,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.001,0.001,0.0002,0
+Miami,2026-10-15,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.001,0.002,0.0104,0
+Miami,2026-10-15,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.12,0.04,0.1051,0
+Miami,2026-10-15,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.2417,0
+Miami,2026-10-15,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.127,1
+Miami,2026-10-15,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.01,0.0094,0.0152,0
+Miami,2026-10-15,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.001,0.001,0.0004,0
+Miami,2026-10-15,Will the highest temperature in Miami be between 96-97°F on ,96.0,97.0,0.001,0.001,0.0,0
+Miami,2026-10-15,Will the highest temperature in Miami be 98°F or higher on O,98.0,,0.001,0.001,0.0,0
+Miami,2026-10-16,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.001,0.002,0.0,0
+Miami,2026-10-16,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.001,0.001,0.0005,0
+Miami,2026-10-16,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.003,0.002,0.0176,0
+Miami,2026-10-16,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,0.09,0.0235,0.1361,0
+Miami,2026-10-16,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,0.55,0.24,0
+Miami,2026-10-16,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,,0.0966,1
+Miami,2026-10-16,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.0148,0.0158,0.0089,0
+Miami,2026-10-16,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.004,0.001,0.0002,0
+Miami,2026-10-16,Will the highest temperature in Miami be between 96-97°F on ,96.0,97.0,0.001,0.001,0.0,0
+Miami,2026-10-16,Will the highest temperature in Miami be 98°F or higher on O,98.0,,0.0011,0.0011,0.0,0
+Miami,2026-10-17,Will the highest temperature in Miami be between 78-79°F on ,78.0,79.0,0.002,0.001,0.0,0
+Miami,2026-10-17,Will the highest temperature in Miami be between 80-81°F on ,80.0,81.0,0.003,0.0133,0.0001,0
+Miami,2026-10-17,Will the highest temperature in Miami be between 82-83°F on ,82.0,83.0,0.007,0.0153,0.0057,0
+Miami,2026-10-17,Will the highest temperature in Miami be between 84-85°F on ,84.0,85.0,0.12,0.05,0.0759,0
+Miami,2026-10-17,Will the highest temperature in Miami be between 86-87°F on ,86.0,87.0,,0.31,0.2311,0
+Miami,2026-10-17,Will the highest temperature in Miami be between 88-89°F on ,88.0,89.0,,,0.1607,1
+Miami,2026-10-17,Will the highest temperature in Miami be between 90-91°F on ,90.0,91.0,,0.16,0.0255,0
+Miami,2026-10-17,Will the highest temperature in Miami be between 92-93°F on ,92.0,93.0,0.004,0.006,0.0009,0
+Miami,2026-10-17,Will the highest temperature in Miami be between 94-95°F on ,94.0,95.0,0.002,0.001,0.0,0
+Miami,2026-10-17,Will the highest temperature in Miami be 96°F or higher on O,96.0,,0.001,0.001,0.0,0
+New York,2026-09-18,Will the highest temperature in New York City be between 72-,72.0,73.0,0.002,0.002,0.0,0
+New York,2026-09-18,Will the highest temperature in New York City be between 74-,74.0,75.0,0.001,0.001,0.0,0
+New York,2026-09-18,Will the highest temperature in New York City be between 76-,76.0,77.0,0.01,0.002,0.001,0
+New York,2026-09-18,Will the highest temperature in New York City be between 78-,78.0,79.0,,0.02,0.0263,0
+New York,2026-09-18,Will the highest temperature in New York City be between 80-,80.0,81.0,,,0.1629,1
+New York,2026-09-18,Will the highest temperature in New York City be between 82-,82.0,83.0,,,0.2301,0
+New York,2026-09-18,Will the highest temperature in New York City be between 84-,84.0,85.0,,,0.0742,0
+New York,2026-09-18,Will the highest temperature in New York City be between 86-,86.0,87.0,0.002,0.001,0.0055,0
+New York,2026-09-18,Will the highest temperature in New York City be between 88-,88.0,89.0,0.001,0.001,0.0001,0
+New York,2026-09-18,Will the highest temperature in New York City be 90°F or hig,90.0,,0.001,0.001,0.0,0
+New York,2026-09-19,Will the highest temperature in New York City be between 62-,62.0,63.0,0.001,0.001,0.0,0
+New York,2026-09-19,Will the highest temperature in New York City be between 64-,64.0,65.0,0.001,0.002,0.0002,0
+New York,2026-09-19,Will the highest temperature in New York City be between 66-,66.0,67.0,,0.001,0.0079,0
+New York,2026-09-19,Will the highest temperature in New York City be between 68-,68.0,69.0,0.13,0.001,0.0907,0
+New York,2026-09-19,Will the highest temperature in New York City be between 70-,70.0,71.0,,,0.2382,1
+New York,2026-09-19,Will the highest temperature in New York City be between 72-,72.0,73.0,,,0.1429,0
+New York,2026-09-19,Will the highest temperature in New York City be between 74-,74.0,75.0,0.0902,0.03,0.0196,0
+New York,2026-09-19,Will the highest temperature in New York City be between 76-,76.0,77.0,0.001,0.002,0.0006,0
+New York,2026-09-19,Will the highest temperature in New York City be between 78-,78.0,79.0,0.001,0.001,0.0,0
+New York,2026-09-19,Will the highest temperature in New York City be 80°F or hig,80.0,,0.001,0.001,0.0,0
+New York,2026-09-20,Will the highest temperature in New York City be between 60-,60.0,61.0,0.001,0.001,0.0,0
+New York,2026-09-20,Will the highest temperature in New York City be between 62-,62.0,63.0,0.001,0.001,0.0001,0
+New York,2026-09-20,Will the highest temperature in New York City be between 64-,64.0,65.0,,0.001,0.0042,0
+New York,2026-09-20,Will the highest temperature in New York City be between 66-,66.0,67.0,0.03,0.07,0.0639,0
+New York,2026-09-20,Will the highest temperature in New York City be between 68-,68.0,69.0,,,0.2221,0
+New York,2026-09-20,Will the highest temperature in New York City be between 70-,70.0,71.0,,,0.1764,0
+New York,2026-09-20,Will the highest temperature in New York City be between 72-,72.0,73.0,,,0.032,1
+New York,2026-09-20,Will the highest temperature in New York City be between 74-,74.0,75.0,0.05,0.02,0.0013,0
+New York,2026-09-20,Will the highest temperature in New York City be between 76-,76.0,77.0,0.002,0.002,0.0,0
+New York,2026-09-20,Will the highest temperature in New York City be 78°F or hig,78.0,,0.001,0.001,0.0,0
+New York,2026-09-21,Will the highest temperature in New York City be between 60-,60.0,61.0,0.001,0.001,0.0,0
+New York,2026-09-21,Will the highest temperature in New York City be between 62-,62.0,63.0,0.001,0.001,0.0,0
+New York,2026-09-21,Will the highest temperature in New York City be between 64-,64.0,65.0,0.002,0.001,0.0,0
+New York,2026-09-21,Will the highest temperature in New York City be between 66-,66.0,67.0,0.02,0.001,0.0032,0
+New York,2026-09-21,Will the highest temperature in New York City be between 68-,68.0,69.0,,0.21,0.0542,0
+New York,2026-09-21,Will the highest temperature in New York City be between 70-,70.0,71.0,,,0.2123,1
+New York,2026-09-21,Will the highest temperature in New York City be between 72-,72.0,73.0,,,0.1897,0
+New York,2026-09-21,Will the highest temperature in New York City be between 74-,74.0,75.0,,,0.0387,0
+New York,2026-09-21,Will the highest temperature in New York City be between 76-,76.0,77.0,0.002,0.001,0.0018,0
+New York,2026-09-21,Will the highest temperature in New York City be 78°F or hig,78.0,,0.001,0.001,0.0,0
+New York,2026-09-22,Will the highest temperature in New York City be between 56-,56.0,57.0,0.002,0.002,0.0,0
+New York,2026-09-22,Will the highest temperature in New York City be between 58-,58.0,59.0,0.001,0.001,0.0,0
+New York,2026-09-22,Will the highest temperature in New York City be between 60-,60.0,61.0,0.01,0.001,0.0,0
+New York,2026-09-22,Will the highest temperature in New York City be between 62-,62.0,63.0,0.26,0.001,0.0029,0
+New York,2026-09-22,Will the highest temperature in New York City be between 64-,64.0,65.0,,,0.052,0
+New York,2026-09-22,Will the highest temperature in New York City be between 66-,66.0,67.0,,,0.2096,0
+New York,2026-09-22,Will the highest temperature in New York City be between 68-,68.0,69.0,,,0.1929,1
+New York,2026-09-22,Will the highest temperature in New York City be between 70-,70.0,71.0,,,0.0406,0
+New York,2026-09-22,Will the highest temperature in New York City be between 72-,72.0,73.0,0.001,0.001,0.0019,0
+New York,2026-09-22,Will the highest temperature in New York City be 74°F or hig,74.0,,0.001,0.001,0.0,0
+New York,2026-09-23,Will the highest temperature in New York City be between 58-,58.0,59.0,0.001,0.001,0.0,0
+New York,2026-09-23,Will the highest temperature in New York City be between 60-,60.0,61.0,0.001,0.001,0.0,0
+New York,2026-09-23,Will the highest temperature in New York City be between 62-,62.0,63.0,,0.002,0.001,0
+New York,2026-09-23,Will the highest temperature in New York City be between 64-,64.0,65.0,,0.05,0.0277,0
+New York,2026-09-23,Will the highest temperature in New York City be between 66-,66.0,67.0,,0.3905,0.1664,0
+New York,2026-09-23,Will the highest temperature in New York City be between 68-,68.0,69.0,,,0.2282,0
+New York,2026-09-23,Will the highest temperature in New York City be between 70-,70.0,71.0,,,0.0715,1
+New York,2026-09-23,Will the highest temperature in New York City be between 72-,72.0,73.0,,0.005,0.0051,0
+New York,2026-09-23,Will the highest temperature in New York City be between 74-,74.0,75.0,0.001,0.001,0.0001,0
+New York,2026-09-23,Will the highest temperature in New York City be 76°F or hig,76.0,,0.003,0.002,0.0,0
+New York,2026-09-24,Will the highest temperature in New York City be between 58-,58.0,59.0,0.001,0.001,0.0,0
+New York,2026-09-24,Will the highest temperature in New York City be between 60-,60.0,61.0,0.002,0.001,0.0007,0
+New York,2026-09-24,Will the highest temperature in New York City be between 62-,62.0,63.0,0.01,0.02,0.0213,0
+New York,2026-09-24,Will the highest temperature in New York City be between 64-,64.0,65.0,,0.1,0.1486,0
+New York,2026-09-24,Will the highest temperature in New York City be between 66-,66.0,67.0,,,0.2363,0
+New York,2026-09-24,Will the highest temperature in New York City be between 68-,68.0,69.0,,,0.0858,1
+New York,2026-09-24,Will the highest temperature in New York City be between 70-,70.0,71.0,,0.03,0.0071,0
+New York,2026-09-24,Will the highest temperature in New York City be between 72-,72.0,73.0,0.002,0.003,0.0001,0
+New York,2026-09-24,Will the highest temperature in New York City be between 74-,74.0,75.0,0.001,0.0042,0.0,0
+New York,2026-09-24,Will the highest temperature in New York City be 76°F or hig,76.0,,0.001,0.001,0.0,0
+New York,2026-09-25,Will the highest temperature in New York City be between 70-,70.0,71.0,0.01,0.012,0.2172,0
+New York,2026-09-25,Will the highest temperature in New York City be between 72-,72.0,73.0,0.04,0.37,0.0587,0
+New York,2026-09-25,Will the highest temperature in New York City be between 74-,74.0,75.0,,0.46,0.0036,0
+New York,2026-09-25,Will the highest temperature in New York City be between 76-,76.0,77.0,0.25,0.34,0.0001,0
+New York,2026-09-25,Will the highest temperature in New York City be between 78-,78.0,79.0,,,0.0,1
+New York,2026-09-25,Will the highest temperature in New York City be 80°F or hig,80.0,,0.029,0.014,0.0,0
+New York,2026-09-26,Will the highest temperature in New York City be between 58-,58.0,59.0,0.02,0.001,0.1901,0
+New York,2026-09-26,Will the highest temperature in New York City be between 60-,60.0,61.0,,,0.212,0
+New York,2026-09-26,Will the highest temperature in New York City be between 62-,62.0,63.0,,,0.054,1
+New York,2026-09-26,Will the highest temperature in New York City be between 64-,64.0,65.0,,,0.0031,0
+New York,2026-09-26,Will the highest temperature in New York City be between 66-,66.0,67.0,,0.02,0.0,0
+New York,2026-09-26,Will the highest temperature in New York City be between 68-,68.0,69.0,0.04,0.002,0.0,0
+New York,2026-09-26,Will the highest temperature in New York City be between 70-,70.0,71.0,0.01,0.001,0.0,0
+New York,2026-09-26,Will the highest temperature in New York City be between 72-,72.0,73.0,0.002,0.001,0.0,0
+New York,2026-09-26,Will the highest temperature in New York City be between 74-,74.0,75.0,0.001,0.001,0.0,0
+New York,2026-09-26,Will the highest temperature in New York City be 76°F or hig,76.0,,0.001,0.001,0.0,0
+New York,2026-09-27,Will the highest temperature in New York City be between 56-,56.0,57.0,0.001,0.001,0.0001,0
+New York,2026-09-27,Will the highest temperature in New York City be between 58-,58.0,59.0,0.002,0.001,0.0038,0
+New York,2026-09-27,Will the highest temperature in New York City be between 60-,60.0,61.0,0.028,0.01,0.0601,0
+New York,2026-09-27,Will the highest temperature in New York City be between 62-,62.0,63.0,,0.04,0.2186,0
+New York,2026-09-27,Will the highest temperature in New York City be between 64-,64.0,65.0,,,0.1815,1
+New York,2026-09-27,Will the highest temperature in New York City be between 66-,66.0,67.0,,,0.0344,0
+New York,2026-09-27,Will the highest temperature in New York City be between 68-,68.0,69.0,,,0.0015,0
+New York,2026-09-27,Will the highest temperature in New York City be between 70-,70.0,71.0,0.02,0.02,0.0,0
+New York,2026-09-27,Will the highest temperature in New York City be between 72-,72.0,73.0,0.005,0.001,0.0,0
+New York,2026-09-27,Will the highest temperature in New York City be 74°F or hig,74.0,,0.002,0.001,0.0,0
+New York,2026-09-28,Will the highest temperature in New York City be between 60-,60.0,61.0,,,0.2174,0
+New York,2026-09-28,Will the highest temperature in New York City be between 62-,62.0,63.0,,,0.1832,1
+New York,2026-09-28,Will the highest temperature in New York City be between 64-,64.0,65.0,,,0.0352,0
+New York,2026-09-28,Will the highest temperature in New York City be between 66-,66.0,67.0,,0.03,0.0015,0
+New York,2026-09-28,Will the highest temperature in New York City be between 68-,68.0,69.0,0.02,0.01,0.0,0
+New York,2026-09-28,Will the highest temperature in New York City be between 70-,70.0,71.0,0.0041,0.001,0.0,0
+New York,2026-09-28,Will the highest temperature in New York City be between 72-,72.0,73.0,0.001,0.001,0.0,0
+New York,2026-09-28,Will the highest temperature in New York City be between 74-,74.0,75.0,0.002,0.001,0.0,0
+New York,2026-09-28,Will the highest temperature in New York City be between 76-,76.0,77.0,0.001,0.001,0.0,0
+New York,2026-09-28,Will the highest temperature in New York City be 78°F or hig,78.0,,0.001,0.001,0.0,0
+New York,2026-09-29,Will the highest temperature in New York City be between 75-,75.0,76.0,0.06,0.0655,0.0002,0
+New York,2026-09-29,Will the highest temperature in New York City be between 77-,77.0,78.0,,0.62,0.0,0
+New York,2026-09-29,Will the highest temperature in New York City be between 79-,79.0,80.0,0.47,0.47,0.0,0
+New York,2026-09-29,Will the highest temperature in New York City be between 81-,81.0,82.0,,0.0775,0.0,0
+New York,2026-09-29,Will the highest temperature in New York City be between 83-,83.0,84.0,0.0767,0.015,0.0,0
+New York,2026-09-29,Will the highest temperature in New York City be 85°F or hig,85.0,,0.01,0.01,0.0,0
+New York,2026-09-30,Will the highest temperature in New York City be between 73-,73.0,74.0,0.03,0.04,0.2198,0
+New York,2026-09-30,Will the highest temperature in New York City be between 75-,75.0,76.0,,0.26,0.1798,0
+New York,2026-09-30,Will the highest temperature in New York City be between 77-,77.0,78.0,,0.1725,0.0336,0
+New York,2026-09-30,Will the highest temperature in New York City be between 79-,79.0,80.0,,0.36,0.0014,1
+New York,2026-09-30,Will the highest temperature in New York City be between 81-,81.0,82.0,,0.13,0.0,0
+New York,2026-09-30,Will the highest temperature in New York City be 83°F or hig,83.0,,0.0467,0.06,0.0,0
+New York,2026-10-01,Will the highest temperature in New York City be between 64-,64.0,65.0,0.14,0.001,0.0,0
+New York,2026-10-01,Will the highest temperature in New York City be between 66-,66.0,67.0,,0.15,0.0,0
+New York,2026-10-01,Will the highest temperature in New York City be between 68-,68.0,69.0,,0.32,0.0,1
+New York,2026-10-01,Will the highest temperature in New York City be between 70-,70.0,71.0,,0.3,0.0,0
+New York,2026-10-01,Will the highest temperature in New York City be between 72-,72.0,73.0,0.0611,0.06,0.0009,0
+New York,2026-10-01,Will the highest temperature in New York City be 74°F or hig,74.0,,0.06,0.015,0.9933,0
+New York,2026-10-02,Will the highest temperature in New York City be between 63-,63.0,64.0,0.1862,0.15,0.0,0
+New York,2026-10-02,Will the highest temperature in New York City be between 65-,65.0,66.0,,0.41,0.0,1
+New York,2026-10-02,Will the highest temperature in New York City be between 67-,67.0,68.0,,0.33,0.0,0
+New York,2026-10-02,Will the highest temperature in New York City be between 69-,69.0,70.0,,0.04,0.0,0
+New York,2026-10-02,Will the highest temperature in New York City be between 71-,71.0,72.0,0.03,0.04,0.0,0
+New York,2026-10-02,Will the highest temperature in New York City be 73°F or hig,73.0,,0.01,0.0082,1.0,0
+New York,2026-10-03,Will the highest temperature in New York City be between 67-,67.0,68.0,0.05,0.021,0.0157,0
+New York,2026-10-03,Will the highest temperature in New York City be between 69-,69.0,70.0,,0.18,0.1291,0
+New York,2026-10-03,Will the highest temperature in New York City be between 71-,71.0,72.0,,0.58,0.2414,1
+New York,2026-10-03,Will the highest temperature in New York City be between 73-,73.0,74.0,,0.19,0.1031,0
+New York,2026-10-03,Will the highest temperature in New York City be between 75-,75.0,76.0,0.05,0.03,0.01,0
+New York,2026-10-03,Will the highest temperature in New York City be 77°F or hig,77.0,,0.015,0.007,0.0002,0
+New York,2026-10-04,Will the highest temperature in New York City be between 76-,76.0,77.0,0.04,0.02,0.0,0
+New York,2026-10-04,Will the highest temperature in New York City be between 78-,78.0,79.0,0.13,0.1024,0.0,0
+New York,2026-10-04,Will the highest temperature in New York City be between 80-,80.0,81.0,0.45,0.45,0.0,0
+New York,2026-10-04,Will the highest temperature in New York City be between 82-,82.0,83.0,,0.46,0.0,1
+New York,2026-10-04,Will the highest temperature in New York City be between 84-,84.0,85.0,0.06,0.0378,0.0,0
+New York,2026-10-04,Will the highest temperature in New York City be 86°F or hig,86.0,,0.01,0.003,0.0,0
+New York,2026-10-05,Will the highest temperature in New York City be between 77-,77.0,78.0,0.03,0.003,0.0,0
+New York,2026-10-05,Will the highest temperature in New York City be between 79-,79.0,80.0,0.11,0.04,0.0,0
+New York,2026-10-05,Will the highest temperature in New York City be between 81-,81.0,82.0,0.46,0.41,0.0,0
+New York,2026-10-05,Will the highest temperature in New York City be between 83-,83.0,84.0,0.44,0.5378,0.0,1
+New York,2026-10-05,Will the highest temperature in New York City be between 85-,85.0,86.0,0.07,0.2,0.0,0
+New York,2026-10-05,Will the highest temperature in New York City be 87°F or hig,87.0,,0.03,0.007,0.0,0
+New York,2026-10-06,Will the highest temperature in New York City be between 56-,56.0,57.0,0.001,0.001,0.0,0
+New York,2026-10-06,Will the highest temperature in New York City be between 58-,58.0,59.0,0.008,0.001,0.0027,0
+New York,2026-10-06,Will the highest temperature in New York City be between 60-,60.0,61.0,,0.059,0.0498,0
+New York,2026-10-06,Will the highest temperature in New York City be between 62-,62.0,63.0,,,0.2068,1
+New York,2026-10-06,Will the highest temperature in New York City be between 64-,64.0,65.0,,0.36,0.1961,0
+New York,2026-10-06,Will the highest temperature in New York City be between 66-,66.0,67.0,0.03,0.0253,0.0425,0
+New York,2026-10-06,Will the highest temperature in New York City be between 68-,68.0,69.0,0.003,0.002,0.0021,0
+New York,2026-10-06,Will the highest temperature in New York City be between 70-,70.0,71.0,0.001,0.001,0.0,0
+New York,2026-10-06,Will the highest temperature in New York City be between 72-,72.0,73.0,0.001,0.001,0.0,0
+New York,2026-10-06,Will the highest temperature in New York City be 74°F or hig,74.0,,0.001,0.001,0.0,0
+New York,2026-10-07,Will the highest temperature in New York City be between 75-,75.0,76.0,0.26,0.04,0.0,0
+New York,2026-10-07,Will the highest temperature in New York City be between 77-,77.0,78.0,0.09,0.49,0.0,1
+New York,2026-10-07,Will the highest temperature in New York City be between 79-,79.0,80.0,0.32,0.385,0.0,0
+New York,2026-10-07,Will the highest temperature in New York City be between 81-,81.0,82.0,0.18,0.06,0.0,0
+New York,2026-10-07,Will the highest temperature in New York City be between 83-,83.0,84.0,0.2,0.02,0.0,0
+New York,2026-10-07,Will the highest temperature in New York City be 85°F or hig,85.0,,0.03,0.003,0.0,0
+New York,2026-10-08,Will the highest temperature in New York City be between 65-,65.0,66.0,0.04,0.0011,0.0,0
+New York,2026-10-08,Will the highest temperature in New York City be between 67-,67.0,68.0,0.05,0.001,0.0,0
+New York,2026-10-08,Will the highest temperature in New York City be between 69-,69.0,70.0,0.3292,0.001,0.0005,0
+New York,2026-10-08,Will the highest temperature in New York City be between 71-,71.0,72.0,0.31,0.79,0.0167,1
+New York,2026-10-08,Will the highest temperature in New York City be between 73-,73.0,74.0,0.11,0.01,0.1326,0
+New York,2026-10-08,Will the highest temperature in New York City be 75°F or hig,75.0,,0.0313,0.0021,0.5754,0
+New York,2026-10-09,Will the highest temperature in New York City be between 56-,56.0,57.0,0.0315,0.001,0.0,0
+New York,2026-10-09,Will the highest temperature in New York City be between 58-,58.0,59.0,0.49,0.32,0.0,1
+New York,2026-10-09,Will the highest temperature in New York City be between 60-,60.0,61.0,0.21,0.4748,0.0,0
+New York,2026-10-09,Will the highest temperature in New York City be between 62-,62.0,63.0,0.06,0.11,0.0,0
+New York,2026-10-09,Will the highest temperature in New York City be between 64-,64.0,65.0,0.02,0.045,0.0,0
+New York,2026-10-09,Will the highest temperature in New York City be 66°F or hig,66.0,,0.02,0.002,1.0,0
+New York,2026-10-10,Will the highest temperature in New York City be between 60-,60.0,61.0,0.11,0.25,0.0,0
+New York,2026-10-10,Will the highest temperature in New York City be between 62-,62.0,63.0,0.31,0.34,0.0001,1
+New York,2026-10-10,Will the highest temperature in New York City be between 64-,64.0,65.0,0.33,0.1165,0.0042,0
+New York,2026-10-10,Will the highest temperature in New York City be between 66-,66.0,67.0,0.05,0.0423,0.0639,0
+New York,2026-10-10,Will the highest temperature in New York City be between 68-,68.0,69.0,0.08,0.01,0.2221,0
+New York,2026-10-10,Will the highest temperature in New York City be 70°F or hig,70.0,,0.04,0.002,0.3081,0
+New York,2026-10-11,Will the highest temperature in New York City be between 56-,56.0,57.0,0.001,0.001,0.0389,0
+New York,2026-10-11,Will the highest temperature in New York City be between 58-,58.0,59.0,0.005,0.001,0.1901,0
+New York,2026-10-11,Will the highest temperature in New York City be between 60-,60.0,61.0,,,0.212,1
+New York,2026-10-11,Will the highest temperature in New York City be between 62-,62.0,63.0,,,0.054,0
+New York,2026-10-11,Will the highest temperature in New York City be between 64-,64.0,65.0,,,0.0031,0
+New York,2026-10-11,Will the highest temperature in New York City be between 66-,66.0,67.0,,,0.0,0
+New York,2026-10-11,Will the highest temperature in New York City be between 68-,68.0,69.0,,0.0116,0.0,0
+New York,2026-10-11,Will the highest temperature in New York City be between 70-,70.0,71.0,0.003,0.003,0.0,0
+New York,2026-10-11,Will the highest temperature in New York City be between 72-,72.0,73.0,0.001,0.002,0.0,0
+New York,2026-10-11,Will the highest temperature in New York City be 74°F or hig,74.0,,0.001,0.001,0.0,0
+New York,2026-10-12,Will the highest temperature in New York City be between 58-,58.0,59.0,,0.001,0.0,0
+New York,2026-10-12,Will the highest temperature in New York City be between 60-,60.0,61.0,0.17,0.001,0.0,0
+New York,2026-10-12,Will the highest temperature in New York City be between 62-,62.0,63.0,0.42,0.8,0.0,1
+New York,2026-10-12,Will the highest temperature in New York City be between 64-,64.0,65.0,0.27,0.05,0.0,0
+New York,2026-10-12,Will the highest temperature in New York City be between 66-,66.0,67.0,0.06,0.001,0.0032,0
+New York,2026-10-12,Will the highest temperature in New York City be 68°F or hig,68.0,,0.019,0.003,0.9806,0
+New York,2026-10-13,Will the highest temperature in New York City be between 62-,62.0,63.0,0.001,0.001,0.0,0
+New York,2026-10-13,Will the highest temperature in New York City be between 64-,64.0,65.0,0.001,0.001,0.0002,0
+New York,2026-10-13,Will the highest temperature in New York City be between 66-,66.0,67.0,0.003,0.01,0.0104,0
+New York,2026-10-13,Will the highest temperature in New York City be between 68-,68.0,69.0,0.12,0.034,0.1051,0
+New York,2026-10-13,Will the highest temperature in New York City be between 70-,70.0,71.0,,,0.2417,0
+New York,2026-10-13,Will the highest temperature in New York City be between 72-,72.0,73.0,,,0.127,1
+New York,2026-10-13,Will the highest temperature in New York City be between 74-,74.0,75.0,,,0.0152,0
+New York,2026-10-13,Will the highest temperature in New York City be between 76-,76.0,77.0,0.014,0.03,0.0004,0
+New York,2026-10-13,Will the highest temperature in New York City be between 78-,78.0,79.0,0.003,0.003,0.0,0
+New York,2026-10-13,Will the highest temperature in New York City be 80°F or hig,80.0,,0.001,0.001,0.0,0
+New York,2026-10-14,Will the highest temperature in New York City be between 68-,68.0,69.0,0.001,0.001,0.0,0
+New York,2026-10-14,Will the highest temperature in New York City be between 70-,70.0,71.0,0.001,0.001,0.0,0
+New York,2026-10-14,Will the highest temperature in New York City be between 72-,72.0,73.0,0.002,0.002,0.0,0
+New York,2026-10-14,Will the highest temperature in New York City be between 74-,74.0,75.0,0.007,0.002,0.0009,0
+New York,2026-10-14,Will the highest temperature in New York City be between 76-,76.0,77.0,0.139,0.09,0.0256,0
+New York,2026-10-14,Will the highest temperature in New York City be between 78-,78.0,79.0,,,0.1611,1
+New York,2026-10-14,Will the highest temperature in New York City be between 80-,80.0,81.0,,,0.231,0
+New York,2026-10-14,Will the highest temperature in New York City be between 82-,82.0,83.0,,,0.0756,0
+New York,2026-10-14,Will the highest temperature in New York City be between 84-,84.0,85.0,0.019,0.03,0.0056,0
+New York,2026-10-14,Will the highest temperature in New York City be 86°F or hig,86.0,,0.002,0.001,0.0001,0
+New York,2026-10-15,Will the highest temperature in New York City be between 58-,58.0,59.0,0.002,0.003,0.0,0
+New York,2026-10-15,Will the highest temperature in New York City be between 60-,60.0,61.0,0.001,0.001,0.0,0
+New York,2026-10-15,Will the highest temperature in New York City be between 62-,62.0,63.0,0.025,0.001,0.0015,0
+New York,2026-10-15,Will the highest temperature in New York City be between 64-,64.0,65.0,,0.001,0.0346,0
+New York,2026-10-15,Will the highest temperature in New York City be between 66-,66.0,67.0,,0.88,0.1818,1
+New York,2026-10-15,Will the highest temperature in New York City be between 68-,68.0,69.0,,0.09,0.2184,0
+New York,2026-10-15,Will the highest temperature in New York City be between 70-,70.0,71.0,0.0224,0.023,0.0599,0
+New York,2026-10-15,Will the highest temperature in New York City be between 72-,72.0,73.0,0.02,0.004,0.0037,0
+New York,2026-10-15,Will the highest temperature in New York City be between 74-,74.0,75.0,0.001,0.002,0.0001,0
+New York,2026-10-15,Will the highest temperature in New York City be 76°F or hig,76.0,,0.001,0.001,0.0,0
+New York,2026-10-16,Will the highest temperature in New York City be between 55-,55.0,56.0,0.12,0.05,0.0,0
+New York,2026-10-16,Will the highest temperature in New York City be between 57-,57.0,58.0,0.46,0.43,0.0,0
+New York,2026-10-16,Will the highest temperature in New York City be between 59-,59.0,60.0,,0.51,0.0,0
+New York,2026-10-16,Will the highest temperature in New York City be between 61-,61.0,62.0,0.09,0.0652,0.0,1
+New York,2026-10-16,Will the highest temperature in New York City be between 63-,63.0,64.0,0.02,0.011,0.0,0
+New York,2026-10-16,Will the highest temperature in New York City be 65°F or hig,65.0,,0.01,0.004,1.0,0
+New York,2026-10-17,Will the highest temperature in New York City be between 54-,54.0,55.0,0.001,0.001,0.0,0
+New York,2026-10-17,Will the highest temperature in New York City be between 56-,56.0,57.0,0.019,0.001,0.0004,0
+New York,2026-10-17,Will the highest temperature in New York City be between 58-,58.0,59.0,,0.001,0.0157,0
+New York,2026-10-17,Will the highest temperature in New York City be between 60-,60.0,61.0,,0.001,0.1291,0
+New York,2026-10-17,Will the highest temperature in New York City be between 62-,62.0,63.0,,0.97,0.2414,1
+New York,2026-10-17,Will the highest temperature in New York City be between 64-,64.0,65.0,,0.068,0.1031,0
+New York,2026-10-17,Will the highest temperature in New York City be between 66-,66.0,67.0,0.03,0.007,0.01,0
+New York,2026-10-17,Will the highest temperature in New York City be between 68-,68.0,69.0,0.005,0.001,0.0002,0
+New York,2026-10-17,Will the highest temperature in New York City be between 70-,70.0,71.0,0.001,0.001,0.0,0
+New York,2026-10-17,Will the highest temperature in New York City be 72°F or hig,72.0,,0.001,0.001,0.0,0
+Tokyo,2026-09-18,Will the highest temperature in Tokyo be 29°C or higher on S,84.2,,0.001,0.001,0.0005,0
+Tokyo,2026-09-19,Will the highest temperature in Tokyo be 30°C or higher on S,86.0,,0.001,0.001,0.0,0
+Tokyo,2026-09-20,Will the highest temperature in Tokyo be 29°C or higher on S,84.2,,0.001,0.001,0.0,0
+Tokyo,2026-09-21,Will the highest temperature in Tokyo be 30°C or higher on S,86.0,,0.0019,0.001,0.0,0
+Tokyo,2026-09-22,Will the highest temperature in Tokyo be 35°C or higher on S,95.0,,0.001,0.001,0.0,0
+Tokyo,2026-09-23,Will the highest temperature in Tokyo be 30°C or higher on S,86.0,,0.001,0.001,0.0,0
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 33°C or higher on S,91.4,,0.001,0.001,0.0,0
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 31°C or higher on S,87.8,,0.001,0.001,0.0,0
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 28°C or higher on S,82.4,,0.001,0.001,0.0,0
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 28°C or higher on S,82.4,,0.002,0.001,0.0,0
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 28°C or higher on S,82.4,,0.01,0.001,0.0087,0
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 27°C or higher on S,80.6,,0.001,0.001,0.0,0
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 29°C or higher on S,84.2,,0.001,0.001,0.0,0
+Tokyo,2026-10-01,Will the highest temperature in Tokyo be 32°C or higher on O,89.6,,0.001,0.001,0.0002,0
+Tokyo,2026-10-02,Will the highest temperature in Tokyo be 27°C or higher on O,80.6,,0.0011,0.001,0.0,0
+Tokyo,2026-10-03,Will the highest temperature in Tokyo be 27°C or higher on O,80.6,,0.001,0.001,0.0,0
+Tokyo,2026-10-04,Will the highest temperature in Tokyo be 28°C or higher on O,82.4,,0.001,0.001,0.0,0
+Tokyo,2026-10-05,Will the highest temperature in Tokyo be 29°C or higher on O,84.2,,0.001,0.001,0.0,0
+Tokyo,2026-10-06,Will the highest temperature in Tokyo be 33°C or higher on O,91.4,,0.001,0.001,0.0,0
+Tokyo,2026-10-07,Will the highest temperature in Tokyo be 30°C or higher on O,86.0,,0.001,0.001,0.0,0
+Tokyo,2026-10-08,Will the highest temperature in Tokyo be 28°C or higher on O,82.4,,0.002,0.003,0.0,0
+Tokyo,2026-10-09,Will the highest temperature in Tokyo be 28°C or higher on O,82.4,,0.002,0.008,0.0,0
+Tokyo,2026-10-10,Will the highest temperature in Tokyo be 29°C or higher on O,84.2,,0.001,0.001,0.0002,0
+Tokyo,2026-10-11,Will the highest temperature in Tokyo be 30°C or higher on O,86.0,,0.0025,0.001,0.0004,0
+Tokyo,2026-10-12,Will the highest temperature in Tokyo be 30°C or higher on O,86.0,,0.001,0.001,0.0,0
+Tokyo,2026-10-13,Will the highest temperature in Tokyo be 29°C or higher on O,84.2,,0.002,0.001,0.0,0
+Tokyo,2026-10-14,Will the highest temperature in Tokyo be 31°C or higher on O,87.8,,0.0044,0.002,0.0012,0
+Tokyo,2026-10-15,Will the highest temperature in Tokyo be 27°C or higher on O,80.6,,0.001,0.001,0.0,0
+Tokyo,2026-10-16,Will the highest temperature in Tokyo be 29°C or higher on O,84.2,,0.001,0.001,0.0,0
+Tokyo,2026-10-17,Will the highest temperature in Tokyo be 29°C or higher on O,84.2,,0.001,0.001,0.0,0
