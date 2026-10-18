@@ -137,3 +137,93 @@ def bucket_probability_numpy(
         z_high = (temp_low_c + 1.0 - mean) / std
         p = 0.5 * (erf(z_high / sqrt(2)) - erf(z_low / sqrt(2)))
     return max(0.0, min(1.0, p))
+
+
+# ── Strategy-layer helpers (were referenced by strategies/emos_edge.py
+#    but never implemented; added 2026-10-18) ──
+
+_calibrator_cache: dict[str, object] = {}
+
+# Last METAR observation per city (°C). Populated by the METAR poller;
+# strategies read it for the final-hours boost. Empty = no boost.
+_last_metar_obs: dict[str, float] = {}
+
+
+def _get_emos_calibrator(city: str):
+    """Return a trained EMOSCalibrator for the city (cached).
+
+    Loads coefficients from data/emos_coeffs/emos_all.json, falling back
+    to per-city files, then to defaults.
+    """
+    if city in _calibrator_cache:
+        return _calibrator_cache[city]
+    from pm_bot.core.emos import EMOSCalibrator
+
+    coeffs: dict = {}
+    try:
+        from pathlib import Path
+
+        for cand in (
+            Path("data/emos_coeffs/emos_all.json"),
+            Path(__file__).resolve().parents[3] / "data" / "emos_coeffs" / "emos_all.json",
+        ):
+            if cand.exists():
+                import json
+
+                all_coeffs = json.loads(cand.read_text())
+                coeffs = all_coeffs.get(city, {})
+                break
+        if not coeffs:
+            per_city = Path(__file__).resolve().parents[3] / "data" / "emos_coeffs" / f"{city.lower().replace(' ', '_')}.json"
+            if per_city.exists():
+                import json
+
+                data = json.loads(per_city.read_text())
+                coeffs = data.get("coeffs", data)
+    except Exception:
+        coeffs = {}
+    cal = EMOSCalibrator(coeffs=coeffs or None, city=city)
+    _calibrator_cache[city] = cal
+    return cal
+
+
+def bucket_probability(
+    forecast: ForecastResult,
+    temp_low_c: float,
+    temp_high_c: float,
+    temp_unit: str = "C",
+    use_emos: bool = True,
+) -> float:
+    """Calibrated bucket probability for a forecast.
+
+    Uses the city's trained EMOS calibrator when available and requested;
+    falls back to the raw ensemble member distribution otherwise.
+    """
+    members = forecast.members or []
+    if use_emos and members:
+        try:
+            cal = _get_emos_calibrator(forecast.city)
+            return cal.calibrate_probability(members, temp_low_c, temp_high_c, temp_unit)
+        except Exception:
+            pass
+    if members:
+        return bucket_probability_numpy(forecast, temp_low_c, temp_high_c, temp_unit)
+    return 0.0
+
+
+def _hours_until_resolution(date: str) -> float:
+    """Hours from now until end of the given date (YYYY-MM-DD).
+
+    Weather markets resolve on the day's observed high, so the effective
+    deadline is local end-of-day for the market date.
+    """
+    from datetime import datetime
+
+    try:
+        day = datetime.strptime(date[:10], "%Y-%m-%d")
+        # End of that day, local time
+        deadline = day.replace(hour=23, minute=59, second=59)
+        delta = (deadline - datetime.now()).total_seconds() / 3600.0
+        return max(0.0, delta)
+    except Exception:
+        return 24.0

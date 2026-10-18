@@ -225,15 +225,12 @@ class EMOSEdgeStrategy(Strategy):
             calibrator = _get_emos_calibrator(forecast.city)
 
         # ── Compute model probabilities for all buckets ──
+        # NOTE (2026-10-18 fix): tail buckets used to be dropped here, so
+        # _tail_strategy() never saw a real tail. They are now collected
+        # separately with their own model probabilities.
         bucket_probs: list[tuple[TemperatureBucket, float]] = []
+        tail_bucket_probs: list[tuple[TemperatureBucket, float]] = []
         for bucket in event.buckets:
-            if bucket.is_low_tail or bucket.is_high_tail:
-                continue
-            if bucket.yes_price < self.cfg.min_market_price:
-                continue
-            if bucket.yes_price > self.cfg.max_market_price:
-                continue
-
             model_prob = bucket_probability(
                 forecast,
                 bucket.temp_low_c,
@@ -241,6 +238,13 @@ class EMOSEdgeStrategy(Strategy):
                 bucket.temp_unit,
                 use_emos=self.cfg.use_emos,
             )
+            if bucket.is_low_tail or bucket.is_high_tail:
+                tail_bucket_probs.append((bucket, model_prob))
+                continue
+            if bucket.yes_price < self.cfg.min_market_price:
+                continue
+            if bucket.yes_price > self.cfg.max_market_price:
+                continue
 
             if model_prob < self.cfg.min_model_prob:
                 continue
@@ -287,9 +291,13 @@ class EMOSEdgeStrategy(Strategy):
             )
 
         # ── Tail bucket strategy (Hans323 mode) ──
+        # Gets the REAL tail buckets (with model probs), not the filtered list.
         if self.cfg.enable_tail_strategy:
+            tail_bucket_edges = [
+                (b, p, p - b.yes_price) for b, p in tail_bucket_probs
+            ]
             tail_recs = self._tail_strategy(
-                bucket_edges, event, forecast, effective_bankroll
+                tail_bucket_edges, event, forecast, effective_bankroll
             )
             recs.extend(tail_recs)
 

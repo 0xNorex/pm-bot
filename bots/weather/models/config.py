@@ -105,3 +105,7 @@ CACHE_TTL: dict[str, int] = {
     "forecast": 3600,
     "tags": 86400,
 }
+
+# Per-strategy default overrides, keyed by Strategy.name.
+# Empty = use the dataclass defaults in each strategy's Config.
+STRATEGY_DEFAULTS: dict[str, dict[str, float]] = {}
