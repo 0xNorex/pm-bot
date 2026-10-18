@@ -1,0 +1,151 @@
+city,date,tail_question,tail_threshold_f,price_24h_before,won,observed_max_c,n_markets
+New York,2026-09-18,Will the highest temperature in New York City be 90°F or higher on September 18?,90,0.001,0,28,11
+New York,2026-09-19,Will the highest temperature in New York City be 80°F or higher on September 19?,80,0.001,0,22.1,11
+New York,2026-09-20,Will the highest temperature in New York City be 78°F or higher on September 20?,78,0.001,0,21.2,11
+New York,2026-09-21,Will the highest temperature in New York City be 78°F or higher on September 21?,78,0.001,0,21.2,11
+New York,2026-09-22,Will the highest temperature in New York City be 74°F or higher on September 22?,74,0.001,0,19.2,11
+New York,2026-09-23,Will the highest temperature in New York City be 76°F or higher on September 23?,76,0.003,0,19.5,11
+New York,2026-09-24,Will the highest temperature in New York City be 76°F or higher on September 24?,76,0.001,0,18.7,11
+New York,2026-09-25,Will the highest temperature in New York City be 76°F or higher on September 25?,76,0.003,0,21.6,11
+New York,2026-09-26,Will the highest temperature in New York City be 76°F or higher on September 26?,76,0.001,0,17.8,11
+New York,2026-09-27,Will the highest temperature in New York City be 74°F or higher on September 27?,74,0.002,0,18.4,11
+New York,2026-09-28,Will the highest temperature in New York City be 78°F or higher on September 28?,78,0.001,0,17.5,11
+New York,2026-09-29,Will the highest temperature in New York City be 82°F or higher on September 29?,82,0.001,0,21.1,11
+New York,2026-09-30,Will the highest temperature in New York City be 84°F or higher on September 30?,84,0.001,0,23.6,11
+New York,2026-10-01,Will the highest temperature in New York City be 88°F or higher on October 1?,88,0.001,0,23.9,11
+New York,2026-10-02,Will the highest temperature in New York City be 90°F or higher on October 2?,90,0.002,0,29.1,11
+New York,2026-10-03,Will the highest temperature in New York City be 80°F or higher on October 3?,80,0.001,0,21.2,11
+New York,2026-10-04,Will the highest temperature in New York City be 76°F or higher on October 4?,76,0.001,0,16.5,11
+New York,2026-10-05,Will the highest temperature in New York City be 80°F or higher on October 5?,80,0.001,0,20.7,11
+New York,2026-10-06,Will the highest temperature in New York City be 74°F or higher on October 6?,74,0.001,0,16.7,11
+New York,2026-10-07,Will the highest temperature in New York City be 78°F or higher on October 7?,78,0.001,0,18.6,11
+New York,2026-10-08,Will the highest temperature in New York City be 84°F or higher on October 8?,84,0.001,0,23.6,11
+New York,2026-10-09,Will the highest temperature in New York City be 78°F or higher on October 9?,78,0.001,0,22.3,11
+New York,2026-10-10,Will the highest temperature in New York City be 78°F or higher on October 10?,78,0.001,0,20.6,11
+New York,2026-10-11,Will the highest temperature in New York City be 74°F or higher on October 11?,74,0.001,0,15.4,11
+New York,2026-10-12,Will the highest temperature in New York City be 80°F or higher on October 12?,80,0.001,0,21.7,11
+New York,2026-10-13,Will the highest temperature in New York City be 80°F or higher on October 13?,80,0.001,0,21.1,11
+New York,2026-10-14,Will the highest temperature in New York City be 86°F or higher on October 14?,86,0.002,0,25,11
+New York,2026-10-15,Will the highest temperature in New York City be 76°F or higher on October 15?,76,0.001,0,18.8,11
+New York,2026-10-16,Will the highest temperature in New York City be 82°F or higher on October 16?,82,0.001,0,23.5,11
+New York,2026-10-17,Will the highest temperature in New York City be 72°F or higher on October 17?,72,0.001,0,17.4,11
+Chicago,2026-09-18,Will the highest temperature in Chicago be 82°F or higher on September 18?,82,0.001,0,21.7,11
+Chicago,2026-09-19,Will the highest temperature in Chicago be 88°F or higher on September 19?,88,0.001,0,23.2,11
+Chicago,2026-09-20,Will the highest temperature in Chicago be 78°F or higher on September 20?,78,0.001,0,20.1,11
+Chicago,2026-09-21,Will the highest temperature in Chicago be 72°F or higher on September 21?,72,0.004,0,17.7,11
+Chicago,2026-09-22,Will the highest temperature in Chicago be 72°F or higher on September 22?,72,0.001,0,16.5,11
+Chicago,2026-09-23,Will the highest temperature in Chicago be 74°F or higher on September 23?,74,0.001,0,19,11
+Chicago,2026-09-24,Will the highest temperature in Chicago be 76°F or higher on September 24?,76,0.001,0,20,11
+Chicago,2026-09-25,Will the highest temperature in Chicago be 76°F or higher on September 25?,76,0.001,0,18.2,11
+Chicago,2026-09-26,Will the highest temperature in Chicago be 78°F or higher on September 26?,78,0.001,0,19.3,11
+Chicago,2026-09-27,Will the highest temperature in Chicago be 78°F or higher on September 27?,78,0.002,0,21.1,11
+Chicago,2026-09-28,Will the highest temperature in Chicago be 82°F or higher on September 28?,82,0.001,0,22,11
+Chicago,2026-09-29,Will the highest temperature in Chicago be 84°F or higher on September 29?,84,0.001,0,24.7,11
+Chicago,2026-09-30,Will the highest temperature in Chicago be 84°F or higher on September 30?,84,0.001,0,18.5,11
+Chicago,2026-10-01,Will the highest temperature in Chicago be 82°F or higher on October 1?,82,0.001,0,21.9,11
+Chicago,2026-10-02,Will the highest temperature in Chicago be 74°F or higher on October 2?,74,0.001,0,18.3,11
+Chicago,2026-10-03,Will the highest temperature in Chicago be 74°F or higher on October 3?,74,0.001,0,19.6,11
+Chicago,2026-10-04,Will the highest temperature in Chicago be 80°F or higher on October 4?,80,0.001,0,21.8,11
+Chicago,2026-10-05,Will the highest temperature in Chicago be 72°F or higher on October 5?,72,0.003,0,19.5,11
+Chicago,2026-10-06,Will the highest temperature in Chicago be 78°F or higher on October 6?,78,0.002001,0,21.9,11
+Chicago,2026-10-07,Will the highest temperature in Chicago be 82°F or higher on October 7?,82,0.008,0,25,11
+Chicago,2026-10-08,Will the highest temperature in Chicago be 76°F or higher on October 8?,76,0.001,0,21.4,11
+Chicago,2026-10-09,Will the highest temperature in Chicago be 80°F or higher on October 9?,80,0.001,0,20.8,11
+Chicago,2026-10-10,Will the highest temperature in Chicago be 90°F or higher on October 10?,90,0.001,0,26.2,11
+Chicago,2026-10-11,Will the highest temperature in Chicago be 82°F or higher on October 11?,82,0.004,0,24.5,11
+Chicago,2026-10-12,Will the highest temperature in Chicago be 92°F or higher on October 12?,92,0.001,0,29,11
+Chicago,2026-10-13,Will the highest temperature in Chicago be 90°F or higher on October 13?,90,0.001,0,25.6,11
+Chicago,2026-10-14,Will the highest temperature in Chicago be 78°F or higher on October 14?,78,0.001,0,18.8,11
+Chicago,2026-10-15,Will the highest temperature in Chicago be 74°F or higher on October 15?,74,0.001,0,18.8,11
+Chicago,2026-10-16,Will the highest temperature in Chicago be 68°F or higher on October 16?,68,0.001,0,14.5,11
+Chicago,2026-10-17,Will the highest temperature in Chicago be 66°F or higher on October 17?,66,0.001,0,12.8,11
+Miami,2026-09-18,Will the highest temperature in Miami be 96°F or higher on September 18?,96,0.005,0,28.6,11
+Miami,2026-09-19,Will the highest temperature in Miami be 96°F or higher on September 19?,96,0.001,0,30.4,11
+Miami,2026-09-20,Will the highest temperature in Miami be 96°F or higher on September 20?,96,0.001,0,30.4,11
+Miami,2026-09-21,Will the highest temperature in Miami be 94°F or higher on September 21?,94,0.005,0,28.5,11
+Miami,2026-09-22,Will the highest temperature in Miami be 94°F or higher on September 22?,94,0.001,0,31.8,11
+Miami,2026-09-23,Will the highest temperature in Miami be 94°F or higher on September 23?,94,0.001,0,28.1,11
+Miami,2026-09-24,Will the highest temperature in Miami be 96°F or higher on September 24?,96,0.001371,0,31.9,11
+Miami,2026-09-25,Will the highest temperature in Miami be 94°F or higher on September 25?,94,0.001,0,30.2,11
+Miami,2026-09-26,Will the highest temperature in Miami be 94°F or higher on September 26?,94,0.001,0,30,11
+Miami,2026-09-27,Will the highest temperature in Miami be 92°F or higher on September 27?,92,0.004,0,30.5,11
+Miami,2026-09-28,Will the highest temperature in Miami be 94°F or higher on September 28?,94,0.001,0,31.2,11
+Miami,2026-09-29,Will the highest temperature in Miami be 94°F or higher on September 29?,94,0.005,0,26.4,11
+Miami,2026-09-30,Will the highest temperature in Miami be 94°F or higher on September 30?,94,0.001,0,27.7,11
+Miami,2026-10-01,Will the highest temperature in Miami be 94°F or higher on October 1?,94,0.001,0,27.3,11
+Miami,2026-10-02,Will the highest temperature in Miami be 96°F or higher on October 2?,96,0.001,0,31.1,11
+Miami,2026-10-03,Will the highest temperature in Miami be 98°F or higher on October 3?,98,0.001,0,30.2,11
+Miami,2026-10-04,Will the highest temperature in Miami be 98°F or higher on October 4?,98,0.001,0,30.6,11
+Miami,2026-10-05,Will the highest temperature in Miami be 98°F or higher on October 5?,98,0.001,0,31.4,11
+Miami,2026-10-06,Will the highest temperature in Miami be 96°F or higher on October 6?,96,0.001,0,31.7,11
+Miami,2026-10-07,Will the highest temperature in Miami be 96°F or higher on October 7?,96,0.001,0,31.5,11
+Miami,2026-10-08,Will the highest temperature in Miami be 96°F or higher on October 8?,96,0.001,0,32,11
+Miami,2026-10-09,Will the highest temperature in Miami be 98°F or higher on October 9?,98,0.001,0,31.6,11
+Miami,2026-10-10,Will the highest temperature in Miami be 98°F or higher on October 10?,98,0.001,0,31.8,11
+Miami,2026-10-11,Will the highest temperature in Miami be 100°F or higher on October 11?,100,0.001,0,32,11
+Miami,2026-10-12,Will the highest temperature in Miami be 98°F or higher on October 12?,98,0.001,0,32.1,11
+Miami,2026-10-13,Will the highest temperature in Miami be 96°F or higher on October 13?,96,0.005,0,31.8,11
+Miami,2026-10-14,Will the highest temperature in Miami be 96°F or higher on October 14?,96,0.001,0,29.6,11
+Miami,2026-10-15,Will the highest temperature in Miami be 98°F or higher on October 15?,98,0.001,0,31.7,11
+Miami,2026-10-16,Will the highest temperature in Miami be 98°F or higher on October 16?,98,0.001105,0,31.4,11
+Miami,2026-10-17,Will the highest temperature in Miami be 96°F or higher on October 17?,96,0.001,0,29.7,11
+London,2026-09-18,Will the highest temperature in London be 25°C or higher on September 18?,77,0.001,0,20.1,11
+London,2026-09-19,Will the highest temperature in London be 26°C or higher on September 19?,78.8,0.001,0,21.8,11
+London,2026-09-20,Will the highest temperature in London be 26°C or higher on September 20?,78.8,0.001,0,19.9,11
+London,2026-09-21,Will the highest temperature in London be 28°C or higher on September 21?,82.4,0.001,0,22.3,11
+London,2026-09-22,Will the highest temperature in London be 26°C or higher on September 22?,78.8,0.05,0,24.8,11
+London,2026-09-23,Will the highest temperature in London be 28°C or higher on September 23?,82.4,0.001,0,23.4,11
+London,2026-09-24,Will the highest temperature in London be 26°C or higher on September 24?,78.8,0.001,0,20.9,11
+London,2026-09-25,Will the highest temperature in London be 32°C or higher on September 25?,89.6,0.001,0,23.7,11
+London,2026-09-26,Will the highest temperature in London be 25°C or higher on September 26?,77,0.001,0,20.6,11
+London,2026-09-27,Will the highest temperature in London be 27°C or higher on September 27?,80.6,0.001,0,22.5,11
+London,2026-09-28,Will the highest temperature in London be 24°C or higher on September 28?,75.2,0.001,0,19.4,11
+London,2026-09-29,Will the highest temperature in London be 28°C or higher on September 29?,82.4,0.001,0,25.7,11
+London,2026-09-30,Will the highest temperature in London be 26°C or higher on September 30?,78.8,0.002,0,23.4,11
+London,2026-10-01,Will the highest temperature in London be 26°C or higher on October 1?,78.8,0.001,0,20.1,11
+London,2026-10-02,Will the highest temperature in London be 26°C or higher on October 2?,78.8,0.001,0,20.5,11
+London,2026-10-03,Will the highest temperature in London be 26°C or higher on October 3?,78.8,0.001,0,19.4,11
+London,2026-10-04,Will the highest temperature in London be 27°C or higher on October 4?,80.6,0.001,0,21.3,11
+London,2026-10-05,Will the highest temperature in London be 26°C or higher on October 5?,78.8,0.001,0,21.3,11
+London,2026-10-06,Will the highest temperature in London be 26°C or higher on October 6?,78.8,0.001,0,20.8,11
+London,2026-10-07,Will the highest temperature in London be 21°C or higher on October 7?,69.8,0.001,0,14.8,11
+London,2026-10-08,Will the highest temperature in London be 18°C or higher on October 8?,64.4,0.004,0,14.2,11
+London,2026-10-09,Will the highest temperature in London be 23°C or higher on October 9?,73.4,0.001,0,19.4,11
+London,2026-10-10,Will the highest temperature in London be 21°C or higher on October 10?,69.8,0.001,0,14.9,11
+London,2026-10-11,Will the highest temperature in London be 21°C or higher on October 11?,69.8,0.001,0,15,11
+London,2026-10-12,Will the highest temperature in London be 22°C or higher on October 12?,71.6,0.001,0,17.6,11
+London,2026-10-13,Will the highest temperature in London be 23°C or higher on October 13?,73.4,0.01,0,19.8,11
+London,2026-10-14,Will the highest temperature in London be 24°C or higher on October 14?,75.2,0.001,0,18.7,11
+London,2026-10-15,Will the highest temperature in London be 26°C or higher on October 15?,78.8,0.001,0,21.1,11
+London,2026-10-16,Will the highest temperature in London be 20°C or higher on October 16?,68,0.002,0,16.2,11
+London,2026-10-17,Will the highest temperature in London be 19°C or higher on October 17?,66.2,0.001,0,13.4,11
+Tokyo,2026-09-18,Will the highest temperature in Tokyo be 29°C or higher on September 18?,84.2,0.001,0,24.3,11
+Tokyo,2026-09-19,Will the highest temperature in Tokyo be 30°C or higher on September 19?,86,0.001,0,25,11
+Tokyo,2026-09-20,Will the highest temperature in Tokyo be 29°C or higher on September 20?,84.2,0.001009,0,23.6,11
+Tokyo,2026-09-21,Will the highest temperature in Tokyo be 30°C or higher on September 21?,86,0.001888,0,26.2,11
+Tokyo,2026-09-22,Will the highest temperature in Tokyo be 35°C or higher on September 22?,95,0.001,0,29.7,11
+Tokyo,2026-09-23,Will the highest temperature in Tokyo be 30°C or higher on September 23?,86,0.001,0,23.2,11
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 33°C or higher on September 24?,91.4,0.001,0,26.5,11
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 31°C or higher on September 25?,87.8,0.001,0,25.8,11
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 28°C or higher on September 26?,82.4,0.001,0,22.1,11
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 28°C or higher on September 27?,82.4,0.002,0,22.9,11
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 28°C or higher on September 28?,82.4,0.01,0,25.4,11
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 27°C or higher on September 29?,80.6,0.001,0,22.4,11
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 29°C or higher on September 30?,84.2,0.001,0,21.1,11
+Tokyo,2026-10-01,Will the highest temperature in Tokyo be 32°C or higher on October 1?,89.6,0.001,0,28.1,11
+Tokyo,2026-10-02,Will the highest temperature in Tokyo be 27°C or higher on October 2?,80.6,0.001074,0,22.9,11
+Tokyo,2026-10-03,Will the highest temperature in Tokyo be 27°C or higher on October 3?,80.6,0.001,0,22.8,11
+Tokyo,2026-10-04,Will the highest temperature in Tokyo be 28°C or higher on October 4?,82.4,0.001,0,22.1,11
+Tokyo,2026-10-05,Will the highest temperature in Tokyo be 29°C or higher on October 5?,84.2,0.001,0,20.8,11
+Tokyo,2026-10-06,Will the highest temperature in Tokyo be 33°C or higher on October 6?,91.4,0.001,0,27.2,11
+Tokyo,2026-10-07,Will the highest temperature in Tokyo be 30°C or higher on October 7?,86,0.001,0,24.7,11
+Tokyo,2026-10-08,Will the highest temperature in Tokyo be 28°C or higher on October 8?,82.4,0.002,0,23.7,11
+Tokyo,2026-10-09,Will the highest temperature in Tokyo be 28°C or higher on October 9?,82.4,0.002,0,24.8,11
+Tokyo,2026-10-10,Will the highest temperature in Tokyo be 29°C or higher on October 10?,84.2,0.001,0,25.1,11
+Tokyo,2026-10-11,Will the highest temperature in Tokyo be 30°C or higher on October 11?,86,0.002536,0,27,11
+Tokyo,2026-10-12,Will the highest temperature in Tokyo be 30°C or higher on October 12?,86,0.001,0,25.4,11
+Tokyo,2026-10-13,Will the highest temperature in Tokyo be 29°C or higher on October 13?,84.2,0.002,0,25.1,11
+Tokyo,2026-10-14,Will the highest temperature in Tokyo be 31°C or higher on October 14?,87.8,0.004381,0,26.8,11
+Tokyo,2026-10-15,Will the highest temperature in Tokyo be 27°C or higher on October 15?,80.6,0.001,0,22.8,11
+Tokyo,2026-10-16,Will the highest temperature in Tokyo be 29°C or higher on October 16?,84.2,0.001,0,25.7,11
+Tokyo,2026-10-17,Will the highest temperature in Tokyo be 29°C or higher on October 17?,84.2,0.001,0,25.4,11

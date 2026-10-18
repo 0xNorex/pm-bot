@@ -1,0 +1,157 @@
+[INFO] Replaying 5 cities x 30 days (2026-09-18 to 2026-10-17)
+[INFO] City: New York
+[ROW] New York 2026-09-18: n=11 tail=90F price=0.001 won=0 obs=28C
+[ROW] New York 2026-09-19: n=11 tail=80F price=0.001 won=0 obs=22.1C
+[ROW] New York 2026-09-20: n=11 tail=78F price=0.001 won=0 obs=21.2C
+[ROW] New York 2026-09-21: n=11 tail=78F price=0.001 won=0 obs=21.2C
+[ROW] New York 2026-09-22: n=11 tail=74F price=0.001 won=0 obs=19.2C
+[ROW] New York 2026-09-23: n=11 tail=76F price=0.003 won=0 obs=19.5C
+[ROW] New York 2026-09-24: n=11 tail=76F price=0.001 won=0 obs=18.7C
+[ROW] New York 2026-09-25: n=11 tail=76F price=0.003 won=0 obs=21.6C
+[ROW] New York 2026-09-26: n=11 tail=76F price=0.001 won=0 obs=17.8C
+[ROW] New York 2026-09-27: n=11 tail=74F price=0.002 won=0 obs=18.4C
+[ROW] New York 2026-09-28: n=11 tail=78F price=0.001 won=0 obs=17.5C
+[ROW] New York 2026-09-29: n=11 tail=82F price=0.001 won=0 obs=21.1C
+[ROW] New York 2026-09-30: n=11 tail=84F price=0.001 won=0 obs=23.6C
+[ROW] New York 2026-10-01: n=11 tail=88F price=0.001 won=0 obs=23.9C
+[ROW] New York 2026-10-02: n=11 tail=90F price=0.002 won=0 obs=29.1C
+[ROW] New York 2026-10-03: n=11 tail=80F price=0.001 won=0 obs=21.2C
+[ROW] New York 2026-10-04: n=11 tail=76F price=0.001 won=0 obs=16.5C
+[ROW] New York 2026-10-05: n=11 tail=80F price=0.001 won=0 obs=20.7C
+[ROW] New York 2026-10-06: n=11 tail=74F price=0.001 won=0 obs=16.7C
+[INFO] no search hit for New York 2026-10-07 via 'highest-temperature-in-new-york-on-october-7'
+[ROW] New York 2026-10-07: n=11 tail=78F price=0.001 won=0 obs=18.6C
+[ROW] New York 2026-10-08: n=11 tail=84F price=0.001 won=0 obs=23.6C
+[ROW] New York 2026-10-09: n=11 tail=78F price=0.001 won=0 obs=22.3C
+[ROW] New York 2026-10-10: n=11 tail=78F price=0.001 won=0 obs=20.6C
+[ROW] New York 2026-10-11: n=11 tail=74F price=0.001 won=0 obs=15.4C
+[ROW] New York 2026-10-12: n=11 tail=80F price=0.001 won=0 obs=21.7C
+[ROW] New York 2026-10-13: n=11 tail=80F price=0.001 won=0 obs=21.1C
+[ROW] New York 2026-10-14: n=11 tail=86F price=0.002 won=0 obs=25C
+[ROW] New York 2026-10-15: n=11 tail=76F price=0.001 won=0 obs=18.8C
+[ROW] New York 2026-10-16: n=11 tail=82F price=0.001 won=0 obs=23.5C
+[ROW] New York 2026-10-17: n=11 tail=72F price=0.001 won=0 obs=17.4C
+[INFO] City: Chicago
+[ROW] Chicago 2026-09-18: n=11 tail=82F price=0.001 won=0 obs=21.7C
+[ROW] Chicago 2026-09-19: n=11 tail=88F price=0.001 won=0 obs=23.2C
+[ROW] Chicago 2026-09-20: n=11 tail=78F price=0.001 won=0 obs=20.1C
+[ROW] Chicago 2026-09-21: n=11 tail=72F price=0.004 won=0 obs=17.7C
+[ROW] Chicago 2026-09-22: n=11 tail=72F price=0.001 won=0 obs=16.5C
+[ROW] Chicago 2026-09-23: n=11 tail=74F price=0.001 won=0 obs=19C
+[ROW] Chicago 2026-09-24: n=11 tail=76F price=0.001 won=0 obs=20C
+[ROW] Chicago 2026-09-25: n=11 tail=76F price=0.001 won=0 obs=18.2C
+[ROW] Chicago 2026-09-26: n=11 tail=78F price=0.001 won=0 obs=19.3C
+[ROW] Chicago 2026-09-27: n=11 tail=78F price=0.002 won=0 obs=21.1C
+[ROW] Chicago 2026-09-28: n=11 tail=82F price=0.001 won=0 obs=22C
+[ROW] Chicago 2026-09-29: n=11 tail=84F price=0.001 won=0 obs=24.7C
+[ROW] Chicago 2026-09-30: n=11 tail=84F price=0.001 won=0 obs=18.5C
+[ROW] Chicago 2026-10-01: n=11 tail=82F price=0.001 won=0 obs=21.9C
+[ROW] Chicago 2026-10-02: n=11 tail=74F price=0.001 won=0 obs=18.3C
+[ROW] Chicago 2026-10-03: n=11 tail=74F price=0.001 won=0 obs=19.6C
+[ROW] Chicago 2026-10-04: n=11 tail=80F price=0.001 won=0 obs=21.8C
+[ROW] Chicago 2026-10-05: n=11 tail=72F price=0.003 won=0 obs=19.5C
+[ROW] Chicago 2026-10-06: n=11 tail=78F price=0.002001 won=0 obs=21.9C
+[ROW] Chicago 2026-10-07: n=11 tail=82F price=0.008 won=0 obs=25C
+[ROW] Chicago 2026-10-08: n=11 tail=76F price=0.001 won=0 obs=21.4C
+[ROW] Chicago 2026-10-09: n=11 tail=80F price=0.001 won=0 obs=20.8C
+[ROW] Chicago 2026-10-10: n=11 tail=90F price=0.001 won=0 obs=26.2C
+[ROW] Chicago 2026-10-11: n=11 tail=82F price=0.004 won=0 obs=24.5C
+[ROW] Chicago 2026-10-12: n=11 tail=92F price=0.001 won=0 obs=29C
+[ROW] Chicago 2026-10-13: n=11 tail=90F price=0.001 won=0 obs=25.6C
+[ROW] Chicago 2026-10-14: n=11 tail=78F price=0.001 won=0 obs=18.8C
+[ROW] Chicago 2026-10-15: n=11 tail=74F price=0.001 won=0 obs=18.8C
+[ROW] Chicago 2026-10-16: n=11 tail=68F price=0.001 won=0 obs=14.5C
+[ROW] Chicago 2026-10-17: n=11 tail=66F price=0.001 won=0 obs=12.8C
+[INFO] City: Miami
+[ROW] Miami 2026-09-18: n=11 tail=96F price=0.005 won=0 obs=28.6C
+[ROW] Miami 2026-09-19: n=11 tail=96F price=0.001 won=0 obs=30.4C
+[ROW] Miami 2026-09-20: n=11 tail=96F price=0.001 won=0 obs=30.4C
+[ROW] Miami 2026-09-21: n=11 tail=94F price=0.005 won=0 obs=28.5C
+[ROW] Miami 2026-09-22: n=11 tail=94F price=0.001 won=0 obs=31.8C
+[ROW] Miami 2026-09-23: n=11 tail=94F price=0.001 won=0 obs=28.1C
+[ROW] Miami 2026-09-24: n=11 tail=96F price=0.001371 won=0 obs=31.9C
+[ROW] Miami 2026-09-25: n=11 tail=94F price=0.001 won=0 obs=30.2C
+[ROW] Miami 2026-09-26: n=11 tail=94F price=0.001 won=0 obs=30C
+[ROW] Miami 2026-09-27: n=11 tail=92F price=0.004 won=0 obs=30.5C
+[ROW] Miami 2026-09-28: n=11 tail=94F price=0.001 won=0 obs=31.2C
+[ROW] Miami 2026-09-29: n=11 tail=94F price=0.005 won=0 obs=26.4C
+[ROW] Miami 2026-09-30: n=11 tail=94F price=0.001 won=0 obs=27.7C
+[ROW] Miami 2026-10-01: n=11 tail=94F price=0.001 won=0 obs=27.3C
+[ROW] Miami 2026-10-02: n=11 tail=96F price=0.001 won=0 obs=31.1C
+[ROW] Miami 2026-10-03: n=11 tail=98F price=0.001 won=0 obs=30.2C
+[ROW] Miami 2026-10-04: n=11 tail=98F price=0.001 won=0 obs=30.6C
+[ROW] Miami 2026-10-05: n=11 tail=98F price=0.001 won=0 obs=31.4C
+[ROW] Miami 2026-10-06: n=11 tail=96F price=0.001 won=0 obs=31.7C
+[ROW] Miami 2026-10-07: n=11 tail=96F price=0.001 won=0 obs=31.5C
+[ROW] Miami 2026-10-08: n=11 tail=96F price=0.001 won=0 obs=32C
+[ROW] Miami 2026-10-09: n=11 tail=98F price=0.001 won=0 obs=31.6C
+[ROW] Miami 2026-10-10: n=11 tail=98F price=0.001 won=0 obs=31.8C
+[ROW] Miami 2026-10-11: n=11 tail=100F price=0.001 won=0 obs=32C
+[ROW] Miami 2026-10-12: n=11 tail=98F price=0.001 won=0 obs=32.1C
+[ROW] Miami 2026-10-13: n=11 tail=96F price=0.005 won=0 obs=31.8C
+[ROW] Miami 2026-10-14: n=11 tail=96F price=0.001 won=0 obs=29.6C
+[ROW] Miami 2026-10-15: n=11 tail=98F price=0.001 won=0 obs=31.7C
+[ROW] Miami 2026-10-16: n=11 tail=98F price=0.001105 won=0 obs=31.4C
+[ROW] Miami 2026-10-17: n=11 tail=96F price=0.001 won=0 obs=29.7C
+[INFO] City: London
+[ROW] London 2026-09-18: n=11 tail=77F price=0.001 won=0 obs=20.1C
+[ROW] London 2026-09-19: n=11 tail=78.8F price=0.001 won=0 obs=21.8C
+[ROW] London 2026-09-20: n=11 tail=78.8F price=0.001 won=0 obs=19.9C
+[ROW] London 2026-09-21: n=11 tail=82.4F price=0.001 won=0 obs=22.3C
+[ROW] London 2026-09-22: n=11 tail=78.8F price=0.05 won=0 obs=24.8C
+[ROW] London 2026-09-23: n=11 tail=82.4F price=0.001 won=0 obs=23.4C
+[ROW] London 2026-09-24: n=11 tail=78.8F price=0.001 won=0 obs=20.9C
+[ROW] London 2026-09-25: n=11 tail=89.6F price=0.001 won=0 obs=23.7C
+[ROW] London 2026-09-26: n=11 tail=77F price=0.001 won=0 obs=20.6C
+[ROW] London 2026-09-27: n=11 tail=80.6F price=0.001 won=0 obs=22.5C
+[ROW] London 2026-09-28: n=11 tail=75.2F price=0.001 won=0 obs=19.4C
+[ROW] London 2026-09-29: n=11 tail=82.4F price=0.001 won=0 obs=25.7C
+[ROW] London 2026-09-30: n=11 tail=78.8F price=0.002 won=0 obs=23.4C
+[ROW] London 2026-10-01: n=11 tail=78.8F price=0.001 won=0 obs=20.1C
+[ROW] London 2026-10-02: n=11 tail=78.8F price=0.001 won=0 obs=20.5C
+[ROW] London 2026-10-03: n=11 tail=78.8F price=0.001 won=0 obs=19.4C
+[ROW] London 2026-10-04: n=11 tail=80.6F price=0.001 won=0 obs=21.3C
+[ROW] London 2026-10-05: n=11 tail=78.8F price=0.001 won=0 obs=21.3C
+[ROW] London 2026-10-06: n=11 tail=78.8F price=0.001 won=0 obs=20.8C
+[ROW] London 2026-10-07: n=11 tail=69.8F price=0.001 won=0 obs=14.8C
+[ROW] London 2026-10-08: n=11 tail=64.4F price=0.004 won=0 obs=14.2C
+[ROW] London 2026-10-09: n=11 tail=73.4F price=0.001 won=0 obs=19.4C
+[ROW] London 2026-10-10: n=11 tail=69.8F price=0.001 won=0 obs=14.9C
+[ROW] London 2026-10-11: n=11 tail=69.8F price=0.001 won=0 obs=15C
+[ROW] London 2026-10-12: n=11 tail=71.6F price=0.001 won=0 obs=17.6C
+[ROW] London 2026-10-13: n=11 tail=73.4F price=0.01 won=0 obs=19.8C
+[ROW] London 2026-10-14: n=11 tail=75.2F price=0.001 won=0 obs=18.7C
+[ROW] London 2026-10-15: n=11 tail=78.8F price=0.001 won=0 obs=21.1C
+[ROW] London 2026-10-16: n=11 tail=68F price=0.002 won=0 obs=16.2C
+[ROW] London 2026-10-17: n=11 tail=66.2F price=0.001 won=0 obs=13.4C
+[INFO] City: Tokyo
+[ROW] Tokyo 2026-09-18: n=11 tail=84.2F price=0.001 won=0 obs=24.3C
+[ROW] Tokyo 2026-09-19: n=11 tail=86F price=0.001 won=0 obs=25C
+[ROW] Tokyo 2026-09-20: n=11 tail=84.2F price=0.001009 won=0 obs=23.6C
+[ROW] Tokyo 2026-09-21: n=11 tail=86F price=0.001888 won=0 obs=26.2C
+[ROW] Tokyo 2026-09-22: n=11 tail=95F price=0.001 won=0 obs=29.7C
+[ROW] Tokyo 2026-09-23: n=11 tail=86F price=0.001 won=0 obs=23.2C
+[ROW] Tokyo 2026-09-24: n=11 tail=91.4F price=0.001 won=0 obs=26.5C
+[ROW] Tokyo 2026-09-25: n=11 tail=87.8F price=0.001 won=0 obs=25.8C
+[ROW] Tokyo 2026-09-26: n=11 tail=82.4F price=0.001 won=0 obs=22.1C
+[ROW] Tokyo 2026-09-27: n=11 tail=82.4F price=0.002 won=0 obs=22.9C
+[ROW] Tokyo 2026-09-28: n=11 tail=82.4F price=0.01 won=0 obs=25.4C
+[ROW] Tokyo 2026-09-29: n=11 tail=80.6F price=0.001 won=0 obs=22.4C
+[ROW] Tokyo 2026-09-30: n=11 tail=84.2F price=0.001 won=0 obs=21.1C
+[ROW] Tokyo 2026-10-01: n=11 tail=89.6F price=0.001 won=0 obs=28.1C
+[ROW] Tokyo 2026-10-02: n=11 tail=80.6F price=0.001074 won=0 obs=22.9C
+[ROW] Tokyo 2026-10-03: n=11 tail=80.6F price=0.001 won=0 obs=22.8C
+[ROW] Tokyo 2026-10-04: n=11 tail=82.4F price=0.001 won=0 obs=22.1C
+[ROW] Tokyo 2026-10-05: n=11 tail=84.2F price=0.001 won=0 obs=20.8C
+[ROW] Tokyo 2026-10-06: n=11 tail=91.4F price=0.001 won=0 obs=27.2C
+[ROW] Tokyo 2026-10-07: n=11 tail=86F price=0.001 won=0 obs=24.7C
+[ROW] Tokyo 2026-10-08: n=11 tail=82.4F price=0.002 won=0 obs=23.7C
+[ROW] Tokyo 2026-10-09: n=11 tail=82.4F price=0.002 won=0 obs=24.8C
+[ROW] Tokyo 2026-10-10: n=11 tail=84.2F price=0.001 won=0 obs=25.1C
+[ROW] Tokyo 2026-10-11: n=11 tail=86F price=0.002536 won=0 obs=27C
+[ROW] Tokyo 2026-10-12: n=11 tail=86F price=0.001 won=0 obs=25.4C
+[ROW] Tokyo 2026-10-13: n=11 tail=84.2F price=0.002 won=0 obs=25.1C
+[ROW] Tokyo 2026-10-14: n=11 tail=87.8F price=0.004381 won=0 obs=26.8C
+[ROW] Tokyo 2026-10-15: n=11 tail=80.6F price=0.001 won=0 obs=22.8C
+[ROW] Tokyo 2026-10-16: n=11 tail=84.2F price=0.001 won=0 obs=25.7C
+[ROW] Tokyo 2026-10-17: n=11 tail=84.2F price=0.001 won=0 obs=25.4C
