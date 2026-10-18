@@ -134,11 +134,22 @@ def prev_fcst(lat: float, lon: float, date_str: str) -> float | None:
 
 
 def main():
-    in_path = "/home/hatch/workspace/pm-bot/research/replay/tail_bias_data.csv"
-    out_path = "/home/hatch/workspace/pm-bot/research/replay/s1_data.csv"
-    base = list(csv.DictReader(open(in_path)))
-    # unique city-date pairs
-    pairs = sorted({(r["city"], r["date"]) for r in base})
+    import sys
+    # usage: fetch_s1_data.py [start_date] [end_date] (YYYY-MM-DD)
+    # defaults: 2026-07-20 to 2026-10-17 (90 days, covers summer)
+    start_s = sys.argv[1] if len(sys.argv) > 1 else "2026-07-20"
+    end_s = sys.argv[2] if len(sys.argv) > 2 else "2026-10-17"
+    out_path = "/home/hatch/workspace/pm-bot/research/replay/s1_data_90d.csv"
+
+    start_d = datetime.strptime(start_s, "%Y-%m-%d")
+    end_d = datetime.strptime(end_s, "%Y-%m-%d")
+    pairs = []
+    d = start_d
+    while d <= end_d:
+        for city in CITIES:
+            pairs.append((city, d.strftime("%Y-%m-%d")))
+        d += timedelta(days=1)
+    print(f"fetching {len(pairs)} city-days ({start_s} to {end_s})...", flush=True)
 
     rows = []
     for city, date_str in pairs:
