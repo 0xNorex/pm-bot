@@ -38,36 +38,37 @@ async def _get(client: httpx.AsyncClient, url: str, cache_name: str, **params) -
 
 
 async def fetch_weather_events(client: httpx.AsyncClient, include_closed: bool = False) -> list[WeatherEvent]:
-    all_events: list[dict] = []
-    seen_ids: set[str] = set()
-    closed = include_closed
+    # Discover via public-search, one query per city for today's event.
+    # The old blind pagination over /events assumed 500 results/page, but the
+    # gamma API caps pages at 100 — so it only ever scanned the first 100 open
+    # events (top-volume markets) and never reached the weather series, meaning
+    # every daemon scan silently found nothing and booked no signals.
+    from datetime import date as _date
 
-    # Paginate through events looking for weather/temperature markets
-    offset = 0
-    while offset < 50000:
-        try:
-            data = await _get(client, f"{GAMMA_BASE}/events", "markets", closed=closed, limit=500, offset=offset)
-        except httpx.HTTPError:
-            break
-        if not isinstance(data, list) or not data:
-            break
-        for ev in data:
-            eid = ev.get("id", "")
-            if eid and eid not in seen_ids:
-                seen_ids.add(eid)
-                all_events.append(ev)
-        if len(data) < 500:
-            break
-        offset += 500
+    from pm_bot.core.city_selector import WEATHER_SERIES
+
+    today = _date.today()
+    date_str = f"{today.strftime('%B')} {today.day}"  # e.g. "October 19"
 
     events: list[WeatherEvent] = []
     skipped = 0
-    for ev in all_events:
-        event = _parse_event(ev)
-        if event:
-            events.append(event)
-        elif _is_weather_event(ev):
-            skipped += 1
+    for city in WEATHER_SERIES:
+        query = f"Highest temperature in {city} on {date_str}"
+        try:
+            data = await _get(client, f"{GAMMA_BASE}/public-search", "weather_search", q=query)
+        except httpx.HTTPError:
+            continue
+        evs = data.get("events", []) if isinstance(data, dict) else []
+        for ev in evs:
+            if not isinstance(ev, dict):
+                continue
+            if not include_closed and str(ev.get("endDate", "") or "")[:10] < today.isoformat():
+                continue
+            event = _parse_event(ev)
+            if event and event.city == city and (include_closed or event.date == date_str):
+                events.append(event)
+            elif _is_weather_event(ev):
+                skipped += 1
 
     if skipped:
         log.info("events_skipped_no_buckets", count=skipped)
@@ -168,6 +169,7 @@ _CITY_PATTERNS: list[str] = [
     "Chicago",
     "Miami",
     "Dallas",
+    "San Francisco",
     "Atlanta",
     "London",
     "Paris",
@@ -194,8 +196,10 @@ _CITY_CANONICAL: dict[str, str] = {
 
 def _extract_city_date(title: str) -> tuple[str | None, str]:
     city = None
-    for c in _CITY_PATTERNS:
-        if c.lower() in title.lower():
+    # Longest-first + word boundaries: avoids "LA" matching inside "Dallas",
+    # and lets "Los Angeles" win over bare "LA".
+    for c in sorted(_CITY_PATTERNS, key=len, reverse=True):
+        if re.search(rf"\b{re.escape(c)}\b", title, re.IGNORECASE):
             city = _CITY_CANONICAL.get(c, c)
             break
 

@@ -6,7 +6,10 @@ After=network.target
 Type=simple
 User=hatch
 WorkingDirectory=/home/hatch/workspace/pm-bot
-ExecStart=/home/hatch/workspace/pm-bot/.venv/bin/python -m bots.weather.cli.daemon start --dry-run --config /home/hatch/workspace/pm-bot/config.toml
+Environment=PM_BOT_CONFIG=/home/hatch/workspace/pm-bot/config.toml
+Environment=no_proxy=localhost,127.0.0.1
+Environment=NO_PROXY=localhost,127.0.0.1
+ExecStart=/home/hatch/workspace/pm-bot/.venv/bin/python -c "import asyncio; from pm_bot.cli.daemon import daemon_start; asyncio.run(daemon_start(dry_run=True))"
 Restart=always
 RestartSec=30
 StandardOutput=journal
