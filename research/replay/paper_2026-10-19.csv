@@ -1,0 +1,9 @@
+city,date,question,yes_displayed,p_model,edge,no_displayed,no_executable,gap,gap_pct
+New York,2026-10-19,Will the highest temperature in New York City be b,0.47,0.0129,0.4571,0.53,0.59,0.06,11.3
+New York,2026-10-19,Will the highest temperature in New York City be b,0.57,0.0003,0.5697,0.43,0.43,-0.0,-0.0
+Chicago,2026-10-19,Will the highest temperature in Chicago be between,0.6,0.0016,0.5984,0.4,0.47,0.07,17.5
+Chicago,2026-10-19,Will the highest temperature in Chicago be between,0.42,0.0,0.42,0.58,0.59,0.01,1.7
+Dallas,2026-10-19,Will the highest temperature in Dallas be between ,0.46,0.0078,0.4522,0.54,0.56,0.02,3.7
+Dallas,2026-10-19,Will the highest temperature in Dallas be between ,0.4,0.0002,0.3998,0.6,0.6,0.0,0.0
+San Francisco,2026-10-19,Will the highest temperature in San Francisco be b,0.58,0.0012,0.5788,0.42,0.42,-0.0,-0.0
+San Francisco,2026-10-19,Will the highest temperature in San Francisco be b,0.34,0.0308,0.3092,0.66,0.68,0.02,3.0
