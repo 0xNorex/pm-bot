@@ -1,0 +1,81 @@
+{
+  "capital": 840.0,
+  "starting": 1000.0,
+  "stake": 20.0,
+  "positions": [
+    {
+      "city": "New York",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in New York City be b",
+      "no_price": 0.59,
+      "shares": 33.9,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T01:38:43.070045+00:00"
+    },
+    {
+      "city": "Chicago",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in Chicago be between",
+      "no_price": 0.47,
+      "shares": 42.55,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T01:38:43.070096+00:00"
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in Dallas be between ",
+      "no_price": 0.56,
+      "shares": 35.71,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T01:38:43.070110+00:00"
+    },
+    {
+      "city": "San Francisco",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in San Francisco be b",
+      "no_price": 0.42,
+      "shares": 47.62,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T01:38:43.070119+00:00"
+    },
+    {
+      "city": "New York",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in New York City be b (YES 0.57)",
+      "no_price": 0.43,
+      "shares": 46.51,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T09:45:00+00:00"
+    },
+    {
+      "city": "Chicago",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in Chicago be between (YES 0.42)",
+      "no_price": 0.59,
+      "shares": 33.9,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T09:45:00+00:00"
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in Dallas be between  (YES 0.4)",
+      "no_price": 0.6,
+      "shares": 33.33,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T09:45:00+00:00"
+    },
+    {
+      "city": "San Francisco",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in San Francisco be b (YES 0.34)",
+      "no_price": 0.68,
+      "shares": 29.41,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T09:45:00+00:00"
+    }
+  ],
+  "closed": [],
+  "created": "2026-10-19T01:38:42.981055+00:00"
+}

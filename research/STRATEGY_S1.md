@@ -48,7 +48,15 @@ Polymarket 没有做空机制。买 NO = 做空 YES。NO 价格 = 1 - YES 价格
 
 ### 结算
 - 按 Polymarket 官方决议（outcomePrices）
-- 用页面显示值（四舍五入到 0.1°F），不是真实最高温
+- 用页面显示值（0.1°F 四舍五入），不是真实最高温
+- **结算源（weather.gov NWS）**：
+  | 城市 | 站点 | NWS 链接 |
+  |---|---|---|
+  | New York | KLGA (LaGuardia) | weather.gov/wrh/timeseries?site=klga |
+  | Chicago | KORD (O'Hare) | weather.gov/wrh/timeseries?site=kord |
+  | London | EGLC (London City) | weather.gov/wrh/timeseries?site=eglc |
+  | Dallas | KDAL (Love Field) | weather.gov/wrh/timeseries?site=kdal |
+  | San Francisco | KSFO (SFO Intl) | weather.gov/wrh/timeseries?site=ksfo |
 
 ## 参数
 | 参数 | 值 | 说明 |

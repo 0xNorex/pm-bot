@@ -10,34 +10,9 @@
       "no_price": 0.59,
       "shares": 33.9,
       "cost": 20.0,
-      "booked_at": "2026-10-19T01:38:43.070045+00:00"
-    },
-    {
-      "city": "Chicago",
-      "date": "2026-10-19",
-      "question": "Will the highest temperature in Chicago be between",
-      "no_price": 0.47,
-      "shares": 42.55,
-      "cost": 20.0,
-      "booked_at": "2026-10-19T01:38:43.070096+00:00"
-    },
-    {
-      "city": "Dallas",
-      "date": "2026-10-19",
-      "question": "Will the highest temperature in Dallas be between ",
-      "no_price": 0.56,
-      "shares": 35.71,
-      "cost": 20.0,
-      "booked_at": "2026-10-19T01:38:43.070110+00:00"
-    },
-    {
-      "city": "San Francisco",
-      "date": "2026-10-19",
-      "question": "Will the highest temperature in San Francisco be b",
-      "no_price": 0.42,
-      "shares": 47.62,
-      "cost": 20.0,
-      "booked_at": "2026-10-19T01:38:43.070119+00:00"
+      "booked_at": "2026-10-19T01:38:43.070045+00:00",
+      "condition_id": "0x7b1352ecf6dd31f5ebd227ab3382abe7f51365fb6425ba01d9621fd47198661a",
+      "market_slug": "highest-temperature-in-nyc-on-october-19-2026-62-63f"
     },
     {
       "city": "New York",
@@ -46,7 +21,20 @@
       "no_price": 0.43,
       "shares": 46.51,
       "cost": 20.0,
-      "booked_at": "2026-10-19T09:45:00+00:00"
+      "booked_at": "2026-10-19T09:45:00+00:00",
+      "condition_id": "0xe94825a4c022564217fb07ee09cfddc52b26fd6bbf5ade7f48d7118dbd876cce",
+      "market_slug": "highest-temperature-in-nyc-on-october-19-2026-64-65f"
+    },
+    {
+      "city": "Chicago",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in Chicago be between",
+      "no_price": 0.47,
+      "shares": 42.55,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T01:38:43.070096+00:00",
+      "condition_id": "0x5b067db01c71c5d9d8c436c5707a23aca782ed0b2192b519f886c695726bb637",
+      "market_slug": "highest-temperature-in-chicago-on-october-19-2026-68-69f"
     },
     {
       "city": "Chicago",
@@ -55,7 +43,20 @@
       "no_price": 0.59,
       "shares": 33.9,
       "cost": 20.0,
-      "booked_at": "2026-10-19T09:45:00+00:00"
+      "booked_at": "2026-10-19T09:45:00+00:00",
+      "condition_id": "0x14b23d1c11d09c0fa32580ade510c650c83cba17a08a25c352459b0d3058125c",
+      "market_slug": "highest-temperature-in-chicago-on-october-19-2026-66-67f"
+    },
+    {
+      "city": "Dallas",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in Dallas be between ",
+      "no_price": 0.56,
+      "shares": 35.71,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T01:38:43.070110+00:00",
+      "condition_id": "0x65c5556d15b5410e90cb147c0a234078a11b6fb94cd043ab792974c50073e23c",
+      "market_slug": "highest-temperature-in-dallas-on-october-19-2026-76-77f"
     },
     {
       "city": "Dallas",
@@ -64,7 +65,20 @@
       "no_price": 0.6,
       "shares": 33.33,
       "cost": 20.0,
-      "booked_at": "2026-10-19T09:45:00+00:00"
+      "booked_at": "2026-10-19T09:45:00+00:00",
+      "condition_id": "0xfb69ceaf48d10ecddf0c6363493b1d1a37568b40c8e1a1ca175bf1680e9608ec",
+      "market_slug": "highest-temperature-in-dallas-on-october-19-2026-74-75f"
+    },
+    {
+      "city": "San Francisco",
+      "date": "2026-10-19",
+      "question": "Will the highest temperature in San Francisco be b",
+      "no_price": 0.42,
+      "shares": 47.62,
+      "cost": 20.0,
+      "booked_at": "2026-10-19T01:38:43.070119+00:00",
+      "condition_id": "0x5311d3b1ed1c09aa745d41a32fea61c1381bd6ed83089d6759f1cf2b10b09fa6",
+      "market_slug": "highest-temperature-in-san-francisco-on-october-19-2026-62-63f"
     },
     {
       "city": "San Francisco",
@@ -73,7 +87,9 @@
       "no_price": 0.68,
       "shares": 29.41,
       "cost": 20.0,
-      "booked_at": "2026-10-19T09:45:00+00:00"
+      "booked_at": "2026-10-19T09:45:00+00:00",
+      "condition_id": "0x1dc09244d58d7d23d2da6c4e8f956ca66357f7322dc5ee17861686c7846819a2",
+      "market_slug": "highest-temperature-in-san-francisco-on-october-19-2026-64-65f"
     }
   ],
   "closed": [],
