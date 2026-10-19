@@ -155,6 +155,8 @@ def main():
             gap = no_exec - no_displayed
             rows.append({
                 "city": city, "date": ds, "question": question[:50],
+                "condition_id": m.get("conditionId", ""),
+                "market_slug": m.get("slug", ""),
                 "yes_displayed": round(p_displayed, 4),
                 "p_model": round(p_model, 4),
                 "edge": round(edge, 4),
@@ -166,7 +168,7 @@ def main():
             print(f"  SIGNAL: {question[:40]} | YES {p_displayed:.2f} vs model {p_model:.2f} | NO disp {no_displayed:.3f} exec {no_exec:.3f} gap {gap*100:+.1f}c")
 
     with open(out_path, "w", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["city","date","question","yes_displayed","p_model","edge","no_displayed","no_executable","gap","gap_pct"])
+        w = csv.DictWriter(f, fieldnames=["city","date","question","condition_id","market_slug","yes_displayed","p_model","edge","no_displayed","no_executable","gap","gap_pct"])
         w.writeheader(); w.writerows(rows)
 
     if rows:
