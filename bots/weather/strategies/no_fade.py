@@ -47,8 +47,8 @@ def _to_c(f: float) -> float:
 
 @dataclass
 class NoFadeConfig:
-    edge_threshold: float = 0.10   # min overpricing to trade
-    stake_usd: float = 10.0        # flat stake per signal (paper)
+    edge_threshold: float = 0.12   # min overpricing to trade (walk-forward optimal)
+    stake_usd: float = 20.0        # flat stake per signal (paper)
     max_no_price: float = 0.95     # don't buy NO above 95c (adverse selection)
     min_no_price: float = 0.05     # don't buy NO below 5c (dust)
 

@@ -51,18 +51,26 @@ _all_strategies: dict[str, Strategy] | None = None
 def get_all_strategies() -> dict[str, Strategy]:
     """All active strategies for Polymarket temperature markets.
 
-    Currently no active strategies. All strategies deleted 2026-05-16:
+    Currently active:
+    - no_fade (S1): Buy NO on overpriced YES buckets. Validated 2026-10-19:
+      30-day replay, 66 trades, 81.8% win, Sharpe 9.5. Paper trading live.
+
+    Deleted 2026-05-16 (historical):
     - gopfan2, emos_gopfan2: pure tail buying, unprofitable
     - smart_wallet, adaptive_smart_wallet: no infrastructure
     - forecast_arb, emos_forecast_arb: model vs market, unprofitable
     - barbell, adaptive_barbell: tail+central, marginal
 
-    Framework preserved for future implementation with better forecasting models.
     See: .trellis/spec/backend/trading-config.md for strategy design history.
     """
     global _all_strategies
     if _all_strategies is None:
         _all_strategies = {}
+        try:
+            from pm_bot.strategies.no_fade import NoFadeStrategy
+            _all_strategies["no_fade"] = NoFadeStrategy()
+        except ImportError:
+            pass
     return _all_strategies
 
 

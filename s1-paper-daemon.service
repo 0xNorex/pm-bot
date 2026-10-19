@@ -1,0 +1,16 @@
+[Unit]
+Description=PM-Bot S1 Paper Trading Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=hatch
+WorkingDirectory=/home/hatch/workspace/pm-bot
+ExecStart=/home/hatch/workspace/pm-bot/.venv/bin/python -m bots.weather.cli.daemon start --dry-run --config /home/hatch/workspace/pm-bot/config.toml
+Restart=always
+RestartSec=30
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
