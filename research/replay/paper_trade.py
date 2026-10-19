@@ -47,20 +47,30 @@ def norm_cdf(z: float) -> float:
 
 
 def get_forecast(lat: float, lon: float) -> tuple[float, float] | None:
-    """Current ensemble forecast: (mean, std) for today's high."""
+    """Multi-model ensemble forecast: GFS + ECMWF + ICON aggregated.
+    
+    Aggregating multiple weather models (not just GFS) for more robust
+    P_model. This is the EMOS approach: Ensemble Model Output Statistics.
+    """
     try:
-        d = get_json(f"https://ensemble-api.open-meteo.com/v1/ensemble?latitude={lat}&longitude={lon}"
-                     f"&daily=temperature_2m_max&forecast_days=2&models=gfs_seamless&timezone=auto")
-        # ensemble members for day 0 (today)
-        daily = d.get("daily", {})
-        members = []
-        for k, v in daily.items():
-            if "member" in k and v:
-                members.append(float(v[0]))
-        if len(members) < 10:
-            return None
-        import numpy as np
-        return float(np.mean(members)), float(np.std(members))
+        # Try 3-model first, fall back to 2-model, then GFS alone
+        for models in ("gfs_seamless,ecmwf_ifs,icon_seamless",
+                       "gfs_seamless,ecmwf_ifs",
+                       "gfs_seamless"):
+            try:
+                d = get_json(f"https://ensemble-api.open-meteo.com/v1/ensemble?latitude={lat}&longitude={lon}"
+                             f"&daily=temperature_2m_max&forecast_days=2&models={models}&timezone=auto")
+                daily = d.get("daily", {})
+                members = []
+                for k, v in daily.items():
+                    if "member" in k and v:
+                        members.append(float(v[0]))
+                if len(members) >= 20:
+                    import numpy as np
+                    return float(np.mean(members)), float(np.std(members))
+            except Exception:
+                continue
+        return None
     except Exception as e:
         print(f"  forecast err: {e}", file=sys.stderr)
         return None
