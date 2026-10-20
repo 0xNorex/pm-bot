@@ -71,6 +71,11 @@ def get_all_strategies() -> dict[str, Strategy]:
             _all_strategies["no_fade"] = NoFadeStrategy()
         except ImportError:
             pass
+        try:
+            from pm_bot.strategies.s4_lock import S4LockStrategy
+            _all_strategies["s4_lock"] = S4LockStrategy()
+        except ImportError:
+            pass
     return _all_strategies
 
 

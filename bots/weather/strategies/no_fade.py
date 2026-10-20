@@ -121,14 +121,23 @@ class NoFadeStrategy(Strategy):
         mu = fcst_c + ERROR_BIAS_C
         s = sigma_c if sigma_c is not None else emos_sigma(None)
         lo, hi = bucket.temp_low, bucket.temp_high
-        # buckets may be in F; normalize via temp_unit
+        # Settlement is on the DISPLAYED (rounded) value, so a bucket
+        # printed [lo, hi] covers the continuous range [lo-0.5, hi+0.5]
+        # in native unit. Integrating over the raw printed bounds was a
+        # live bug (found 2026-10-20): single-value C buckets got P=0
+        # (zero width -> fake edge = full price; London 2026-10-19), and
+        # F range buckets got half their true width (edge inflated).
+        lo_n = lo - 0.5 if lo > -_TAIL_BOUND else lo
+        hi_n = hi + 0.5 if hi < _TAIL_BOUND else hi
         if bucket.temp_unit == "F":
-            lo_c, hi_c = _to_c(lo), _to_c(hi) if hi < _TAIL_BOUND else None
+            lo_c = _to_c(lo_n) if lo > -_TAIL_BOUND else None
+            hi_c = _to_c(hi_n) if hi < _TAIL_BOUND else None
         else:
-            lo_c, hi_c = lo, hi if hi < _TAIL_BOUND else None
+            lo_c = lo_n if lo > -_TAIL_BOUND else None
+            hi_c = hi_n if hi < _TAIL_BOUND else None
         if hi_c is None:
             return 1.0 - _norm_cdf((lo_c - mu) / s)
-        if lo_c is None or lo <= -_TAIL_BOUND:
+        if lo_c is None:
             return _norm_cdf((hi_c - mu) / s)
         return _norm_cdf((hi_c - mu) / s) - _norm_cdf((lo_c - mu) / s)
 

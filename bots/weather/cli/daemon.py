@@ -28,7 +28,7 @@ from pm_bot.core.paper_trade import PaperTradeDB
 from pm_bot.core.polymarket import fetch_weather_events
 from pm_bot.core.risk import RiskManager, RiskCheckResult
 from pm_bot.core.weather import fetch_forecast
-from pm_bot.core.observation import fetch_observation, filter_recommendations
+from pm_bot.core.observation import fetch_day_high, fetch_observation, filter_recommendations
 from pm_bot.core.staged_entry import apply_staged_entry_for_event
 from pm_bot.models.config import DEFAULT_CITIES, STRATEGY_DEFAULTS, resolve_city_alias
 from pm_bot.models.market import Recommendation, ForecastResult
@@ -238,6 +238,19 @@ class TradingDaemon:
                 if obs.is_past_cutoff:
                     log.info("observation_locked", city=city, observed_c=obs.observed_c)
 
+        # S4: running day-high per city (None before 15:00 local)
+        day_highs: dict[str, Any] = {}
+        for city in {ev.city for ev in events}:
+            dh = await fetch_day_high(client, city)
+            if dh:
+                day_highs[city] = dh
+
+        # City guard: skip cities whose rolling 60d win rate is
+        # significantly below breakeven (binomial test, paper DB).
+        banned = self._banned_cities()
+        if banned:
+            events = [e for e in events if e.city not in banned]
+
         all_recs: list[Recommendation] = []
         for ev in events:
             for strat_name, strat in self.strategies.items():
@@ -246,6 +259,8 @@ class TradingDaemon:
                     kwargs[k] = v
                 if ev.city in forecasts:
                     kwargs["forecast"] = forecasts[ev.city]
+                if ev.city in day_highs:
+                    kwargs["day_high"] = day_highs[ev.city]
                 if ev.city in self.emos_calibrators:
                     kwargs["emos_calibrator"] = self.emos_calibrators[ev.city]
 
@@ -689,6 +704,28 @@ class TradingDaemon:
             loss_count=losses,
             bankroll_end=self.bankroll + daily_pnl,
         )
+
+    def _banned_cities(self) -> set[str]:
+        """Cities banned by the rolling win-rate guard (cached per UTC day)."""
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        cache = getattr(self, "_guard_cache", None)
+        if cache and cache[0] == today:
+            return cache[1]
+        banned: set[str] = set()
+        if self.dry_run and self.paper is not None:
+            try:
+                stats = self.paper.city_guard()
+                banned = {c for c, s in stats.items() if s["banned"]}
+                for c in banned:
+                    s = stats[c]
+                    log.warning(
+                        "city_guard_ban", city=c, n=s["n"], wins=s["wins"],
+                        breakeven=round(s["breakeven"], 3), p_value=round(s["p_value"], 4),
+                    )
+            except Exception as e:
+                log.error("city_guard_failed", error=str(e))
+        self._guard_cache = (today, banned)
+        return banned
 
     def _check_daily_reset(self) -> None:
         state = self.db.get_state_json("daily_reset")

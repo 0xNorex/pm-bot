@@ -413,6 +413,40 @@ class PaperTradeDB:
     def reset_daily(self) -> None:
         self.daily_spent = 0.0
 
+    def city_guard(self, days: int = 60, min_trades: int = 15, alpha: float = 0.05) -> dict[str, dict[str, Any]]:
+        """Rolling per-city win-rate guard (BallesJr-style auto-ban).
+
+        Breakeven win probability for a bet bought at price p is p itself
+        (win pays 1). If P(X <= wins | n, breakeven) < alpha with
+        n >= min_trades settled trades in the window, the city's realized
+        win rate is significantly below breakeven -> banned for new trades.
+        """
+        from math import comb
+
+        conn = self._get_conn()
+        rows = conn.execute(
+            """SELECT city, COUNT(*),
+                      SUM(CASE WHEN settled_pnl > 0 THEN 1 ELSE 0 END),
+                      AVG(price)
+               FROM paper_trades
+               WHERE status IN ('settled', 'closed') AND settled_pnl IS NOT NULL
+                 AND city IS NOT NULL
+                 AND date(settled_at) >= date('now', ?)
+               GROUP BY city""",
+            (f"-{int(days)} days",),
+        ).fetchall()
+        out: dict[str, dict[str, Any]] = {}
+        for city, n, wins, avg_price in rows:
+            n = int(n)
+            wins = int(wins or 0)
+            be = float(avg_price or 0.5)
+            p_val = sum(comb(n, k) * be ** k * (1 - be) ** (n - k) for k in range(wins + 1))
+            out[str(city)] = {
+                "n": n, "wins": wins, "breakeven": be, "p_value": p_val,
+                "banned": bool(n >= min_trades and p_val < alpha),
+            }
+        return out
+
     def get_daily_pnl(self) -> float:
         conn = self._get_conn()
         today = _utc_today()

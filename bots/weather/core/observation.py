@@ -17,12 +17,14 @@ log = structlog.get_logger()
 
 CITY_ICAO: dict[str, str] = {
     "New York": "KLGA",
-    "London": "EGLL",
+    "London": "EGLC",  # settlement station per gamma resolutionSource (was EGLL)
     "Denver": "KDEN",
     "Helsinki": "EFHK",
     "Paris": "LFPB",
     "Tokyo": "RJTT",
     "Chicago": "KORD",
+    "Dallas": "KDAL",
+    "San Francisco": "KSFO",
     "Austin": "KAUS",
     "Seoul": "RKSI",
     "Hong Kong": "VHHH",
@@ -40,6 +42,8 @@ CITY_TZ: dict[str, str] = {
     "Paris": "Europe/Paris",
     "Tokyo": "Asia/Tokyo",
     "Chicago": "America/Chicago",
+    "Dallas": "America/Chicago",
+    "San Francisco": "America/Los_Angeles",
     "Austin": "America/Chicago",
     "Seoul": "Asia/Seoul",
     "Hong Kong": "Asia/Hong_Kong",
@@ -173,6 +177,58 @@ async def fetch_observed_high(
     city: str,
 ) -> ObservedHigh | None:
     return await fetch_observation(client, city)
+
+
+async def fetch_day_high(
+    client: httpx.AsyncClient,
+    city: str,
+    min_local_hour: int = 15,
+) -> ObservedTemp | None:
+    """Running max of today's METAR temps at the settlement station.
+
+    Returns None before min_local_hour (day still developing) or when the
+    station has no usable reports today. observed_c = max temp so far.
+    """
+    icao = CITY_ICAO.get(city)
+    if not icao:
+        return None
+    tz = ZoneInfo(CITY_TZ.get(city, "UTC"))
+    now_local = datetime.now(tz)
+    if now_local.hour < min_local_hour:
+        return None
+    try:
+        resp = await client.get(
+            AWC_URL,
+            params={"ids": icao, "format": "json", "taf": "false", "hours": "30"},
+        )
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception:
+        return None
+    best: float | None = None
+    best_time: datetime | None = None
+    for m in data if isinstance(data, list) else []:
+        t = m.get("temp")
+        if t is None:
+            continue
+        try:
+            tv = float(t)
+            ot = datetime.fromisoformat(str(m.get("obsTime", "")).replace("Z", "+00:00"))
+        except (ValueError, TypeError):
+            continue
+        if ot.astimezone(tz).date() != now_local.date():
+            continue
+        if best is None or tv > best:
+            best, best_time = tv, ot
+    if best is None or best_time is None:
+        return None
+    return ObservedTemp(
+        city=city,
+        observed_c=best,
+        obs_time_utc=best_time,
+        local_time=now_local,
+        is_past_cutoff=now_local.hour >= CUTOFF_HOUR,
+    )
 
 
 def resolve_icao_from_description(description: str) -> str | None:
