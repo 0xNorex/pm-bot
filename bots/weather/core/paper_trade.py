@@ -248,13 +248,23 @@ class PaperTradeDB:
             log.warning("paper_duplicate_order", order_id=order_id)
             return False
 
-    def check_duplicate_order(self, market_id: str, side: str) -> bool:
+    def check_duplicate_order(self, market_id: str, side: str, strategy: str | None = None) -> bool:
+        # Per-strategy dedup (2026-10-20): the same strategy may not hold a
+        # bucket twice, but a different strategy (A/B arm, e.g. band_control
+        # vs no_fade) may hold the same bucket in the same ledger.
         conn = self._get_conn()
-        row = conn.execute(
-            """SELECT COUNT(*) FROM paper_trades
-               WHERE market_id = ? AND side = ? AND status = 'open'""",
-            (market_id, side),
-        ).fetchone()
+        if strategy is not None:
+            row = conn.execute(
+                """SELECT COUNT(*) FROM paper_trades
+                   WHERE market_id = ? AND side = ? AND status = 'open' AND strategy = ?""",
+                (market_id, side, strategy),
+            ).fetchone()
+        else:
+            row = conn.execute(
+                """SELECT COUNT(*) FROM paper_trades
+                   WHERE market_id = ? AND side = ? AND status = 'open'""",
+                (market_id, side),
+            ).fetchone()
         return bool(row and row[0] > 0)
 
     def close_trade_at_price(

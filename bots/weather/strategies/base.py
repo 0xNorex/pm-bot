@@ -76,6 +76,11 @@ def get_all_strategies() -> dict[str, Strategy]:
             _all_strategies["s4_lock"] = S4LockStrategy()
         except ImportError:
             pass
+        try:
+            from pm_bot.strategies.band_control import BandControlStrategy
+            _all_strategies["band_control"] = BandControlStrategy()
+        except ImportError:
+            pass
     return _all_strategies
 
 

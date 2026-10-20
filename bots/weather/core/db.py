@@ -277,13 +277,21 @@ class TradeDB:
         rows = conn.execute("SELECT * FROM trades ORDER BY created_at DESC LIMIT ?", (limit,)).fetchall()
         return [dict(r) for r in rows]
 
-    def check_duplicate_order(self, market_id: str, side: str) -> bool:
+    def check_duplicate_order(self, market_id: str, side: str, strategy: str | None = None) -> bool:
+        # Per-strategy dedup (2026-10-20), same semantics as PaperTradeDB.
         conn = self._get_conn()
-        row = conn.execute(
-            """SELECT COUNT(*) FROM trades
-               WHERE market_id = ? AND side = ? AND fill_status = 'open'""",
-            (market_id, side),
-        ).fetchone()
+        if strategy is not None:
+            row = conn.execute(
+                """SELECT COUNT(*) FROM trades
+                   WHERE market_id = ? AND side = ? AND fill_status = 'open' AND strategy = ?""",
+                (market_id, side, strategy),
+            ).fetchone()
+        else:
+            row = conn.execute(
+                """SELECT COUNT(*) FROM trades
+                   WHERE market_id = ? AND side = ? AND fill_status = 'open'""",
+                (market_id, side),
+            ).fetchone()
         return bool(row and row[0] > 0)
 
     def get_consecutive_losses(self) -> int:

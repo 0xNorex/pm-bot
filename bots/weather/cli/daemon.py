@@ -276,7 +276,7 @@ class TradingDaemon:
                     if rec.edge < 0.05:
                         continue
                     dup_db = self.paper if self.dry_run else self.db
-                    if dup_db is not None and dup_db.check_duplicate_order(rec.bucket.market_id, rec.direction):
+                    if dup_db is not None and dup_db.check_duplicate_order(rec.bucket.market_id, rec.direction, rec.strategy):
                         continue
 
                     risk_result = self.risk_manager.full_check(
