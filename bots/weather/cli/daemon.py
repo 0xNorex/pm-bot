@@ -699,6 +699,12 @@ class TradingDaemon:
         yesterday = (datetime.now(timezone.utc) - timedelta(days=1)).strftime("%Y-%m-%d")
         self._update_daily_state()
 
+        # Actually reset the paper daily spend — this was missing, so
+        # daily_spent accumulated forever and wedged the daily limit
+        # (found 2026-10-20 stuck at $260 from the previous day).
+        if self.paper is not None:
+            self.paper.reset_daily()
+
         daily_state = self.db.get_daily_state(yesterday)
         pnl = daily_state.get("total_pnl", 0)
         trades = daily_state.get("trade_count", 0)

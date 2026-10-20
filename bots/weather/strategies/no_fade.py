@@ -42,6 +42,24 @@ from pm_bot.models.market import (
 )
 from pm_bot.strategies.base import Strategy
 
+# EMOS spread-dependent sigma (2026-10-20): sigma = sqrt(a + b * spread^2).
+# a=1.44 -> sigma floor 1.2C on zero-spread days (raw ensembles are
+# systematically underdispersive); b=1.0 per Gneiting et al. 2005 scale.
+# Refit (a, b) by min-CRPS once >= 30 (forecast, actual) pairs accumulate
+# in ~/.pm-bot/forecast_log.csv. Replaces the fixed sigma=1.6 (2026-10-20
+# stopgap, itself replacing the contaminated replay sigma 0.90).
+EMOS_A = 1.44
+EMOS_B = 1.0
+EMOS_SIGMA_FLOOR = 1.2
+EMOS_SIGMA_CAP = 3.0
+
+
+def emos_sigma(spread_c: float | None) -> float:
+    """Calibrated predictive sigma from the ensemble spread."""
+    s2 = float(spread_c or 0.0)
+    return min(EMOS_SIGMA_CAP, max(EMOS_SIGMA_FLOOR, sqrt(EMOS_A + EMOS_B * s2 * s2)))
+
+
 # Replay-measured error (previous-runs, n=150) — DO NOT USE for live:
 # contaminated by near-actual data, see module docstring / 2026-10-20 audit.
 REPLAY_BIAS_C = -0.54
@@ -73,14 +91,18 @@ class NoFadeConfig:
     min_no_price: float = 0.05     # don't buy NO below 5c (dust)
 
 
-def _append_forecast_log(city: str, target: str, fcst_c: float, bias_c: float, sigma_c: float) -> None:
-    """Append (forecast, sigma) for live recalibration; actuals backfilled at settle."""
+def _append_forecast_log(city: str, target: str, fcst_c: float, spread_c: float, bias_c: float, sigma_c: float, members: int = 0, model: str = "") -> None:
+    """Append (forecast, spread, emos sigma, members, model) for live recalibration.
+
+    Actuals are backfilled at settle time; rows with spread_c logged let us
+    refit EMOS (a, b) by min-CRPS once enough pairs accumulate.
+    """
     try:
         FORECAST_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
         if not FORECAST_LOG_PATH.exists():
-            FORECAST_LOG_PATH.write_text("fetched_at,city,target_date,fcst_c,bias_c,sigma_c,actual_c\n")
+            FORECAST_LOG_PATH.write_text("fetched_at,city,target_date,fcst_c,spread_c,bias_c,sigma_c,members,model,actual_c\n")
         with FORECAST_LOG_PATH.open("a") as f:
-            f.write(f"{date.today().isoformat()},{city},{target},{fcst_c:.2f},{bias_c:.2f},{sigma_c:.2f},\n")
+            f.write(f"{date.today().isoformat()},{city},{target},{fcst_c:.2f},{spread_c:.2f},{bias_c:.2f},{sigma_c:.2f},{members},{model},\n")
     except OSError:
         pass  # logging must never break trading
 
@@ -94,10 +116,10 @@ class NoFadeStrategy(Strategy):
         super().__init__(**kwargs)
         self.cfg = config or NoFadeConfig()
 
-    def bucket_model_p(self, fcst_c: float, bucket: TemperatureBucket) -> float:
-        """P(bucket wins) under N(fcst + bias, sigma)."""
+    def bucket_model_p(self, fcst_c: float, bucket: TemperatureBucket, sigma_c: float | None = None) -> float:
+        """P(bucket wins) under N(fcst + bias, sigma). Sigma defaults to EMOS floor."""
         mu = fcst_c + ERROR_BIAS_C
-        s = ERROR_SIGMA_C
+        s = sigma_c if sigma_c is not None else emos_sigma(None)
         lo, hi = bucket.temp_low, bucket.temp_high
         # buckets may be in F; normalize via temp_unit
         if bucket.temp_unit == "F":
@@ -120,7 +142,9 @@ class NoFadeStrategy(Strategy):
             return []
         # deterministic forecast: use ensemble mean if members exist, else temp_high_c
         fcst_c = forecast.mean if forecast.members else forecast.temp_high_c
-        _append_forecast_log(event.city, event.date, fcst_c, ERROR_BIAS_C, ERROR_SIGMA_C)
+        spread_c = forecast.std if forecast.members else 0.0
+        sigma_c = emos_sigma(spread_c)
+        _append_forecast_log(event.city, event.date, fcst_c, spread_c, ERROR_BIAS_C, sigma_c, len(forecast.members), forecast.model)
 
         recs: list[Recommendation] = []
         for bucket in event.buckets:
@@ -130,7 +154,7 @@ class NoFadeStrategy(Strategy):
             p_no = 1.0 - p_market
             if not (self.cfg.min_no_price <= p_no <= self.cfg.max_no_price):
                 continue
-            p_model = self.bucket_model_p(fcst_c, bucket)
+            p_model = self.bucket_model_p(fcst_c, bucket, sigma_c)
             edge = p_market - p_model
             if edge < self.cfg.edge_threshold:
                 continue

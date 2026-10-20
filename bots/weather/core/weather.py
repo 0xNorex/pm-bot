@@ -18,6 +18,42 @@ _forecast_cache: TTLCache[str, ForecastResult] = TTLCache(maxsize=128, ttl=CACHE
 _MEMBER_KEYS = [f"temperature_2m_max_member{i:02d}" for i in range(1, 31)]
 
 
+# Multi-model ensemble chain (proven in research/replay/paper_trade.py,
+# 2026-10-19): pool GFS+ECMWF+ICON members, degrade gracefully.
+_MULTI_MODEL_CHAIN = (
+    "gfs_seamless,ecmwf_ifs,icon_seamless",
+    "gfs_seamless,ecmwf_ifs",
+    "gfs_seamless",
+)
+_MIN_MEMBERS = 20
+
+
+def _target_day_index(times: list[str], date: str) -> int:
+    """Index of the event date in Open-Meteo daily.time (ISO dates).
+
+    WeatherEvent.date looks like "October 20"; YYYY-MM-DD also accepted.
+    Falls back to 0 (city-local today) when unparseable/unmatched.
+    Previously the code always used index 0, which silently misaligns
+    whenever the server date differs from the city's local date.
+    """
+    if not date:
+        return 0
+    iso = date.strip()
+    if "-" in iso and len(iso) >= 10:
+        iso = iso[:10]
+    else:
+        from datetime import datetime
+
+        try:
+            iso = datetime.strptime(f"{iso} {datetime.now().year}", "%B %d %Y").strftime("%Y-%m-%d")
+        except ValueError:
+            return 0
+    try:
+        return times.index(iso)
+    except ValueError:
+        return 0
+
+
 async def fetch_forecast(
     client: httpx.AsyncClient,
     city: str,
@@ -30,7 +66,7 @@ async def fetch_forecast(
         return None
 
     lat, lon = coords
-    key = f"{city}:{model}:high"
+    key = f"{city}:{date}:multi:high"
     if key in _forecast_cache:
         return _forecast_cache[key]
 
@@ -42,40 +78,52 @@ async def fetch_forecast(
         "timezone": "auto",
     }
 
+    # Deterministic GFS point forecast for the target day (fallback mean).
+    det_temp: float | None = None
     try:
-        params_model = {**params, "models": model}
-        resp = await client.get(f"{OPEN_METEO_BASE}/forecast", params=params_model)
+        resp = await client.get(f"{OPEN_METEO_BASE}/forecast", params={**params, "models": "gfs_seamless"})
         resp.raise_for_status()
-        data = resp.json()
+        daily = resp.json().get("daily", {})
+        idx = _target_day_index(daily.get("time", []), date)
+        temps = daily.get("temperature_2m_max", [])
+        if temps and idx < len(temps) and isinstance(temps[idx], (int, float)):
+            det_temp = float(temps[idx])
     except httpx.HTTPError as e:
         log.error("weather_api_error", city=city, error=str(e))
-        return None
 
-    daily = data.get("daily", {})
-    temps = daily.get("temperature_2m_max", [])
-    main_temp = float(temps[0]) if temps and isinstance(temps[0], (int, float)) else 0.0
-
+    # Pooled multi-model ensemble members for the target day.
     members: list[float] = []
-    try:
-        params_ens = {**params, "models": model}
-        resp = await client.get(ENSEMBLE_BASE, params=params_ens)
-        resp.raise_for_status()
-        ens_data = resp.json()
-        ens_daily = ens_data.get("daily", {})
-        for mk in _MEMBER_KEYS:
-            member_data = ens_daily.get(mk, [])
-            if member_data:
-                v = member_data[0]
-                if isinstance(v, (int, float)):
-                    members.append(float(v))
-    except httpx.HTTPError as e:
-        log.warning("ensemble_fetch_failed", city=city, error=str(e))
+    used = "gfs_seamless"
+    for chain in _MULTI_MODEL_CHAIN:
+        try:
+            resp = await client.get(ENSEMBLE_BASE, params={**params, "models": chain})
+            resp.raise_for_status()
+            ens_daily = resp.json().get("daily", {})
+        except httpx.HTTPError as e:
+            log.warning("ensemble_fetch_failed", city=city, models=chain, error=str(e))
+            continue
+        idx = _target_day_index(ens_daily.get("time", []), date)
+        pool = [
+            float(v[idx])
+            for k, v in ens_daily.items()
+            if "member" in k and v and idx < len(v) and isinstance(v[idx], (int, float))
+        ]
+        if len(pool) >= _MIN_MEMBERS:
+            members, used = pool, chain.replace(",", "+")
+            break
+        if len(pool) > len(members):
+            members, used = pool, chain.replace(",", "+")
+
+    if det_temp is None:
+        if not members:
+            return None
+        det_temp = sum(members) / len(members)
 
     result = ForecastResult(
         city=city,
         date=date,
-        model=model,
-        temp_high_c=main_temp,
+        model=used,
+        temp_high_c=det_temp,
         measure_type="high",
         members=members,
     )
