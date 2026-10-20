@@ -13,14 +13,26 @@ Signal:  P_market(YES) - P_model(YES) > edge_threshold
   plus the empirically measured 24h error distribution
   (bias -0.54C, sigma 0.90C, n=150).
 
+CORRECTION (2026-10-20): the replay sigma/bias came from previous-runs,
+whose "forecasts" are contaminated by near-actual data (audit finding).
+First live paper day (2026-10-19): 13 trades, 5W/8L, -$40 — the model
+assigned ~0% to buckets that WON in all 5 cities. Live 24h forecast
+error is much larger than 0.90C. Until live (forecast, actual) pairs
+accumulate in ~/.pm-bot/forecast_log.csv for a true recalibration, use
+a literature-grade conservative sigma (1.60C) and cap the edge: a
+signal whose implied edge exceeds max_edge is treated as model error,
+not market error, and skipped.
+
 Costs: taker fee 50bps + 1.5% slippage modeled in backtest.
-Sizing: flat $10/trade for paper; Kelly once live calibration is confirmed.
+Sizing: flat $20/trade for paper; Kelly once live calibration is confirmed.
 """
 
 from __future__ import annotations
 
 from dataclasses import dataclass
+from datetime import date
 from math import erf, sqrt
+from pathlib import Path
 
 from pm_bot.models.market import (
     ForecastResult,
@@ -30,9 +42,16 @@ from pm_bot.models.market import (
 )
 from pm_bot.strategies.base import Strategy
 
-# Empirically measured 24h GFS deterministic forecast error (n=150, 2026-10-18)
-ERROR_BIAS_C = -0.54
-ERROR_SIGMA_C = 0.90
+# Replay-measured error (previous-runs, n=150) — DO NOT USE for live:
+# contaminated by near-actual data, see module docstring / 2026-10-20 audit.
+REPLAY_BIAS_C = -0.54
+REPLAY_SIGMA_C = 0.90
+
+# Live calibration in effect (2026-10-20): conservative literature-grade
+# 24h daily-max forecast error until live pairs accumulate for refit.
+ERROR_BIAS_C = 0.0
+ERROR_SIGMA_C = 1.60
+FORECAST_LOG_PATH = Path.home() / ".pm-bot" / "forecast_log.csv"
 
 _TAIL_BOUND = 999.0
 
@@ -48,9 +67,22 @@ def _to_c(f: float) -> float:
 @dataclass
 class NoFadeConfig:
     edge_threshold: float = 0.12   # min overpricing to trade (walk-forward optimal)
+    max_edge: float = 0.30         # SKIP signals above this (2026-10-20: model error, not market error)
     stake_usd: float = 20.0        # flat stake per signal (paper)
     max_no_price: float = 0.95     # don't buy NO above 95c (adverse selection)
     min_no_price: float = 0.05     # don't buy NO below 5c (dust)
+
+
+def _append_forecast_log(city: str, target: str, fcst_c: float, bias_c: float, sigma_c: float) -> None:
+    """Append (forecast, sigma) for live recalibration; actuals backfilled at settle."""
+    try:
+        FORECAST_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        if not FORECAST_LOG_PATH.exists():
+            FORECAST_LOG_PATH.write_text("fetched_at,city,target_date,fcst_c,bias_c,sigma_c,actual_c\n")
+        with FORECAST_LOG_PATH.open("a") as f:
+            f.write(f"{date.today().isoformat()},{city},{target},{fcst_c:.2f},{bias_c:.2f},{sigma_c:.2f},\n")
+    except OSError:
+        pass  # logging must never break trading
 
 
 class NoFadeStrategy(Strategy):
@@ -88,6 +120,7 @@ class NoFadeStrategy(Strategy):
             return []
         # deterministic forecast: use ensemble mean if members exist, else temp_high_c
         fcst_c = forecast.mean if forecast.members else forecast.temp_high_c
+        _append_forecast_log(event.city, event.date, fcst_c, ERROR_BIAS_C, ERROR_SIGMA_C)
 
         recs: list[Recommendation] = []
         for bucket in event.buckets:
@@ -100,6 +133,10 @@ class NoFadeStrategy(Strategy):
             p_model = self.bucket_model_p(fcst_c, bucket)
             edge = p_market - p_model
             if edge < self.cfg.edge_threshold:
+                continue
+            if edge > self.cfg.max_edge:
+                # Edge this large = model error, not market error (2026-10-19 lesson:
+                # London edge 55% lost). Skip.
                 continue
             recs.append(Recommendation(
                 strategy=self.name,
