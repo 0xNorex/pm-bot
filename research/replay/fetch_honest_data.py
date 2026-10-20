@@ -24,6 +24,7 @@ import sys
 import time
 import urllib.request
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 
 CITIES = {
     "New York": {"slug": "nyc", "lat": 40.7772, "lon": -73.8726},
@@ -39,6 +40,12 @@ MONTHS = ["january", "february", "march", "april", "may", "june",
           "july", "august", "september", "october", "november", "december"]
 SR = "https://single-runs-api.open-meteo.com/v1/forecast"
 RUNS = [("gfs_seamless", "06:00"), ("icon_seamless", "06:00"), ("ecmwf_ifs", "00:00")]
+CITY_TZ = {
+    "New York": "America/New_York", "Chicago": "America/Chicago",
+    "London": "Europe/London", "Dallas": "America/Chicago",
+    "San Francisco": "America/Los_Angeles", "Tokyo": "Asia/Tokyo",
+    "Paris": "Europe/Paris", "Seoul": "Asia/Seoul",
+}
 
 
 def get_json(url: str, timeout: int = 30):
@@ -193,11 +200,21 @@ def main():
             if date_str >= "2026-09-20":
                 y3 = yes_price_before(m.get("conditionId", ""), res_ts - 3 * 3600, tids) if m.get("conditionId") else None
                 time.sleep(0.12)
+            y_s4 = None
+            if date_str >= "2026-09-20":
+                # S4 decision anchor: last trade at/before 17:30 city-local
+                # on day D (S4 starts 16:00 local; 17:30 is a fill proxy).
+                tz = ZoneInfo(CITY_TZ[city])
+                s4_cutoff = datetime.strptime(date_str, "%Y-%m-%d").replace(
+                    hour=17, minute=30, tzinfo=tz).timestamp()
+                y_s4 = yes_price_before(m.get("conditionId", ""), s4_cutoff, tids) if m.get("conditionId") else None
+                time.sleep(0.12)
             rows.append({
                 "city": city, "date": date_str, "question": m.get("question", "")[:70],
                 "lo": "" if lo is None else lo, "hi": "" if hi is None else hi, "unit": unit,
                 "yes_24h": "" if y24 is None else round(y24, 4),
                 "yes_3h": "" if y3 is None else round(y3, 4),
+                "yes_s4": "" if y_s4 is None else round(y_s4, 4),
                 "won": 1 if k == winner_idx else 0,
                 "fcst_mu": round(mu, 3), "fcst_spread": round(spread, 3), "n_models": nmod,
             })
@@ -206,7 +223,7 @@ def main():
 
     with open(out_path, "w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=["city", "date", "question", "lo", "hi", "unit",
-                                          "yes_24h", "yes_3h", "won", "fcst_mu", "fcst_spread", "n_models"])
+                                          "yes_24h", "yes_3h", "yes_s4", "won", "fcst_mu", "fcst_spread", "n_models"])
         w.writeheader()
         w.writerows(rows)
     print(f"wrote {out_path}: {len(rows)} buckets, {misses} city-days missed", flush=True)

@@ -14,7 +14,8 @@ Arms:
   S1-fixed-sigma   fixed geometry, constant sigma = 1.6 (EMOS ablation).
   market-control   no model at all: buy NO on every YES in [0.15, 0.60].
   S4-lock          censored running-max model, ERA5 hourly running max
-                   by 16:00 local as proxy, T-3h prices, live cities only.
+                   through 16:00 local as proxy, fill price = last trade
+                   at/before 17:30 local (yes_s4), live cities only.
 
 Adversarial suite: forecast-shuffle placebo, winner-shuffle placebo,
 day-block bootstrap CI, parameter sensitivity grid, negative-control
@@ -24,6 +25,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import random
 import statistics
 import sys
@@ -124,7 +126,7 @@ def summarize(name, trades):
         return {"n": 0, "pnl": 0.0}
     w = sum(t["won"] for t in trades)
     pnl = sum(t["pnl"] for t in trades)
-    print(f"{name:22s} n={n:4d} win={w / n * 100:5.1f}% pnl=${pnl:+9.2f} avgEdge={statistics.mean(t['edge']):.3f}")
+    print(f"{name:22s} n={n:4d} win={w / n * 100:5.1f}% pnl=${pnl:+9.2f} avgEdge={statistics.mean([x['edge'] for x in trades]):.3f}")
     return {"n": n, "win_rate": w / n, "pnl": pnl, "trades": trades}
 
 
@@ -142,6 +144,80 @@ def p_buggy(r):
     lo = float(r["lo"]) if r["lo"] != "" else None
     hi = float(r["hi"]) if r["hi"] != "" else None
     return buggy_bucket_p(float(r["fcst_mu"]), emos_sigma(float(r["fcst_spread"])), lo, hi, r["unit"])
+
+
+def fetch_runmax16(data_path: str, start: str, end: str) -> dict:
+    """ERA5 hourly running max through 16:00 local per (city, date).
+
+    Proxy for the settlement-station METAR running max the live S4 sees.
+    ERA5 is a reanalysis (an observed quantity in live trading, so the
+    proxy is fair) but grid-smoothed: it can miss sharp station spikes.
+    Cached next to the dataset as runmax16.csv.
+    """
+    cache = os.path.join(os.path.dirname(os.path.abspath(data_path)), "runmax16.csv")
+    out: dict = {}
+    if os.path.exists(cache):
+        for r in csv.DictReader(open(cache)):
+            out[(r["city"], r["date"])] = float(r["rm16"])
+        return out
+    for city in sorted(LIVE_CITIES):
+        lat, lon = COORDS[city]
+        url = (f"https://archive-api.open-meteo.com/v1/archive?latitude={lat}&longitude={lon}"
+               f"&start_date={start}&end_date={end}&hourly=temperature_2m&timezone=auto")
+        req = urllib.request.Request(url, headers={"User-Agent": "pm-bot-honest/1.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                j = json.loads(resp.read().decode())
+        except Exception as e:
+            print(f"runmax fetch failed {city}: {e}")
+            continue
+        times = j["hourly"]["time"]
+        temps = j["hourly"]["temperature_2m"]
+        per_day: dict = {}
+        for t, v in zip(times, temps):
+            if v is None:
+                continue
+            d, hh = t[:10], int(t[11:13])
+            if hh <= 16:
+                per_day[d] = max(per_day.get(d, -99.0), float(v))
+        for d, v in per_day.items():
+            out[(city, d)] = v
+    with open(cache, "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["city", "date", "rm16"])
+        for (city, d), v in sorted(out.items()):
+            w.writerow([city, d, round(v, 2)])
+    return out
+
+
+def eval_s4(rows, rm16: dict, cost=pnl_cost_a):
+    """S4 arm: censored model on running max, fill at 17:30-local price."""
+    trades = []
+    for r in rows:
+        if r["city"] not in LIVE_CITIES or r["date"] < "2026-09-20":
+            continue
+        if r.get("yes_s4", "") in ("", None):
+            continue
+        rm = rm16.get((r["city"], r["date"]))
+        if rm is None:
+            continue
+        p_mkt = float(r["yes_s4"])
+        if not (0.01 < p_mkt < 0.99):
+            continue
+        p_no = 1.0 - p_mkt
+        if not (0.50 <= p_no <= 0.98):
+            continue
+        b = make_bucket(r)
+        b.yes_price = p_mkt
+        b.no_price = p_no
+        p_mod = _s4._censored_p(rm, b)
+        edge = p_mkt - p_mod
+        if edge < 0.03:
+            continue
+        won_no = int(r["won"]) == 0
+        trades.append({"city": r["city"], "date": r["date"], "edge": edge,
+                       "pnl": cost(p_no, won_no), "won": won_no})
+    return trades
 
 
 def main():
@@ -176,6 +252,14 @@ def main():
     print("\n=== S1-live per city (incl. negative controls) ===")
     for city in sorted({r["city"] for r in rows}):
         summarize(f"  {city}", eval_s1(rows, p_live, cities={city}))
+
+    print("\n=== S4-lock arm (Sep 20+, live cities, ERA5 rm16 proxy) ===")
+    rm16 = fetch_runmax16(path, max(days[0], "2026-09-20"), days[-1])
+    cov = {(r["city"], r["date"]) for r in rows if r["city"] in LIVE_CITIES and r["date"] >= "2026-09-20"}
+    have = sum(1 for k in cov if k in rm16)
+    print(f"runmax coverage: {have}/{len(cov)} city-days (ERA5 lags ~5d at the tail)")
+    summarize("S4-lock (costA)", eval_s4(rows, rm16))
+    summarize("S4-lock (costB)", eval_s4(rows, rm16, cost=pnl_cost_b))
 
     print("\n=== S1-live time split ===")
     mid = days[len(days) // 2]

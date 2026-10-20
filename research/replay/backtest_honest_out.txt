@@ -1,0 +1,46 @@
+dataset: 5099 buckets, 61 days (2026-08-20..2026-10-19), cities=['Chicago', 'Dallas', 'London', 'New York', 'Paris', 'San Francisco', 'Seoul', 'Tokyo']
+priced buckets: 3522 (69%)
+
+=== ARMS (live cities, $20 flat) ===
+S1-live (EMOS, costA)  n=  94 win= 77.7% pnl=$  +163.34 avgEdge=0.197
+S1-live (costB real)   n=  94 win= 77.7% pnl=$  +107.41 avgEdge=0.197
+S1-buggy-geometry      n= 116 win= 84.5% pnl=$  +300.90 avgEdge=0.204
+S1-ballesjr band       n=   1 win=100.0% pnl=$   +30.48 avgEdge=0.451
+S1-fixed-sigma1.6      n=  86 win= 75.6% pnl=$  +106.74 avgEdge=0.197
+market-control (no model) n= 208 win= 80.8% pnl=$  +555.26 avgEdge=0.000
+
+=== S1-live per city (incl. negative controls) ===
+  Chicago              n=  14 win= 85.7% pnl=$   +84.84 avgEdge=0.189
+  Dallas               n=   5 win= 80.0% pnl=$    +7.06 avgEdge=0.142
+  London               n=  21 win= 85.7% pnl=$   +77.54 avgEdge=0.205
+  New York             n=  31 win= 71.0% pnl=$   -30.96 avgEdge=0.214
+  Paris                n=0
+  San Francisco        n=  23 win= 73.9% pnl=$   +24.87 avgEdge=0.182
+  Seoul                n=   4 win=100.0% pnl=$   +30.15 avgEdge=0.158
+  Tokyo                n=  13 win=100.0% pnl=$  +177.57 avgEdge=0.181
+
+=== S4-lock arm (Sep 20+, live cities, ERA5 rm16 proxy) ===
+runmax coverage: 146/146 city-days (ERA5 lags ~5d at the tail)
+S4-lock (costA)        n=   9 win= 88.9% pnl=$   -12.06 avgEdge=0.056
+S4-lock (costB)        n=   9 win= 88.9% pnl=$   -13.17 avgEdge=0.056
+
+=== S1-live time split ===
+  first half (<2026-09-19) n=  39 win= 69.2% pnl=$    +8.90 avgEdge=0.206
+  second half (>=2026-09-19) n=  55 win= 83.6% pnl=$  +154.44 avgEdge=0.190
+
+=== ADVERSARIAL ===
+forecast-shuffle placebo: real=$+163.34 vs placebo mean=$+291.23 p95=$+401.51 -> real beats 6% of placebos
+winner-shuffle placebo (price-weighted): mean=$-336.06 (null expectation ~ -costs if the model adds nothing beyond market prices)
+day bootstrap (n_days=44): P&L 95% CI [$-77, $+384], P(>0)=91%
+
+sensitivity (edge_min x sigma_scale x bias):
+  edge>=0.08  s0.7: n=128 $+179 | s1.0: n=137 $+261 | s1.3: n=136 $+348
+  edge>=0.12  s0.7: n=86 $+129 | s1.0: n=94 $+163 | s1.3: n=93 $+224
+  edge>=0.16  s0.7: n=59 $+75 | s1.0: n=65 $+135 | s1.3: n=71 $+137
+  edge>=0.20  s0.7: n=40 $-21 | s1.0: n=37 $+39 | s1.3: n=47 $+133
+  bias -0.63C: n=90 pnl=$+158.34
+  bias +0.63C: n=94 pnl=$+328.22
+slippage +0.0c: pnl=$+163.34 (n=94)
+slippage +1.5c: pnl=$+119.34 (n=94)
+slippage +3.0c: pnl=$+77.22 (n=94)
+halve-winning-fills stress: mean pnl=$-125.03

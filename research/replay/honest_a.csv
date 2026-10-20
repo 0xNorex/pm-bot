@@ -1,0 +1,1538 @@
+city,date,question,lo,hi,unit,yes_24h,yes_3h,yes_s4,won,fcst_mu,fcst_spread,n_models
+New York,2026-08-20,Will the highest temperature in New York City be 70°F or below on Augu,,70.0,F,0.015,,,1,28.0,3.132,3
+New York,2026-08-20,Will the highest temperature in New York City be between 71-72°F on Au,71.0,72.0,F,0.4513,,,0,28.0,3.132,3
+New York,2026-08-20,Will the highest temperature in New York City be between 73-74°F on Au,73.0,74.0,F,0.3383,,,0,28.0,3.132,3
+New York,2026-08-20,Will the highest temperature in New York City be between 75-76°F on Au,75.0,76.0,F,,,,0,28.0,3.132,3
+New York,2026-08-20,Will the highest temperature in New York City be between 77-78°F on Au,77.0,78.0,F,,,,0,28.0,3.132,3
+New York,2026-08-20,Will the highest temperature in New York City be between 79-80°F on Au,79.0,80.0,F,0.02,,,0,28.0,3.132,3
+New York,2026-08-20,Will the highest temperature in New York City be 81°F or higher on Aug,81.0,,F,0.01,,,0,28.0,3.132,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be 69°F or below on August 20?,,69.0,F,0.001,,,0,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be between 70-71°F on August 2,70.0,71.0,F,0.005,,,0,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be between 72-73°F on August 2,72.0,73.0,F,0.001,,,0,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be between 74-75°F on August 2,74.0,75.0,F,0.0145,,,0,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,,,,1,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,,,,0,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,,,,0,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,0.04,,,0,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be between 84-85°F on August 2,84.0,85.0,F,0.01,,,0,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be between 86-87°F on August 2,86.0,87.0,F,0.001,,,0,26.233,0.961,3
+Chicago,2026-08-20,Will the highest temperature in Chicago be 88°F or higher on August 20,88.0,,F,0.001,,,0,26.233,0.961,3
+London,2026-08-20,Will the highest temperature in London be 19°C or below on August 20?,,19.0,C,0.002,,,0,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 20°C on August 20?,20.0,20.0,C,0.02,,,0,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 21°C on August 20?,21.0,21.0,C,,,,0,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 22°C on August 20?,22.0,22.0,C,,,,0,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 23°C on August 20?,23.0,23.0,C,,,,0,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 24°C on August 20?,24.0,24.0,C,,,,1,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 25°C on August 20?,25.0,25.0,C,,,,0,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 26°C on August 20?,26.0,26.0,C,,,,0,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 27°C on August 20?,27.0,27.0,C,0.001,,,0,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 28°C on August 20?,28.0,28.0,C,0.001,,,0,22.467,0.493,3
+London,2026-08-20,Will the highest temperature in London be 29°C or higher on August 20?,29.0,,C,0.001,,,0,22.467,0.493,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be 99°F or below on August 20?,,99.0,F,0.002,,,0,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,0.01,,,0,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,,,,0,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,,,,1,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,,,,0,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,0.0771,,,0,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be between 110-111°F on August ,110.0,111.0,F,0.01,,,0,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be between 112-113°F on August ,112.0,113.0,F,0.01,,,0,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be between 114-115°F on August ,114.0,115.0,F,0.001,,,0,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be between 116-117°F on August ,116.0,117.0,F,0.001,,,0,41.333,0.681,3
+Dallas,2026-08-20,Will the highest temperature in Dallas be 118°F or higher on August 20,118.0,,F,0.001,,,0,41.333,0.681,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be 59°F or below on Augu,,59.0,F,0.001,,,0,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be between 60-61°F on Au,60.0,61.0,F,0.0043,,,0,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be between 62-63°F on Au,62.0,63.0,F,0.005,,,0,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be between 64-65°F on Au,64.0,65.0,F,0.11,,,0,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,,,,0,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,,,,1,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,,,,0,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,0.13,,,0,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,0.04,,,0,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be between 76-77°F on Au,76.0,77.0,F,0.0033,,,0,21.133,0.907,3
+San Francisco,2026-08-20,Will the highest temperature in San Francisco be 78°F or higher on Aug,78.0,,F,0.005,,,0,21.133,0.907,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 26°C or below on August 20?,,26.0,C,0.001,,,0,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 27°C on August 20?,27.0,27.0,C,0.001,,,0,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 28°C on August 20?,28.0,28.0,C,0.01,,,0,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 29°C on August 20?,29.0,29.0,C,0.01,,,0,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 30°C on August 20?,30.0,30.0,C,0.1,,,0,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 31°C on August 20?,31.0,31.0,C,,,,0,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 32°C on August 20?,32.0,32.0,C,,,,0,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 33°C on August 20?,33.0,33.0,C,,,,1,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 34°C on August 20?,34.0,34.0,C,,,,0,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 35°C on August 20?,35.0,35.0,C,0.002,,,0,30.5,0.781,3
+Tokyo,2026-08-20,Will the highest temperature in Tokyo be 36°C or higher on August 20?,36.0,,C,0.001,,,0,30.5,0.781,3
+Paris,2026-08-20,Will the highest temperature in Paris be 19°C or below on August 20?,,19.0,C,0.001,,,0,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 20°C on August 20?,20.0,20.0,C,0.001,,,0,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 21°C on August 20?,21.0,21.0,C,0.001,,,0,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 22°C on August 20?,22.0,22.0,C,0.02,,,0,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 23°C on August 20?,23.0,23.0,C,,,,0,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 24°C on August 20?,24.0,24.0,C,,,,0,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 25°C on August 20?,25.0,25.0,C,,,,0,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 26°C on August 20?,26.0,26.0,C,,,,1,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 27°C on August 20?,27.0,27.0,C,,,,0,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 28°C on August 20?,28.0,28.0,C,,,,0,24.733,1.012,3
+Paris,2026-08-20,Will the highest temperature in Paris be 29°C or higher on August 20?,29.0,,C,,,,0,24.733,1.012,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 23°C or below on Au,,23.0,C,0.001,,,0,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 24°C on August 20?,24.0,24.0,C,0.001,,,0,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 25°C on August 20?,25.0,25.0,C,0.0012,,,0,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 26°C on August 20?,26.0,26.0,C,0.007,,,0,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 27°C on August 20?,27.0,27.0,C,0.0695,,,0,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 28°C on August 20?,28.0,28.0,C,,,,1,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 29°C on August 20?,29.0,29.0,C,,,,0,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 30°C on August 20?,30.0,30.0,C,,,,0,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 31°C on August 20?,31.0,31.0,C,,,,0,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 32°C on August 20?,32.0,32.0,C,0.01,,,0,27.7,1.559,3
+Seoul,2026-08-20,Will the highest temperature in Seoul (Incheon) be 33°C or higher on A,33.0,,C,0.001,,,0,27.7,1.559,3
+New York,2026-08-21,Will the highest temperature in New York City be 71°F or below on Augu,,71.0,F,0.001,,,0,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be between 72-73°F on Au,72.0,73.0,F,0.0206,,,0,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be between 74-75°F on Au,74.0,75.0,F,0.06,,,0,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be between 76-77°F on Au,76.0,77.0,F,,,,0,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be between 78-79°F on Au,78.0,79.0,F,,,,1,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be between 80-81°F on Au,80.0,81.0,F,,,,0,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be between 82-83°F on Au,82.0,83.0,F,0.08,,,0,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be between 84-85°F on Au,84.0,85.0,F,0.0102,,,0,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be between 86-87°F on Au,86.0,87.0,F,0.002,,,0,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be between 88-89°F on Au,88.0,89.0,F,0.001,,,0,24.8,1.852,3
+New York,2026-08-21,Will the highest temperature in New York City be 90°F or higher on Aug,90.0,,F,0.001,,,0,24.8,1.852,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be 69°F or below on August 21?,,69.0,F,0.004,,,0,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be between 70-71°F on August 2,70.0,71.0,F,0.004,,,0,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be between 72-73°F on August 2,72.0,73.0,F,0.003,,,0,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be between 74-75°F on August 2,74.0,75.0,F,0.002,,,0,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,0.04,,,0,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,,,,0,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,,,,1,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,,,,0,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be between 84-85°F on August 2,84.0,85.0,F,0.02,,,0,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be between 86-87°F on August 2,86.0,87.0,F,0.01,,,0,27.8,1.253,3
+Chicago,2026-08-21,Will the highest temperature in Chicago be 88°F or higher on August 21,88.0,,F,0.001,,,0,27.8,1.253,3
+London,2026-08-21,Will the highest temperature in London be 17°C or below on August 21?,,17.0,C,0.001,,,0,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 18°C on August 21?,18.0,18.0,C,0.01,,,0,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 19°C on August 21?,19.0,19.0,C,,,,0,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 20°C on August 21?,20.0,20.0,C,,,,0,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 21°C on August 21?,21.0,21.0,C,,,,1,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 22°C on August 21?,22.0,22.0,C,,,,0,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 23°C on August 21?,23.0,23.0,C,,,,0,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 24°C on August 21?,24.0,24.0,C,,,,0,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 25°C on August 21?,25.0,25.0,C,,,,0,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 26°C on August 21?,26.0,26.0,C,0.001,,,0,21.5,0.3,3
+London,2026-08-21,Will the highest temperature in London be 27°C or higher on August 21?,27.0,,C,0.001,,,0,21.5,0.3,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be 99°F or below on August 21?,,99.0,F,,,,1,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,,,,0,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,,,,0,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,,,,0,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,,,,0,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,0.07,,,0,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be between 110-111°F on August ,110.0,111.0,F,0.01,,,0,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be between 112-113°F on August ,112.0,113.0,F,0.002,,,0,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be between 114-115°F on August ,114.0,115.0,F,0.003,,,0,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be between 116-117°F on August ,116.0,117.0,F,0.001,,,0,41.433,0.764,3
+Dallas,2026-08-21,Will the highest temperature in Dallas be 118°F or higher on August 21,118.0,,F,0.002,,,0,41.433,0.764,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be 61°F or below on Augu,,61.0,F,0.01,,,0,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be between 62-63°F on Au,62.0,63.0,F,0.01,,,0,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be between 64-65°F on Au,64.0,65.0,F,0.04,,,0,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,,,,1,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,,,,0,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,,,,0,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,0.07,,,0,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,0.02,,,0,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be between 76-77°F on Au,76.0,77.0,F,0.001,,,0,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be between 78-79°F on Au,78.0,79.0,F,0.001,,,0,20.233,1.25,3
+San Francisco,2026-08-21,Will the highest temperature in San Francisco be 80°F or higher on Aug,80.0,,F,0.001,,,0,20.233,1.25,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 25°C or below on August 21?,,25.0,C,0.001,,,0,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 26°C on August 21?,26.0,26.0,C,0.001,,,0,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 27°C on August 21?,27.0,27.0,C,0.01,,,0,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 28°C on August 21?,28.0,28.0,C,0.02,,,0,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 29°C on August 21?,29.0,29.0,C,0.06,,,0,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 30°C on August 21?,30.0,30.0,C,0.21,,,0,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 31°C on August 21?,31.0,31.0,C,,,,0,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 32°C on August 21?,32.0,32.0,C,,,,1,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 33°C on August 21?,33.0,33.0,C,,,,0,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 34°C on August 21?,34.0,34.0,C,,,,0,30.333,0.513,3
+Tokyo,2026-08-21,Will the highest temperature in Tokyo be 35°C or higher on August 21?,35.0,,C,,,,0,30.333,0.513,3
+Paris,2026-08-21,Will the highest temperature in Paris be 20°C or below on August 21?,,20.0,C,0.006,,,0,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 21°C on August 21?,21.0,21.0,C,0.03,,,0,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 22°C on August 21?,22.0,22.0,C,,,,0,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 23°C on August 21?,23.0,23.0,C,,,,0,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 24°C on August 21?,24.0,24.0,C,,,,1,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 25°C on August 21?,25.0,25.0,C,,,,0,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 26°C on August 21?,26.0,26.0,C,,,,0,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 27°C on August 21?,27.0,27.0,C,,,,0,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 28°C on August 21?,28.0,28.0,C,0.001,,,0,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 29°C on August 21?,29.0,29.0,C,0.001,,,0,24.233,1.206,3
+Paris,2026-08-21,Will the highest temperature in Paris be 30°C or higher on August 21?,30.0,,C,0.001,,,0,24.233,1.206,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 23°C or below on Au,,23.0,C,0.001,,,0,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 24°C on August 21?,24.0,24.0,C,0.001,,,0,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 25°C on August 21?,25.0,25.0,C,0.01,,,0,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 26°C on August 21?,26.0,26.0,C,,,,0,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 27°C on August 21?,27.0,27.0,C,,,,1,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 28°C on August 21?,28.0,28.0,C,,,,0,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 29°C on August 21?,29.0,29.0,C,,,,0,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 30°C on August 21?,30.0,30.0,C,,,,0,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 31°C on August 21?,31.0,31.0,C,0.001,,,0,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 32°C on August 21?,32.0,32.0,C,0.001,,,0,26.1,0.866,3
+Seoul,2026-08-21,Will the highest temperature in Seoul (Incheon) be 33°C or higher on A,33.0,,C,0.001,,,0,26.1,0.866,3
+New York,2026-08-22,Will the highest temperature in New York City be 67°F or below on Augu,,67.0,F,0.001,,,0,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be between 68-69°F on Au,68.0,69.0,F,0.003,,,0,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be between 70-71°F on Au,70.0,71.0,F,0.007,,,0,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be between 72-73°F on Au,72.0,73.0,F,,,,0,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be between 74-75°F on Au,74.0,75.0,F,,,,0,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be between 76-77°F on Au,76.0,77.0,F,,,,1,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be between 78-79°F on Au,78.0,79.0,F,,,,0,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be between 80-81°F on Au,80.0,81.0,F,,,,0,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be between 82-83°F on Au,82.0,83.0,F,0.01,,,0,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be between 84-85°F on Au,84.0,85.0,F,0.0025,,,0,24.933,1.185,3
+New York,2026-08-22,Will the highest temperature in New York City be 86°F or higher on Aug,86.0,,F,0.002,,,0,24.933,1.185,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be 69°F or below on August 22?,,69.0,F,0.004,,,0,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be between 70-71°F on August 2,70.0,71.0,F,0.001,,,0,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be between 72-73°F on August 2,72.0,73.0,F,0.001,,,0,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be between 74-75°F on August 2,74.0,75.0,F,0.003,,,0,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,0.04,,,0,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,0.28,,,0,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,,,,1,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,0.1125,,,0,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be between 84-85°F on August 2,84.0,85.0,F,0.02,,,0,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be between 86-87°F on August 2,86.0,87.0,F,0.01,,,0,26.733,0.379,3
+Chicago,2026-08-22,Will the highest temperature in Chicago be 88°F or higher on August 22,88.0,,F,0.001,,,0,26.733,0.379,3
+London,2026-08-22,Will the highest temperature in London be 68°F or below on August 22?,,68.0,F,0.02,,,0,21.833,0.503,3
+London,2026-08-22,Will the highest temperature in London be between 69-70°F on August 22,69.0,70.0,F,0.22,,,0,21.833,0.503,3
+London,2026-08-22,Will the highest temperature in London be between 71-72°F on August 22,71.0,72.0,F,0.26,,,1,21.833,0.503,3
+London,2026-08-22,Will the highest temperature in London be between 73-74°F on August 22,73.0,74.0,F,0.2,,,0,21.833,0.503,3
+London,2026-08-22,Will the highest temperature in London be between 75-76°F on August 22,75.0,76.0,F,0.03,,,0,21.833,0.503,3
+London,2026-08-22,Will the highest temperature in London be between 77-78°F on August 22,77.0,78.0,F,0.01,,,0,21.833,0.503,3
+London,2026-08-22,Will the highest temperature in London be 79°F or higher on August 22?,79.0,,F,0.01,,,0,21.833,0.503,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be 97°F or below on August 22?,,97.0,F,0.005,,,0,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be between 98-99°F on August 22,98.0,99.0,F,0.01,,,0,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,,,,0,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,,,,0,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,,,,1,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,,,,0,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,0.1,,,0,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be between 110-111°F on August ,110.0,111.0,F,0.02,,,0,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be between 112-113°F on August ,112.0,113.0,F,0.02,,,0,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be between 114-115°F on August ,114.0,115.0,F,0.005,,,0,42.433,0.473,3
+Dallas,2026-08-22,Will the highest temperature in Dallas be 116°F or higher on August 22,116.0,,F,0.002,,,0,42.433,0.473,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be 59°F or below on Augu,,59.0,F,0.001,,,0,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be between 60-61°F on Au,60.0,61.0,F,0.001,,,0,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be between 62-63°F on Au,62.0,63.0,F,0.0026,,,0,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be between 64-65°F on Au,64.0,65.0,F,0.01,,,0,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,0.03,,,0,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,0.19,,,1,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,0.35,,,0,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,0.28,,,0,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,0.1089,,,0,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be between 76-77°F on Au,76.0,77.0,F,0.0453,,,0,21.933,2.003,3
+San Francisco,2026-08-22,Will the highest temperature in San Francisco be 78°F or higher on Aug,78.0,,F,0.001,,,0,21.933,2.003,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 26°C or below on August 22?,,26.0,C,0.001,,,0,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 27°C on August 22?,27.0,27.0,C,0.002,,,0,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 28°C on August 22?,28.0,28.0,C,0.01,,,0,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 29°C on August 22?,29.0,29.0,C,0.03,,,0,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 30°C on August 22?,30.0,30.0,C,0.16,,,0,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 31°C on August 22?,31.0,31.0,C,,,,1,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 32°C on August 22?,32.0,32.0,C,,,,0,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 33°C on August 22?,33.0,33.0,C,,,,0,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 34°C on August 22?,34.0,34.0,C,,,,0,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 35°C on August 22?,35.0,35.0,C,0.005,,,0,30.3,0.557,3
+Tokyo,2026-08-22,Will the highest temperature in Tokyo be 36°C or higher on August 22?,36.0,,C,0.0016,,,0,30.3,0.557,3
+Paris,2026-08-22,Will the highest temperature in Paris be 19°C or below on August 22?,,19.0,C,0.001,,,0,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 20°C on August 22?,20.0,20.0,C,0.002,,,0,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 21°C on August 22?,21.0,21.0,C,0.03,,,0,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 22°C on August 22?,22.0,22.0,C,,,,0,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 23°C on August 22?,23.0,23.0,C,,,,0,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 24°C on August 22?,24.0,24.0,C,,,,1,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 25°C on August 22?,25.0,25.0,C,,,,0,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 26°C on August 22?,26.0,26.0,C,,,,0,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 27°C on August 22?,27.0,27.0,C,0.002,,,0,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 28°C on August 22?,28.0,28.0,C,0.001,,,0,23.133,0.971,3
+Paris,2026-08-22,Will the highest temperature in Paris be 29°C or higher on August 22?,29.0,,C,0.001,,,0,23.133,0.971,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 24°C or below on Au,,24.0,C,0.002,,,0,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 25°C on August 22?,25.0,25.0,C,0.001,,,0,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 26°C on August 22?,26.0,26.0,C,,,,0,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 27°C on August 22?,27.0,27.0,C,,,,1,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 28°C on August 22?,28.0,28.0,C,,,,0,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 29°C on August 22?,29.0,29.0,C,,,,0,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 30°C on August 22?,30.0,30.0,C,,,,0,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 31°C on August 22?,31.0,31.0,C,0.04,,,0,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 32°C on August 22?,32.0,32.0,C,0.007,,,0,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 33°C on August 22?,33.0,33.0,C,0.001,,,0,27.5,1.997,3
+Seoul,2026-08-22,Will the highest temperature in Seoul (Incheon) be 34°C or higher on A,34.0,,C,0.001,,,0,27.5,1.997,3
+New York,2026-08-23,Will the highest temperature in New York City be 73°F or below on Augu,,73.0,F,0.001,,,0,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be between 74-75°F on Au,74.0,75.0,F,0.001,,,0,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be between 76-77°F on Au,76.0,77.0,F,0.007,,,0,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be between 78-79°F on Au,78.0,79.0,F,,,,0,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be between 80-81°F on Au,80.0,81.0,F,,,,0,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be between 82-83°F on Au,82.0,83.0,F,,,,1,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be between 84-85°F on Au,84.0,85.0,F,,,,0,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be between 86-87°F on Au,86.0,87.0,F,,,,0,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be between 88-89°F on Au,88.0,89.0,F,0.02,,,0,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be between 90-91°F on Au,90.0,91.0,F,0.002,,,0,27.167,1.137,3
+New York,2026-08-23,Will the highest temperature in New York City be 92°F or higher on Aug,92.0,,F,0.002,,,0,27.167,1.137,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be 65°F or below on August 23?,,65.0,F,0.001,,,0,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be between 66-67°F on August 2,66.0,67.0,F,0.003,,,0,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be between 68-69°F on August 2,68.0,69.0,F,0.004,,,0,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be between 70-71°F on August 2,70.0,71.0,F,0.02,,,0,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be between 72-73°F on August 2,72.0,73.0,F,0.07,,,0,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be between 74-75°F on August 2,74.0,75.0,F,0.41,,,0,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,,,,1,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,0.1,,,0,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,,,,0,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,0.001,,,0,24.067,1.002,3
+Chicago,2026-08-23,Will the highest temperature in Chicago be 84°F or higher on August 23,84.0,,F,0.001,,,0,24.067,1.002,3
+London,2026-08-23,Will the highest temperature in London be 64°F or below on August 23?,,64.0,F,0.003,,,0,23.833,0.451,3
+London,2026-08-23,Will the highest temperature in London be between 65-66°F on August 23,65.0,66.0,F,,,,0,23.833,0.451,3
+London,2026-08-23,Will the highest temperature in London be between 67-68°F on August 23,67.0,68.0,F,0.36,,,0,23.833,0.451,3
+London,2026-08-23,Will the highest temperature in London be between 69-70°F on August 23,69.0,70.0,F,0.38,,,0,23.833,0.451,3
+London,2026-08-23,Will the highest temperature in London be between 71-72°F on August 23,71.0,72.0,F,0.45,,,1,23.833,0.451,3
+London,2026-08-23,Will the highest temperature in London be between 73-74°F on August 23,73.0,74.0,F,0.03,,,0,23.833,0.451,3
+London,2026-08-23,Will the highest temperature in London be 75°F or higher on August 23?,75.0,,F,0.019,,,0,23.833,0.451,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be 101°F or below on August 23?,,101.0,F,0.01,,,0,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,0.03,,,0,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,,,,0,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,,,,0,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,,,,1,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be between 110-111°F on August ,110.0,111.0,F,0.03,,,0,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be between 112-113°F on August ,112.0,113.0,F,0.02,,,0,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be between 114-115°F on August ,114.0,115.0,F,0.01,,,0,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be between 116-117°F on August ,116.0,117.0,F,0.01,,,0,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be between 118-119°F on August ,118.0,119.0,F,0.002,,,0,42.7,0.3,3
+Dallas,2026-08-23,Will the highest temperature in Dallas be 120°F or higher on August 23,120.0,,F,0.002,,,0,42.7,0.3,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be 65°F or below on Augu,,65.0,F,0.03,,,0,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,0.02,,,0,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,0.05,,,0,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,,,,0,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,,,,0,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,0.22,,,0,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be between 76-77°F on Au,76.0,77.0,F,,,,1,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be between 78-79°F on Au,78.0,79.0,F,0.01,,,0,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be between 80-81°F on Au,80.0,81.0,F,0.01,,,0,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be between 82-83°F on Au,82.0,83.0,F,0.002,,,0,23.967,2.558,3
+San Francisco,2026-08-23,Will the highest temperature in San Francisco be 84°F or higher on Aug,84.0,,F,0.002,,,0,23.967,2.558,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 25°C or below on August 23?,,25.0,C,0.001,,,0,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 26°C on August 23?,26.0,26.0,C,0.002,,,0,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 27°C on August 23?,27.0,27.0,C,0.01,,,0,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 28°C on August 23?,28.0,28.0,C,0.02,,,0,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 29°C on August 23?,29.0,29.0,C,,,,0,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 30°C on August 23?,30.0,30.0,C,,,,0,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 31°C on August 23?,31.0,31.0,C,,,,1,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 32°C on August 23?,32.0,32.0,C,,,,0,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 33°C on August 23?,33.0,33.0,C,0.02,,,0,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 34°C on August 23?,34.0,34.0,C,0.01,,,0,30.667,0.351,3
+Tokyo,2026-08-23,Will the highest temperature in Tokyo be 35°C or higher on August 23?,35.0,,C,0.002,,,0,30.667,0.351,3
+Paris,2026-08-23,Will the highest temperature in Paris be 20°C or below on August 23?,,20.0,C,0.002,,,0,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 21°C on August 23?,21.0,21.0,C,0.006,,,0,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 22°C on August 23?,22.0,22.0,C,0.02,,,0,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 23°C on August 23?,23.0,23.0,C,,,,0,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 24°C on August 23?,24.0,24.0,C,,,,1,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 25°C on August 23?,25.0,25.0,C,,,,0,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 26°C on August 23?,26.0,26.0,C,,,,0,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 27°C on August 23?,27.0,27.0,C,0.001,,,0,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 28°C on August 23?,28.0,28.0,C,0.001,,,0,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 29°C on August 23?,29.0,29.0,C,0.001,,,0,23.767,1.518,3
+Paris,2026-08-23,Will the highest temperature in Paris be 30°C or higher on August 23?,30.0,,C,0.001,,,0,23.767,1.518,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 25°C or below on Au,,25.0,C,0.001,,,0,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 26°C on August 23?,26.0,26.0,C,0.001,,,0,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 27°C on August 23?,27.0,27.0,C,0.003,,,0,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 28°C on August 23?,28.0,28.0,C,0.01,,,0,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 29°C on August 23?,29.0,29.0,C,0.03,,,0,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 30°C on August 23?,30.0,30.0,C,0.2,,,0,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 31°C on August 23?,31.0,31.0,C,,,,0,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 32°C on August 23?,32.0,32.0,C,,,,1,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 33°C on August 23?,33.0,33.0,C,,,,0,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 34°C on August 23?,34.0,34.0,C,0.008,,,0,29.4,2.03,3
+Seoul,2026-08-23,Will the highest temperature in Seoul (Incheon) be 35°C or higher on A,35.0,,C,0.001,,,0,29.4,2.03,3
+New York,2026-08-24,Will the highest temperature in New York City be 67°F or below on Augu,,67.0,F,0.001,,,0,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be between 68-69°F on Au,68.0,69.0,F,0.001,,,0,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be between 70-71°F on Au,70.0,71.0,F,0.001,,,0,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be between 72-73°F on Au,72.0,73.0,F,0.001,,,0,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be between 74-75°F on Au,74.0,75.0,F,0.02,,,0,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be between 76-77°F on Au,76.0,77.0,F,,,,0,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be between 78-79°F on Au,78.0,79.0,F,,,,0,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be between 80-81°F on Au,80.0,81.0,F,,,,1,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be between 82-83°F on Au,82.0,83.0,F,,,,0,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be between 84-85°F on Au,84.0,85.0,F,,,,0,25.6,1.153,3
+New York,2026-08-24,Will the highest temperature in New York City be 86°F or higher on Aug,86.0,,F,0.01,,,0,25.6,1.153,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be 69°F or below on August 24?,,69.0,F,0.005,,,0,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be between 70-71°F on August 2,70.0,71.0,F,0.001,,,0,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be between 72-73°F on August 2,72.0,73.0,F,0.0118,,,0,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be between 74-75°F on August 2,74.0,75.0,F,0.09,,,0,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,0.48,,,0,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,,,,1,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,0.06,,,0,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,0.01,,,0,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be between 84-85°F on August 2,84.0,85.0,F,0.011,,,0,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be between 86-87°F on August 2,86.0,87.0,F,0.002,,,0,26.1,1.3,3
+Chicago,2026-08-24,Will the highest temperature in Chicago be 88°F or higher on August 24,88.0,,F,0.002,,,0,26.1,1.3,3
+London,2026-08-24,Will the highest temperature in London be 17°C or below on August 24?,,17.0,C,0.004,,,0,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 18°C on August 24?,18.0,18.0,C,0.005,,,0,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 19°C on August 24?,19.0,19.0,C,0.01,,,0,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 20°C on August 24?,20.0,20.0,C,,,,0,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 21°C on August 24?,21.0,21.0,C,,,,0,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 22°C on August 24?,22.0,22.0,C,,,,1,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 23°C on August 24?,23.0,23.0,C,,,,0,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 24°C on August 24?,24.0,24.0,C,0.02,,,0,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 25°C on August 24?,25.0,25.0,C,0.002,,,0,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 26°C on August 24?,26.0,26.0,C,0.001,,,0,21.467,0.231,3
+London,2026-08-24,Will the highest temperature in London be 27°C or higher on August 24?,27.0,,C,0.001,,,0,21.467,0.231,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be 99°F or below on August 24?,,99.0,F,0.0037,,,0,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,0.01,,,0,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,,,,0,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,0.24,,,0,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,,,,1,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,,,,0,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be between 110-111°F on August ,110.0,111.0,F,0.04,,,0,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be between 112-113°F on August ,112.0,113.0,F,0.01,,,0,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be between 114-115°F on August ,114.0,115.0,F,0.01,,,0,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be between 116-117°F on August ,116.0,117.0,F,0.005,,,0,42.4,0.52,3
+Dallas,2026-08-24,Will the highest temperature in Dallas be 118°F or higher on August 24,118.0,,F,0.004,,,0,42.4,0.52,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be 63°F or below on Augu,,63.0,F,0.02,,,0,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be between 64-65°F on Au,64.0,65.0,F,0.03,,,0,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,0.12,,,0,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,0.24,,,0,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,,,,1,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,,,,0,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,0.07,,,0,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be between 76-77°F on Au,76.0,77.0,F,0.11,,,0,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be between 78-79°F on Au,78.0,79.0,F,0.01,,,0,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be between 80-81°F on Au,80.0,81.0,F,0.01,,,0,21.867,0.208,3
+San Francisco,2026-08-24,Will the highest temperature in San Francisco be 82°F or higher on Aug,82.0,,F,0.002,,,0,21.867,0.208,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 25°C or below on August 24?,,25.0,C,0.001,,,0,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 26°C on August 24?,26.0,26.0,C,0.001,,,0,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 27°C on August 24?,27.0,27.0,C,0.004,,,0,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 28°C on August 24?,28.0,28.0,C,0.003,,,0,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 29°C on August 24?,29.0,29.0,C,0.01,,,0,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 30°C on August 24?,30.0,30.0,C,0.0374,,,0,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 31°C on August 24?,31.0,31.0,C,0.13,,,0,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 32°C on August 24?,32.0,32.0,C,,,,0,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 33°C on August 24?,33.0,33.0,C,,,,1,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 34°C on August 24?,34.0,34.0,C,,,,0,31.167,1.021,3
+Tokyo,2026-08-24,Will the highest temperature in Tokyo be 35°C or higher on August 24?,35.0,,C,0.03,,,0,31.167,1.021,3
+Paris,2026-08-24,Will the highest temperature in Paris be 23°C or below on August 24?,,23.0,C,0.002,,,0,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 24°C on August 24?,24.0,24.0,C,0.02,,,0,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 25°C on August 24?,25.0,25.0,C,,,,0,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 26°C on August 24?,26.0,26.0,C,,,,0,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 27°C on August 24?,27.0,27.0,C,,,,1,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 28°C on August 24?,28.0,28.0,C,,,,0,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 29°C on August 24?,29.0,29.0,C,,,,0,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 30°C on August 24?,30.0,30.0,C,,,,0,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 31°C on August 24?,31.0,31.0,C,0.001,,,0,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 32°C on August 24?,32.0,32.0,C,0.002,,,0,26.967,0.802,3
+Paris,2026-08-24,Will the highest temperature in Paris be 33°C or higher on August 24?,33.0,,C,0.001,,,0,26.967,0.802,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 23°C or below on Au,,23.0,C,0.001,,,0,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 24°C on August 24?,24.0,24.0,C,0.001,,,0,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 25°C on August 24?,25.0,25.0,C,0.001,,,0,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 26°C on August 24?,26.0,26.0,C,0.004,,,0,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 27°C on August 24?,27.0,27.0,C,0.003,,,0,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 28°C on August 24?,28.0,28.0,C,0.014,,,0,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 29°C on August 24?,29.0,29.0,C,0.06,,,0,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 30°C on August 24?,30.0,30.0,C,0.32,,,0,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 31°C on August 24?,31.0,31.0,C,,,,1,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 32°C on August 24?,32.0,32.0,C,,,,0,28.733,1.986,3
+Seoul,2026-08-24,Will the highest temperature in Seoul (Incheon) be 33°C or higher on A,33.0,,C,,,,0,28.733,1.986,3
+New York,2026-08-25,Will the highest temperature in New York City be 67°F or below on Augu,,67.0,F,0.001,,,0,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be between 68-69°F on Au,68.0,69.0,F,0.001,,,0,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be between 70-71°F on Au,70.0,71.0,F,0.001,,,0,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be between 72-73°F on Au,72.0,73.0,F,0.002,,,0,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be between 74-75°F on Au,74.0,75.0,F,,,,0,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be between 76-77°F on Au,76.0,77.0,F,,,,0,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be between 78-79°F on Au,78.0,79.0,F,,,,1,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be between 80-81°F on Au,80.0,81.0,F,,,,0,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be between 82-83°F on Au,82.0,83.0,F,,,,0,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be between 84-85°F on Au,84.0,85.0,F,0.01,,,0,25.7,1.044,3
+New York,2026-08-25,Will the highest temperature in New York City be 86°F or higher on Aug,86.0,,F,0.0042,,,0,25.7,1.044,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be 71°F or below on August 25?,,71.0,F,0.0012,,,0,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be between 72-73°F on August 2,72.0,73.0,F,0.001,,,0,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be between 74-75°F on August 2,74.0,75.0,F,0.001,,,0,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,0.05,,,0,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,,,,0,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,,,,1,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,0.14,,,0,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be between 84-85°F on August 2,84.0,85.0,F,0.03,,,0,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be between 86-87°F on August 2,86.0,87.0,F,0.002,,,0,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be between 88-89°F on August 2,88.0,89.0,F,0.001,,,0,27.267,1.079,3
+Chicago,2026-08-25,Will the highest temperature in Chicago be 90°F or higher on August 25,90.0,,F,0.001,,,0,27.267,1.079,3
+London,2026-08-25,Will the highest temperature in London be 17°C or below on August 25?,,17.0,C,0.0033,,,0,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 18°C on August 25?,18.0,18.0,C,0.001,,,0,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 19°C on August 25?,19.0,19.0,C,0.001,,,0,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 20°C on August 25?,20.0,20.0,C,0.01,,,0,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 21°C on August 25?,21.0,21.0,C,0.02,,,0,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 22°C on August 25?,22.0,22.0,C,,,,0,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 23°C on August 25?,23.0,23.0,C,,,,0,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 24°C on August 25?,24.0,24.0,C,,,,1,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 25°C on August 25?,25.0,25.0,C,,,,0,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 26°C on August 25?,26.0,26.0,C,,,,0,23.8,0.3,3
+London,2026-08-25,Will the highest temperature in London be 27°C or higher on August 25?,27.0,,C,,,,0,23.8,0.3,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be 99°F or below on August 25?,,99.0,F,,,,0,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,,,,1,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,,,,0,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,,,,0,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,,,,0,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,0.07,,,0,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be between 110-111°F on August ,110.0,111.0,F,0.02,,,0,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be between 112-113°F on August ,112.0,113.0,F,0.01,,,0,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be between 114-115°F on August ,114.0,115.0,F,0.001,,,0,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be between 116-117°F on August ,116.0,117.0,F,0.001,,,0,40.833,2.122,3
+Dallas,2026-08-25,Will the highest temperature in Dallas be 118°F or higher on August 25,118.0,,F,0.001,,,0,40.833,2.122,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be 63°F or below on Augu,,63.0,F,0.001,,,0,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be between 64-65°F on Au,64.0,65.0,F,0.02,,,0,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,,,,1,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,,,,0,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,,,,0,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,,,,0,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,0.16,,,0,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be between 76-77°F on Au,76.0,77.0,F,0.06,,,0,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be between 78-79°F on Au,78.0,79.0,F,0.02,,,0,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be between 80-81°F on Au,80.0,81.0,F,0.002,,,0,22.467,1.172,3
+San Francisco,2026-08-25,Will the highest temperature in San Francisco be 82°F or higher on Aug,82.0,,F,0.02,,,0,22.467,1.172,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 29°C or below on August 25?,,29.0,C,0.001,,,0,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 30°C on August 25?,30.0,30.0,C,0.01,,,0,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 31°C on August 25?,31.0,31.0,C,0.01,,,0,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 32°C on August 25?,32.0,32.0,C,0.1,,,0,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 33°C on August 25?,33.0,33.0,C,,,,0,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 34°C on August 25?,34.0,34.0,C,,,,1,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 35°C on August 25?,35.0,35.0,C,,,,0,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 36°C on August 25?,36.0,36.0,C,,,,0,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 37°C on August 25?,37.0,37.0,C,0.01,,,0,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 38°C on August 25?,38.0,38.0,C,0.002,,,0,32.567,0.961,3
+Tokyo,2026-08-25,Will the highest temperature in Tokyo be 39°C or higher on August 25?,39.0,,C,0.001,,,0,32.567,0.961,3
+Paris,2026-08-25,Will the highest temperature in Paris be 22°C or below on August 25?,,22.0,C,0.003,,,0,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 23°C on August 25?,23.0,23.0,C,0.0181,,,0,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 24°C on August 25?,24.0,24.0,C,0.02,,,0,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 25°C on August 25?,25.0,25.0,C,0.1769,,,0,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 26°C on August 25?,26.0,26.0,C,,,,0,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 27°C on August 25?,27.0,27.0,C,,,,0,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 28°C on August 25?,28.0,28.0,C,,,,0,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 29°C on August 25?,29.0,29.0,C,,,,1,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 30°C on August 25?,30.0,30.0,C,,,,0,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 31°C on August 25?,31.0,31.0,C,,,,0,26.3,0.346,3
+Paris,2026-08-25,Will the highest temperature in Paris be 32°C or higher on August 25?,32.0,,C,0.001,,,0,26.3,0.346,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 24°C or below on Au,,24.0,C,0.001,,,0,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 25°C on August 25?,25.0,25.0,C,0.001,,,0,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 26°C on August 25?,26.0,26.0,C,0.001,,,0,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 27°C on August 25?,27.0,27.0,C,0.002,,,0,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 28°C on August 25?,28.0,28.0,C,0.011,,,0,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 29°C on August 25?,29.0,29.0,C,0.11,,,0,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 30°C on August 25?,30.0,30.0,C,,,,0,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 31°C on August 25?,31.0,31.0,C,,,,1,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 32°C on August 25?,32.0,32.0,C,,,,0,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 33°C on August 25?,33.0,33.0,C,0.01,,,0,28.367,1.168,3
+Seoul,2026-08-25,Will the highest temperature in Seoul (Incheon) be 34°C or higher on A,34.0,,C,0.002,,,0,28.367,1.168,3
+New York,2026-08-26,Will the highest temperature in New York City be 72°F or below on Augu,,72.0,F,0.003,,,0,27.967,1.007,3
+New York,2026-08-26,Will the highest temperature in New York City be between 73-74°F on Au,73.0,74.0,F,0.01,,,0,27.967,1.007,3
+New York,2026-08-26,Will the highest temperature in New York City be between 75-76°F on Au,75.0,76.0,F,0.05,,,0,27.967,1.007,3
+New York,2026-08-26,Will the highest temperature in New York City be between 77-78°F on Au,77.0,78.0,F,0.0906,,,0,27.967,1.007,3
+New York,2026-08-26,Will the highest temperature in New York City be between 79-80°F on Au,79.0,80.0,F,0.44,,,1,27.967,1.007,3
+New York,2026-08-26,Will the highest temperature in New York City be between 81-82°F on Au,81.0,82.0,F,0.25,,,0,27.967,1.007,3
+New York,2026-08-26,Will the highest temperature in New York City be 83°F or higher on Aug,83.0,,F,0.012,,,0,27.967,1.007,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be 75°F or below on August 26?,,75.0,F,0.001,,,0,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,0.01,,,0,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,0.01,,,0,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,0.07,,,0,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,0.31,,,0,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be between 84-85°F on August 2,84.0,85.0,F,0.48,,,1,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be between 86-87°F on August 2,86.0,87.0,F,0.11,,,0,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be between 88-89°F on August 2,88.0,89.0,F,0.02,,,0,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be between 90-91°F on August 2,90.0,91.0,F,0.001,,,0,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be between 92-93°F on August 2,92.0,93.0,F,0.001,,,0,29.267,0.902,3
+Chicago,2026-08-26,Will the highest temperature in Chicago be 94°F or higher on August 26,94.0,,F,0.001,,,0,29.267,0.902,3
+London,2026-08-26,Will the highest temperature in London be 72°F or below on August 26?,,72.0,F,0.0417,,,0,26.667,0.808,3
+London,2026-08-26,Will the highest temperature in London be between 73-74°F on August 26,73.0,74.0,F,0.05,,,0,26.667,0.808,3
+London,2026-08-26,Will the highest temperature in London be between 75-76°F on August 26,75.0,76.0,F,0.5,,,0,26.667,0.808,3
+London,2026-08-26,Will the highest temperature in London be between 77-78°F on August 26,77.0,78.0,F,,,,1,26.667,0.808,3
+London,2026-08-26,Will the highest temperature in London be between 79-80°F on August 26,79.0,80.0,F,0.03,,,0,26.667,0.808,3
+London,2026-08-26,Will the highest temperature in London be between 81-82°F on August 26,81.0,82.0,F,0.014,,,0,26.667,0.808,3
+London,2026-08-26,Will the highest temperature in London be 83°F or higher on August 26?,83.0,,F,0.0125,,,0,26.667,0.808,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be 95°F or below on August 26?,,95.0,F,0.01,,,0,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be between 96-97°F on August 26,96.0,97.0,F,,,,0,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be between 98-99°F on August 26,98.0,99.0,F,,,,0,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,,,,1,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,,,,0,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,0.09,,,0,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,0.02,,,0,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,0.011,,,0,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be between 110-111°F on August ,110.0,111.0,F,0.002,,,0,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be between 112-113°F on August ,112.0,113.0,F,0.001,,,0,38.867,2.101,3
+Dallas,2026-08-26,Will the highest temperature in Dallas be 114°F or higher on August 26,114.0,,F,0.001,,,0,38.867,2.101,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be 69°F or below on Augu,,69.0,F,0.01,,,0,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,0.0187,,,0,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,,,,0,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,,,,0,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be between 76-77°F on Au,76.0,77.0,F,,,,1,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be between 78-79°F on Au,78.0,79.0,F,,,,0,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be between 80-81°F on Au,80.0,81.0,F,0.09,,,0,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be between 82-83°F on Au,82.0,83.0,F,0.01,,,0,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be between 84-85°F on Au,84.0,85.0,F,0.01,,,0,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be between 86-87°F on Au,86.0,87.0,F,0.001,,,0,26.467,1.419,3
+San Francisco,2026-08-26,Will the highest temperature in San Francisco be 88°F or higher on Aug,88.0,,F,0.001,,,0,26.467,1.419,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 28°C or below on August 26?,,28.0,C,0.001,,,0,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 29°C on August 26?,29.0,29.0,C,0.001,,,0,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 30°C on August 26?,30.0,30.0,C,0.001,,,0,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 31°C on August 26?,31.0,31.0,C,0.01,,,0,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 32°C on August 26?,32.0,32.0,C,0.03,,,0,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 33°C on August 26?,33.0,33.0,C,,,,1,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 34°C on August 26?,34.0,34.0,C,0.36,,,0,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 35°C on August 26?,35.0,35.0,C,0.28,,,0,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 36°C on August 26?,36.0,36.0,C,,,,0,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 37°C on August 26?,37.0,37.0,C,0.0481,,,0,33.033,0.702,3
+Tokyo,2026-08-26,Will the highest temperature in Tokyo be 38°C or higher on August 26?,38.0,,C,0.001,,,0,33.033,0.702,3
+Paris,2026-08-26,Will the highest temperature in Paris be 23°C or below on August 26?,,23.0,C,0.001,,,0,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 24°C on August 26?,24.0,24.0,C,0.005,,,0,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 25°C on August 26?,25.0,25.0,C,0.002,,,0,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 26°C on August 26?,26.0,26.0,C,0.01,,,0,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 27°C on August 26?,27.0,27.0,C,0.03,,,0,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 28°C on August 26?,28.0,28.0,C,,,,0,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 29°C on August 26?,29.0,29.0,C,,,,1,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 30°C on August 26?,30.0,30.0,C,,,,0,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 31°C on August 26?,31.0,31.0,C,,,,0,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 32°C on August 26?,32.0,32.0,C,,,,0,29.3,0.361,3
+Paris,2026-08-26,Will the highest temperature in Paris be 33°C or higher on August 26?,33.0,,C,0.002,,,0,29.3,0.361,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 23°C or below on Au,,23.0,C,0.001,,,0,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 24°C on August 26?,24.0,24.0,C,0.001,,,0,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 25°C on August 26?,25.0,25.0,C,0.001,,,0,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 26°C on August 26?,26.0,26.0,C,0.001,,,0,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 27°C on August 26?,27.0,27.0,C,0.01,,,0,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 28°C on August 26?,28.0,28.0,C,0.02,,,0,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 29°C on August 26?,29.0,29.0,C,,,,0,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 30°C on August 26?,30.0,30.0,C,,,,1,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 31°C on August 26?,31.0,31.0,C,,,,0,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 32°C on August 26?,32.0,32.0,C,0.04,,,0,28.267,1.501,3
+Seoul,2026-08-26,Will the highest temperature in Seoul (Incheon) be 33°C or higher on A,33.0,,C,0.006,,,0,28.267,1.501,3
+New York,2026-08-27,Will the highest temperature in New York City be 69°F or below on Augu,,69.0,F,0.001,,,0,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be between 70-71°F on Au,70.0,71.0,F,0.01,,,0,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be between 72-73°F on Au,72.0,73.0,F,0.001,,,0,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be between 74-75°F on Au,74.0,75.0,F,0.01,,,0,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be between 76-77°F on Au,76.0,77.0,F,,,,1,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be between 78-79°F on Au,78.0,79.0,F,,,,0,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be between 80-81°F on Au,80.0,81.0,F,,,,0,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be between 82-83°F on Au,82.0,83.0,F,,,,0,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be between 84-85°F on Au,84.0,85.0,F,0.0606,,,0,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be between 86-87°F on Au,86.0,87.0,F,0.01,,,0,26.433,1.007,3
+New York,2026-08-27,Will the highest temperature in New York City be 88°F or higher on Aug,88.0,,F,0.001,,,0,26.433,1.007,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be 73°F or below on August 27?,,73.0,F,0.001,,,0,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be between 74-75°F on August 2,74.0,75.0,F,0.01,,,0,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,0.0315,,,0,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,0.12,,,0,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,,,,0,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,,,,1,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be between 84-85°F on August 2,84.0,85.0,F,0.04,,,0,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be between 86-87°F on August 2,86.0,87.0,F,,,,0,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be between 88-89°F on August 2,88.0,89.0,F,0.01,,,0,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be between 90-91°F on August 2,90.0,91.0,F,0.001,,,0,27.533,0.737,3
+Chicago,2026-08-27,Will the highest temperature in Chicago be 92°F or higher on August 27,92.0,,F,0.001,,,0,27.533,0.737,3
+London,2026-08-27,Will the highest temperature in London be 18°C or below on August 27?,,18.0,C,0.002,,,0,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 19°C on August 27?,19.0,19.0,C,0.001,,,0,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 20°C on August 27?,20.0,20.0,C,0.001,,,0,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 21°C on August 27?,21.0,21.0,C,0.001,,,0,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 22°C on August 27?,22.0,22.0,C,,,,0,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 23°C on August 27?,23.0,23.0,C,,,,0,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 24°C on August 27?,24.0,24.0,C,,,,0,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 25°C on August 27?,25.0,25.0,C,,,,1,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 26°C on August 27?,26.0,26.0,C,,,,0,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 27°C on August 27?,27.0,27.0,C,,,,0,24.367,1.405,3
+London,2026-08-27,Will the highest temperature in London be 28°C or higher on August 27?,28.0,,C,0.003,,,0,24.367,1.405,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be 93°F or below on August 27?,,93.0,F,0.0197,,,0,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be between 94-95°F on August 27,94.0,95.0,F,0.05,,,0,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be between 96-97°F on August 27,96.0,97.0,F,,,,0,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be between 98-99°F on August 27,98.0,99.0,F,,,,0,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,,,,1,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,0.07,,,0,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,0.01,,,0,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,0.01,,,0,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,0.01,,,0,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be between 110-111°F on August ,110.0,111.0,F,0.01,,,0,37.633,0.493,3
+Dallas,2026-08-27,Will the highest temperature in Dallas be 112°F or higher on August 27,112.0,,F,0.001,,,0,37.633,0.493,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be 65°F or below on Augu,,65.0,F,0.0013,,,0,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,0.01,,,0,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,0.031,,,0,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,0.19,,,0,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,,,,1,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,,,,0,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be between 76-77°F on Au,76.0,77.0,F,0.19,,,0,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be between 78-79°F on Au,78.0,79.0,F,0.08,,,0,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be between 80-81°F on Au,80.0,81.0,F,0.02,,,0,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be between 82-83°F on Au,82.0,83.0,F,0.01,,,0,24.867,1.55,3
+San Francisco,2026-08-27,Will the highest temperature in San Francisco be 84°F or higher on Aug,84.0,,F,0.03,,,0,24.867,1.55,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 27°C or below on August 27?,,27.0,C,0.005,,,0,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 28°C on August 27?,28.0,28.0,C,0.01,,,0,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 29°C on August 27?,29.0,29.0,C,0.08,,,0,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 30°C on August 27?,30.0,30.0,C,,,,1,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 31°C on August 27?,31.0,31.0,C,,,,0,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 32°C on August 27?,32.0,32.0,C,,,,0,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 33°C on August 27?,33.0,33.0,C,0.06,,,0,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 34°C on August 27?,34.0,34.0,C,0.0137,,,0,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 35°C on August 27?,35.0,35.0,C,0.01,,,0,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 36°C on August 27?,36.0,36.0,C,0.002,,,0,31.6,0.608,3
+Tokyo,2026-08-27,Will the highest temperature in Tokyo be 37°C or higher on August 27?,37.0,,C,0.001,,,0,31.6,0.608,3
+Paris,2026-08-27,Will the highest temperature in Paris be 20°C or below on August 27?,,20.0,C,0.001,,,0,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 21°C on August 27?,21.0,21.0,C,0.001,,,0,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 22°C on August 27?,22.0,22.0,C,0.001,,,0,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 23°C on August 27?,23.0,23.0,C,0.001,,,0,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 24°C on August 27?,24.0,24.0,C,,,,0,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 25°C on August 27?,25.0,25.0,C,,,,0,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 26°C on August 27?,26.0,26.0,C,,,,0,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 27°C on August 27?,27.0,27.0,C,,,,1,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 28°C on August 27?,28.0,28.0,C,,,,0,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 29°C on August 27?,29.0,29.0,C,,,,0,27.233,1.626,3
+Paris,2026-08-27,Will the highest temperature in Paris be 30°C or higher on August 27?,30.0,,C,,,,0,27.233,1.626,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 23°C or below on Au,,23.0,C,0.001,,,0,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 24°C on August 27?,24.0,24.0,C,0.001,,,0,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 25°C on August 27?,25.0,25.0,C,0.001,,,0,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 26°C on August 27?,26.0,26.0,C,0.001,,,0,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 27°C on August 27?,27.0,27.0,C,0.01,,,0,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 28°C on August 27?,28.0,28.0,C,0.05,,,0,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 29°C on August 27?,29.0,29.0,C,0.23,,,0,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 30°C on August 27?,30.0,30.0,C,,,,1,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 31°C on August 27?,31.0,31.0,C,,,,0,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 32°C on August 27?,32.0,32.0,C,0.04,,,0,27.967,1.55,3
+Seoul,2026-08-27,Will the highest temperature in Seoul (Incheon) be 33°C or higher on A,33.0,,C,0.003,,,0,27.967,1.55,3
+New York,2026-08-28,Will the highest temperature in New York City be 73°F or below on Augu,,73.0,F,0.01,,,0,27.6,1.51,3
+New York,2026-08-28,Will the highest temperature in New York City be between 74-75°F on Au,74.0,75.0,F,0.04,,,0,27.6,1.51,3
+New York,2026-08-28,Will the highest temperature in New York City be between 76-77°F on Au,76.0,77.0,F,,,,1,27.6,1.51,3
+New York,2026-08-28,Will the highest temperature in New York City be between 78-79°F on Au,78.0,79.0,F,0.43,,,0,27.6,1.51,3
+New York,2026-08-28,Will the highest temperature in New York City be between 80-81°F on Au,80.0,81.0,F,,,,0,27.6,1.51,3
+New York,2026-08-28,Will the highest temperature in New York City be between 82-83°F on Au,82.0,83.0,F,0.011,,,0,27.6,1.51,3
+New York,2026-08-28,Will the highest temperature in New York City be 84°F or higher on Aug,84.0,,F,0.003,,,0,27.6,1.51,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be 75°F or below on August 28?,,75.0,F,0.003,,,0,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,0.01,,,0,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,0.02,,,0,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,0.19,,,0,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,,,,1,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be between 84-85°F on August 2,84.0,85.0,F,0.19,,,0,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be between 86-87°F on August 2,86.0,87.0,F,0.05,,,0,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be between 88-89°F on August 2,88.0,89.0,F,0.001,,,0,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be between 90-91°F on August 2,90.0,91.0,F,0.001,,,0,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be between 92-93°F on August 2,92.0,93.0,F,0.001,,,0,28.2,0.985,3
+Chicago,2026-08-28,Will the highest temperature in Chicago be 94°F or higher on August 28,94.0,,F,0.001,,,0,28.2,0.985,3
+London,2026-08-28,Will the highest temperature in London be 15°C or below on August 28?,,15.0,C,0.001,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 16°C on August 28?,16.0,16.0,C,0.001,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 17°C on August 28?,17.0,17.0,C,0.001,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 18°C on August 28?,18.0,18.0,C,0.001,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 19°C on August 28?,19.0,19.0,C,0.001,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 20°C on August 28?,20.0,20.0,C,0.01,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 21°C on August 28?,21.0,21.0,C,0.02,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 22°C on August 28?,22.0,22.0,C,0.1,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 23°C on August 28?,23.0,23.0,C,,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 24°C on August 28?,24.0,24.0,C,,,,0,23.5,1.136,3
+London,2026-08-28,Will the highest temperature in London be 25°C or higher on August 28?,25.0,,C,,,,1,23.5,1.136,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be 91°F or below on August 28?,,91.0,F,0.001,,,0,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be between 92-93°F on August 28,92.0,93.0,F,0.01,,,0,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be between 94-95°F on August 28,94.0,95.0,F,0.01,,,0,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be between 96-97°F on August 28,96.0,97.0,F,0.09,,,0,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be between 98-99°F on August 28,98.0,99.0,F,,,,0,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,,,,1,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,,,,0,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,0.01,,,0,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,0.01,,,0,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,0.0012,,,0,38.167,0.971,3
+Dallas,2026-08-28,Will the highest temperature in Dallas be 110°F or higher on August 28,110.0,,F,0.001,,,0,38.167,0.971,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be 57°F or below on Augu,,57.0,F,0.001,,,0,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be between 58-59°F on Au,58.0,59.0,F,0.005,,,0,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be between 60-61°F on Au,60.0,61.0,F,0.01,,,0,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be between 62-63°F on Au,62.0,63.0,F,0.05,,,0,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be between 64-65°F on Au,64.0,65.0,F,,,,1,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,,,,0,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,,,,0,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,,,,0,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,0.04,,,0,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,0.02,,,0,20.633,1.007,3
+San Francisco,2026-08-28,Will the highest temperature in San Francisco be 76°F or higher on Aug,76.0,,F,,,,0,20.633,1.007,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 26°C or below on August 28?,,26.0,C,0.001,,,0,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 27°C on August 28?,27.0,27.0,C,0.002,,,0,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 28°C on August 28?,28.0,28.0,C,0.01,,,0,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 29°C on August 28?,29.0,29.0,C,0.08,,,0,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 30°C on August 28?,30.0,30.0,C,,,,0,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 31°C on August 28?,31.0,31.0,C,,,,0,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 32°C on August 28?,32.0,32.0,C,,,,1,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 33°C on August 28?,33.0,33.0,C,,,,0,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 34°C on August 28?,34.0,34.0,C,,,,0,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 35°C on August 28?,35.0,35.0,C,0.002,,,0,30.433,0.635,3
+Tokyo,2026-08-28,Will the highest temperature in Tokyo be 36°C or higher on August 28?,36.0,,C,0.002,,,0,30.433,0.635,3
+Paris,2026-08-28,Will the highest temperature in Paris be 16°C or below on August 28?,,16.0,C,0.001,,,0,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 17°C on August 28?,17.0,17.0,C,0.001,,,0,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 18°C on August 28?,18.0,18.0,C,0.001,,,0,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 19°C on August 28?,19.0,19.0,C,0.001,,,0,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 20°C on August 28?,20.0,20.0,C,,,,0,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 21°C on August 28?,21.0,21.0,C,,,,0,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 22°C on August 28?,22.0,22.0,C,,,,0,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 23°C on August 28?,23.0,23.0,C,,,,0,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 24°C on August 28?,24.0,24.0,C,,,,1,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 25°C on August 28?,25.0,25.0,C,,,,0,23.6,1.375,3
+Paris,2026-08-28,Will the highest temperature in Paris be 26°C or higher on August 28?,26.0,,C,,,,0,23.6,1.375,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 23°C or below on Au,,23.0,C,0.001,,,0,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 24°C on August 28?,24.0,24.0,C,0.003,,,0,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 25°C on August 28?,25.0,25.0,C,0.001,,,0,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 26°C on August 28?,26.0,26.0,C,0.0083,,,0,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 27°C on August 28?,27.0,27.0,C,0.0362,,,0,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 28°C on August 28?,28.0,28.0,C,0.02,,,0,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 29°C on August 28?,29.0,29.0,C,,,,0,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 30°C on August 28?,30.0,30.0,C,,,,0,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 31°C on August 28?,31.0,31.0,C,,,,1,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 32°C on August 28?,32.0,32.0,C,,,,0,28.8,1.453,3
+Seoul,2026-08-28,Will the highest temperature in Seoul (Incheon) be 33°C or higher on A,33.0,,C,0.015,,,0,28.8,1.453,3
+New York,2026-08-29,Will the highest temperature in New York City be 72°F or below on Augu,,72.0,F,0.01,,,0,25.4,0.854,3
+New York,2026-08-29,Will the highest temperature in New York City be between 73-74°F on Au,73.0,74.0,F,0.03,,,0,25.4,0.854,3
+New York,2026-08-29,Will the highest temperature in New York City be between 75-76°F on Au,75.0,76.0,F,0.38,,,0,25.4,0.854,3
+New York,2026-08-29,Will the highest temperature in New York City be between 77-78°F on Au,77.0,78.0,F,0.4346,,,1,25.4,0.854,3
+New York,2026-08-29,Will the highest temperature in New York City be between 79-80°F on Au,79.0,80.0,F,0.48,,,0,25.4,0.854,3
+New York,2026-08-29,Will the highest temperature in New York City be between 81-82°F on Au,81.0,82.0,F,0.03,,,0,25.4,0.854,3
+New York,2026-08-29,Will the highest temperature in New York City be 83°F or higher on Aug,83.0,,F,0.011,,,0,25.4,0.854,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be 75°F or below on August 29?,,75.0,F,0.003,,,0,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be between 76-77°F on August 2,76.0,77.0,F,0.03,,,0,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be between 78-79°F on August 2,78.0,79.0,F,0.21,,,0,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be between 80-81°F on August 2,80.0,81.0,F,,,,1,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be between 82-83°F on August 2,82.0,83.0,F,0.32,,,0,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be between 84-85°F on August 2,84.0,85.0,F,0.06,,,0,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be between 86-87°F on August 2,86.0,87.0,F,0.025,,,0,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be between 88-89°F on August 2,88.0,89.0,F,0.004,,,0,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be between 90-91°F on August 2,90.0,91.0,F,0.001,,,0,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be between 92-93°F on August 2,92.0,93.0,F,0.001,,,0,28.433,1.553,3
+Chicago,2026-08-29,Will the highest temperature in Chicago be 94°F or higher on August 29,94.0,,F,0.001,,,0,28.433,1.553,3
+London,2026-08-29,Will the highest temperature in London be 16°C or below on August 29?,,16.0,C,0.001,,,0,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 17°C on August 29?,17.0,17.0,C,0.002,,,0,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 18°C on August 29?,18.0,18.0,C,0.005,,,0,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 19°C on August 29?,19.0,19.0,C,,,,0,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 20°C on August 29?,20.0,20.0,C,,,,1,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 21°C on August 29?,21.0,21.0,C,,,,0,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 22°C on August 29?,22.0,22.0,C,,,,0,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 23°C on August 29?,23.0,23.0,C,,,,0,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 24°C on August 29?,24.0,24.0,C,,,,0,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 25°C on August 29?,25.0,25.0,C,0.0019,,,0,20.367,0.666,3
+London,2026-08-29,Will the highest temperature in London be 26°C or higher on August 29?,26.0,,C,0.001,,,0,20.367,0.666,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be 95°F or below on August 29?,,95.0,F,0.01,,,0,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be between 96-97°F on August 29,96.0,97.0,F,0.02,,,0,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be between 98-99°F on August 29,98.0,99.0,F,0.11,,,0,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,,,,1,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,0.27,,,0,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,0.04,,,0,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,0.03,,,0,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,0.004,,,0,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be between 110-111°F on August ,110.0,111.0,F,0.01,,,0,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be between 112-113°F on August ,112.0,113.0,F,0.001,,,0,39.567,0.404,3
+Dallas,2026-08-29,Will the highest temperature in Dallas be 114°F or higher on August 29,114.0,,F,0.001,,,0,39.567,0.404,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be 57°F or below on Augu,,57.0,F,0.001,,,0,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be between 58-59°F on Au,58.0,59.0,F,0.005,,,0,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be between 60-61°F on Au,60.0,61.0,F,0.01,,,0,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be between 62-63°F on Au,62.0,63.0,F,,,,0,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be between 64-65°F on Au,64.0,65.0,F,,,,0,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,,,,0,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,,,,0,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,,,,1,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,0.02,,,0,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,,,,0,20.167,0.802,3
+San Francisco,2026-08-29,Will the highest temperature in San Francisco be 76°F or higher on Aug,76.0,,F,0.005,,,0,20.167,0.802,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 22°C or below on August 29?,,22.0,C,0.001,,,0,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 23°C on August 29?,23.0,23.0,C,0.001,,,0,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 24°C on August 29?,24.0,24.0,C,0.019,,,0,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 25°C on August 29?,25.0,25.0,C,0.05,,,0,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 26°C on August 29?,26.0,26.0,C,0.15,,,0,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 27°C on August 29?,27.0,27.0,C,,,,1,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 28°C on August 29?,28.0,28.0,C,0.25,,,0,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 29°C on August 29?,29.0,29.0,C,0.08,,,0,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 30°C on August 29?,30.0,30.0,C,0.03,,,0,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 31°C on August 29?,31.0,31.0,C,0.0078,,,0,26.133,0.586,3
+Tokyo,2026-08-29,Will the highest temperature in Tokyo be 32°C or higher on August 29?,32.0,,C,0.001,,,0,26.133,0.586,3
+Paris,2026-08-29,Will the highest temperature in Paris be 15°C or below on August 29?,,15.0,C,0.001,,,0,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 16°C on August 29?,16.0,16.0,C,0.001,,,0,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 17°C on August 29?,17.0,17.0,C,0.001,,,0,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 18°C on August 29?,18.0,18.0,C,0.001,,,0,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 19°C on August 29?,19.0,19.0,C,0.002,,,0,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 20°C on August 29?,20.0,20.0,C,0.02,,,0,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 21°C on August 29?,21.0,21.0,C,,,,0,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 22°C on August 29?,22.0,22.0,C,,,,1,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 23°C on August 29?,23.0,23.0,C,,,,0,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 24°C on August 29?,24.0,24.0,C,,,,0,22.8,1.709,3
+Paris,2026-08-29,Will the highest temperature in Paris be 25°C or higher on August 29?,25.0,,C,,,,0,22.8,1.709,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 23°C or below on Au,,23.0,C,0.001,,,0,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 24°C on August 29?,24.0,24.0,C,0.001,,,0,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 25°C on August 29?,25.0,25.0,C,0.0012,,,0,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 26°C on August 29?,26.0,26.0,C,0.002,,,0,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 27°C on August 29?,27.0,27.0,C,0.01,,,0,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 28°C on August 29?,28.0,28.0,C,,,,0,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 29°C on August 29?,29.0,29.0,C,,,,1,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 30°C on August 29?,30.0,30.0,C,,,,0,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 31°C on August 29?,31.0,31.0,C,0.1327,,,0,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 32°C on August 29?,32.0,32.0,C,0.006,,,0,27.533,1.779,3
+Seoul,2026-08-29,Will the highest temperature in Seoul (Incheon) be 33°C or higher on A,33.0,,C,0.001,,,0,27.533,1.779,3
+New York,2026-08-30,Will the highest temperature in New York City be 73°F or below on Augu,,73.0,F,0.001,,,0,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be between 74-75°F on Au,74.0,75.0,F,0.01,,,0,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be between 76-77°F on Au,76.0,77.0,F,0.02,,,0,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be between 78-79°F on Au,78.0,79.0,F,,,,0,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be between 80-81°F on Au,80.0,81.0,F,,,,1,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be between 82-83°F on Au,82.0,83.0,F,,,,0,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be between 84-85°F on Au,84.0,85.0,F,,,,0,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be between 86-87°F on Au,86.0,87.0,F,0.04,,,0,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be between 88-89°F on Au,88.0,89.0,F,0.01,,,0,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be between 90-91°F on Au,90.0,91.0,F,0.002,,,0,28.333,0.551,3
+New York,2026-08-30,Will the highest temperature in New York City be 92°F or higher on Aug,92.0,,F,0.001,,,0,28.333,0.551,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be 77°F or below on August 30?,,77.0,F,0.001,,,0,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be between 78-79°F on August 3,78.0,79.0,F,0.001,,,0,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be between 80-81°F on August 3,80.0,81.0,F,0.0119,,,0,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be between 82-83°F on August 3,82.0,83.0,F,,,,1,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be between 84-85°F on August 3,84.0,85.0,F,,,,0,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be between 86-87°F on August 3,86.0,87.0,F,,,,0,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be between 88-89°F on August 3,88.0,89.0,F,0.1337,,,0,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be between 90-91°F on August 3,90.0,91.0,F,0.035,,,0,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be between 92-93°F on August 3,92.0,93.0,F,0.01,,,0,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be between 94-95°F on August 3,94.0,95.0,F,0.001,,,0,31.5,0.608,3
+Chicago,2026-08-30,Will the highest temperature in Chicago be 96°F or higher on August 30,96.0,,F,0.001,,,0,31.5,0.608,3
+London,2026-08-30,Will the highest temperature in London be 17°C or below on August 30?,,17.0,C,0.001,,,0,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 18°C on August 30?,18.0,18.0,C,0.001,,,0,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 19°C on August 30?,19.0,19.0,C,0.001,,,0,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 20°C on August 30?,20.0,20.0,C,0.02,,,0,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 21°C on August 30?,21.0,21.0,C,,,,0,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 22°C on August 30?,22.0,22.0,C,,,,0,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 23°C on August 30?,23.0,23.0,C,,,,1,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 24°C on August 30?,24.0,24.0,C,,,,0,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 25°C on August 30?,25.0,25.0,C,0.01,,,0,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 26°C on August 30?,26.0,26.0,C,0.001,,,0,22.133,1.002,3
+London,2026-08-30,Will the highest temperature in London be 27°C or higher on August 30?,27.0,,C,0.001,,,0,22.133,1.002,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be 91°F or below on August 30?,,91.0,F,0.001,,,0,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be between 92-93°F on August 30,92.0,93.0,F,0.001,,,0,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be between 94-95°F on August 30,94.0,95.0,F,0.001,,,0,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be between 96-97°F on August 30,96.0,97.0,F,0.03,,,0,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be between 98-99°F on August 30,98.0,99.0,F,0.09,,,0,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,,,,1,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,,,,0,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,0.03,,,0,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,0.002,,,0,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be between 108-109°F on August ,108.0,109.0,F,0.001,,,0,38.4,0.917,3
+Dallas,2026-08-30,Will the highest temperature in Dallas be 110°F or higher on August 30,110.0,,F,0.001,,,0,38.4,0.917,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be 59°F or below on Augu,,59.0,F,0.001,,,0,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be between 60-61°F on Au,60.0,61.0,F,0.02,,,0,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be between 62-63°F on Au,62.0,63.0,F,0.04,,,0,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be between 64-65°F on Au,64.0,65.0,F,0.07,,,0,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,0.21,,,0,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,0.3477,,,0,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,,,,1,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,0.05,,,0,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,0.02,,,0,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be between 76-77°F on Au,76.0,77.0,F,0.01,,,0,20.133,0.802,3
+San Francisco,2026-08-30,Will the highest temperature in San Francisco be 78°F or higher on Aug,78.0,,F,0.001,,,0,20.133,0.802,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 23°C or below on August 30?,,23.0,C,0.001,,,0,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 24°C on August 30?,24.0,24.0,C,0.004,,,0,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 25°C on August 30?,25.0,25.0,C,,,,0,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 26°C on August 30?,26.0,26.0,C,,,,1,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 27°C on August 30?,27.0,27.0,C,,,,0,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 28°C on August 30?,28.0,28.0,C,,,,0,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 29°C on August 30?,29.0,29.0,C,0.03,,,0,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 30°C on August 30?,30.0,30.0,C,0.02,,,0,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 31°C on August 30?,31.0,31.0,C,0.01,,,0,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 32°C on August 30?,32.0,32.0,C,0.002,,,0,26.367,0.945,3
+Tokyo,2026-08-30,Will the highest temperature in Tokyo be 33°C or higher on August 30?,33.0,,C,0.001,,,0,26.367,0.945,3
+Paris,2026-08-30,Will the highest temperature in Paris be 17°C or below on August 30?,,17.0,C,0.001,,,0,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 18°C on August 30?,18.0,18.0,C,0.001,,,0,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 19°C on August 30?,19.0,19.0,C,0.001,,,0,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 20°C on August 30?,20.0,20.0,C,0.001,,,0,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 21°C on August 30?,21.0,21.0,C,0.005,,,0,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 22°C on August 30?,22.0,22.0,C,0.03,,,0,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 23°C on August 30?,23.0,23.0,C,,,,0,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 24°C on August 30?,24.0,24.0,C,,,,1,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 25°C on August 30?,25.0,25.0,C,,,,0,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 26°C on August 30?,26.0,26.0,C,,,,0,23.9,1.51,3
+Paris,2026-08-30,Will the highest temperature in Paris be 27°C or higher on August 30?,27.0,,C,0.02,,,0,23.9,1.51,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 21°C or below on Au,,21.0,C,0.001,,,0,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 22°C on August 30?,22.0,22.0,C,0.001,,,0,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 23°C on August 30?,23.0,23.0,C,0.002,,,0,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 24°C on August 30?,24.0,24.0,C,0.0036,,,0,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 25°C on August 30?,25.0,25.0,C,0.03,,,0,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 26°C on August 30?,26.0,26.0,C,,,,0,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 27°C on August 30?,27.0,27.0,C,,,,1,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 28°C on August 30?,28.0,28.0,C,,,,0,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 29°C on August 30?,29.0,29.0,C,,,,0,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 30°C on August 30?,30.0,30.0,C,0.0164,,,0,25.933,1.079,3
+Seoul,2026-08-30,Will the highest temperature in Seoul (Incheon) be 31°C or higher on A,31.0,,C,0.01,,,0,25.933,1.079,3
+New York,2026-08-31,Will the highest temperature in New York City be 73°F or below on Augu,,73.0,F,0.006,,,0,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be between 74-75°F on Au,74.0,75.0,F,,,,0,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be between 76-77°F on Au,76.0,77.0,F,,,,1,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be between 78-79°F on Au,78.0,79.0,F,,,,0,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be between 80-81°F on Au,80.0,81.0,F,,,,0,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be between 82-83°F on Au,82.0,83.0,F,,,,0,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be between 84-85°F on Au,84.0,85.0,F,0.03,,,0,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be between 86-87°F on Au,86.0,87.0,F,0.002,,,0,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be between 88-89°F on Au,88.0,89.0,F,0.001,,,0,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be between 90-91°F on Au,90.0,91.0,F,0.001,,,0,26.833,0.493,3
+New York,2026-08-31,Will the highest temperature in New York City be 92°F or higher on Aug,92.0,,F,0.001,,,0,26.833,0.493,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be 81°F or below on August 31?,,81.0,F,0.002,,,0,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be between 82-83°F on August 3,82.0,83.0,F,0.01,,,0,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be between 84-85°F on August 3,84.0,85.0,F,0.03,,,0,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be between 86-87°F on August 3,86.0,87.0,F,,,,1,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be between 88-89°F on August 3,88.0,89.0,F,,,,0,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be between 90-91°F on August 3,90.0,91.0,F,,,,0,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be between 92-93°F on August 3,92.0,93.0,F,,,,0,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be between 94-95°F on August 3,94.0,95.0,F,,,,0,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be between 96-97°F on August 3,96.0,97.0,F,0.001,,,0,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be between 98-99°F on August 3,98.0,99.0,F,0.001,,,0,32.267,2.011,3
+Chicago,2026-08-31,Will the highest temperature in Chicago be 100°F or higher on August 3,100.0,,F,0.001,,,0,32.267,2.011,3
+London,2026-08-31,Will the highest temperature in London be 16°C or below on August 31?,,16.0,C,0.001,,,0,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 17°C on August 31?,17.0,17.0,C,0.001,,,0,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 18°C on August 31?,18.0,18.0,C,0.001,,,0,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 19°C on August 31?,19.0,19.0,C,0.01,,,0,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 20°C on August 31?,20.0,20.0,C,0.02,,,0,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 21°C on August 31?,21.0,21.0,C,,,,0,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 22°C on August 31?,22.0,22.0,C,,,,0,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 23°C on August 31?,23.0,23.0,C,,,,0,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 24°C on August 31?,24.0,24.0,C,,,,1,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 25°C on August 31?,25.0,25.0,C,,,,0,21.033,1.531,3
+London,2026-08-31,Will the highest temperature in London be 26°C or higher on August 31?,26.0,,C,0.001,,,0,21.033,1.531,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be 89°F or below on August 31?,,89.0,F,0.001,,,0,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be between 90-91°F on August 31,90.0,91.0,F,0.001,,,0,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be between 92-93°F on August 31,92.0,93.0,F,0.005,,,0,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be between 94-95°F on August 31,94.0,95.0,F,0.01,,,0,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be between 96-97°F on August 31,96.0,97.0,F,,,,0,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be between 98-99°F on August 31,98.0,99.0,F,,,,0,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be between 100-101°F on August ,100.0,101.0,F,,,,1,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be between 102-103°F on August ,102.0,103.0,F,0.1,,,0,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be between 104-105°F on August ,104.0,105.0,F,0.02,,,0,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be between 106-107°F on August ,106.0,107.0,F,0.001,,,0,38.333,0.709,3
+Dallas,2026-08-31,Will the highest temperature in Dallas be 108°F or higher on August 31,108.0,,F,0.005,,,0,38.333,0.709,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be 57°F or below on Augu,,57.0,F,0.001,,,0,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be between 58-59°F on Au,58.0,59.0,F,0.001,,,0,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be between 60-61°F on Au,60.0,61.0,F,,,,0,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be between 62-63°F on Au,62.0,63.0,F,0.06,,,0,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be between 64-65°F on Au,64.0,65.0,F,,,,0,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be between 66-67°F on Au,66.0,67.0,F,,,,1,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be between 68-69°F on Au,68.0,69.0,F,,,,0,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be between 70-71°F on Au,70.0,71.0,F,0.04,,,0,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be between 72-73°F on Au,72.0,73.0,F,0.01,,,0,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be between 74-75°F on Au,74.0,75.0,F,,,,0,19.0,0.361,3
+San Francisco,2026-08-31,Will the highest temperature in San Francisco be 76°F or higher on Aug,76.0,,F,,,,0,19.0,0.361,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 25°C or below on August 31?,,25.0,C,0.001,,,0,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 26°C on August 31?,26.0,26.0,C,0.001,,,0,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 27°C on August 31?,27.0,27.0,C,,,,1,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 28°C on August 31?,28.0,28.0,C,,,,0,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 29°C on August 31?,29.0,29.0,C,,,,0,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 30°C on August 31?,30.0,30.0,C,,,,0,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 31°C on August 31?,31.0,31.0,C,0.13,,,0,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 32°C on August 31?,32.0,32.0,C,0.05,,,0,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 33°C on August 31?,33.0,33.0,C,0.01,,,0,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 34°C on August 31?,34.0,34.0,C,0.001,,,0,28.7,0.52,3
+Tokyo,2026-08-31,Will the highest temperature in Tokyo be 35°C or higher on August 31?,35.0,,C,0.001,,,0,28.7,0.52,3
+Paris,2026-08-31,Will the highest temperature in Paris be 19°C or below on August 31?,,19.0,C,0.001,,,0,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 20°C on August 31?,20.0,20.0,C,0.002,,,0,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 21°C on August 31?,21.0,21.0,C,0.01,,,0,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 22°C on August 31?,22.0,22.0,C,,,,0,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 23°C on August 31?,23.0,23.0,C,,,,1,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 24°C on August 31?,24.0,24.0,C,,,,0,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 25°C on August 31?,25.0,25.0,C,,,,0,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 26°C on August 31?,26.0,26.0,C,0.01,,,0,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 27°C on August 31?,27.0,27.0,C,0.001,,,0,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 28°C on August 31?,28.0,28.0,C,0.001,,,0,22.533,0.208,3
+Paris,2026-08-31,Will the highest temperature in Paris be 29°C or higher on August 31?,29.0,,C,0.001,,,0,22.533,0.208,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 19°C or below on Au,,19.0,C,0.001,,,0,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 20°C on August 31?,20.0,20.0,C,0.001,,,0,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 21°C on August 31?,21.0,21.0,C,0.001,,,0,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 22°C on August 31?,22.0,22.0,C,0.005,,,0,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 23°C on August 31?,23.0,23.0,C,0.01,,,0,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 24°C on August 31?,24.0,24.0,C,0.06,,,0,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 25°C on August 31?,25.0,25.0,C,,,,1,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 26°C on August 31?,26.0,26.0,C,,,,0,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 27°C on August 31?,27.0,27.0,C,,,,0,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 28°C on August 31?,28.0,28.0,C,0.03,,,0,25.567,0.493,3
+Seoul,2026-08-31,Will the highest temperature in Seoul (Incheon) be 29°C or higher on A,29.0,,C,0.003,,,0,25.567,0.493,3
+New York,2026-09-01,Will the highest temperature in New York City be 73°F or below on Sept,,73.0,F,0.001,,,0,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be between 74-75°F on Se,74.0,75.0,F,0.001,,,0,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be between 76-77°F on Se,76.0,77.0,F,,,,0,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be between 78-79°F on Se,78.0,79.0,F,,,,0,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be between 80-81°F on Se,80.0,81.0,F,,,,1,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be between 82-83°F on Se,82.0,83.0,F,,,,0,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be between 84-85°F on Se,84.0,85.0,F,,,,0,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be between 86-87°F on Se,86.0,87.0,F,,,,0,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be between 88-89°F on Se,88.0,89.0,F,,,,0,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be between 90-91°F on Se,90.0,91.0,F,0.03,,,0,28.3,0.8,3
+New York,2026-09-01,Will the highest temperature in New York City be 92°F or higher on Sep,92.0,,F,0.0167,,,0,28.3,0.8,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be 81°F or below on September ,,81.0,F,0.001,,,0,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be between 82-83°F on Septembe,82.0,83.0,F,0.001,,,0,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be between 84-85°F on Septembe,84.0,85.0,F,0.01,,,0,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be between 86-87°F on Septembe,86.0,87.0,F,0.03,,,0,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be between 88-89°F on Septembe,88.0,89.0,F,0.1127,,,0,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be between 90-91°F on Septembe,90.0,91.0,F,0.37,,,0,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be between 92-93°F on Septembe,92.0,93.0,F,0.3581,,,0,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be between 94-95°F on Septembe,94.0,95.0,F,0.0693,,,1,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be between 96-97°F on Septembe,96.0,97.0,F,0.02,,,0,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be between 98-99°F on Septembe,98.0,99.0,F,0.002,,,0,33.467,2.413,3
+Chicago,2026-09-01,Will the highest temperature in Chicago be 100°F or higher on Septembe,100.0,,F,0.001,,,0,33.467,2.413,3
+London,2026-09-01,Will the highest temperature in London be 19°C or below on September 1,,19.0,C,0.001,,,0,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 20°C on September 1?,20.0,20.0,C,0.01,,,0,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 21°C on September 1?,21.0,21.0,C,,,,0,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 22°C on September 1?,22.0,22.0,C,,,,0,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 23°C on September 1?,23.0,23.0,C,,,,1,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 24°C on September 1?,24.0,24.0,C,,,,0,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 25°C on September 1?,25.0,25.0,C,,,,0,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 26°C on September 1?,26.0,26.0,C,0.001,,,0,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 27°C on September 1?,27.0,27.0,C,0.001,,,0,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 28°C on September 1?,28.0,28.0,C,0.001,,,0,22.067,1.62,3
+London,2026-09-01,Will the highest temperature in London be 29°C or higher on September ,29.0,,C,0.001,,,0,22.067,1.62,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be 87°F or below on September 1,,87.0,F,0.001,,,0,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.001,,,0,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,0.001,,,0,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,0.001,,,0,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,0.01,,,0,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,,,,0,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,,,,1,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,,,,0,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,0.02,,,0,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be between 104-105°F on Septemb,104.0,105.0,F,0.007,,,0,37.4,0.964,3
+Dallas,2026-09-01,Will the highest temperature in Dallas be 106°F or higher on September,106.0,,F,0.001,,,0,37.4,0.964,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be 59°F or below on Sept,,59.0,F,0.002,,,0,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be between 60-61°F on Se,60.0,61.0,F,0.0022,,,0,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be between 62-63°F on Se,62.0,63.0,F,0.01,,,0,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,0.04,,,0,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,0.24,,,0,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,,,,0,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,,,,1,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,,,,0,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.006,,,0,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,0.04,,,0,20.2,0.693,3
+San Francisco,2026-09-01,Will the highest temperature in San Francisco be 78°F or higher on Sep,78.0,,F,0.01,,,0,20.2,0.693,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 26°C or below on September 1?,,26.0,C,0.002,,,0,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 27°C on September 1?,27.0,27.0,C,0.0167,,,0,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 28°C on September 1?,28.0,28.0,C,,,,1,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 29°C on September 1?,29.0,29.0,C,,,,0,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 30°C on September 1?,30.0,30.0,C,,,,0,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 31°C on September 1?,31.0,31.0,C,,,,0,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 32°C on September 1?,32.0,32.0,C,0.05,,,0,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 33°C on September 1?,33.0,33.0,C,0.02,,,0,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 34°C on September 1?,34.0,34.0,C,0.01,,,0,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 35°C on September 1?,35.0,35.0,C,0.001,,,0,29.3,0.458,3
+Tokyo,2026-09-01,Will the highest temperature in Tokyo be 36°C or higher on September 1,36.0,,C,0.001,,,0,29.3,0.458,3
+Paris,2026-09-01,Will the highest temperature in Paris be 20°C or below on September 1?,,20.0,C,0.001,,,0,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 21°C on September 1?,21.0,21.0,C,0.01,,,0,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 22°C on September 1?,22.0,22.0,C,0.02,,,0,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 23°C on September 1?,23.0,23.0,C,,,,0,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 24°C on September 1?,24.0,24.0,C,,,,0,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 25°C on September 1?,25.0,25.0,C,,,,1,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 26°C on September 1?,26.0,26.0,C,0.01,,,0,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 27°C on September 1?,27.0,27.0,C,0.001,,,0,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 28°C on September 1?,28.0,28.0,C,0.001,,,0,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 29°C on September 1?,29.0,29.0,C,0.001,,,0,23.233,1.305,3
+Paris,2026-09-01,Will the highest temperature in Paris be 30°C or higher on September 1,30.0,,C,0.001,,,0,23.233,1.305,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 21°C or below on Se,,21.0,C,0.001,,,0,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 22°C on September 1,22.0,22.0,C,0.001,,,0,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 23°C on September 1,23.0,23.0,C,0.001,,,0,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 24°C on September 1,24.0,24.0,C,,,,0,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 25°C on September 1,25.0,25.0,C,,,,1,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 26°C on September 1,26.0,26.0,C,,,,0,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 27°C on September 1,27.0,27.0,C,,,,0,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 28°C on September 1,28.0,28.0,C,0.22,,,0,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 29°C on September 1,29.0,29.0,C,0.07,,,0,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 30°C on September 1,30.0,30.0,C,0.01,,,0,25.467,1.012,3
+Seoul,2026-09-01,Will the highest temperature in Seoul (Incheon) be 31°C or higher on S,31.0,,C,0.001,,,0,25.467,1.012,3
+New York,2026-09-02,Will the highest temperature in New York City be 69°F or below on Sept,,69.0,F,0.002,,,0,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be between 70-71°F on Se,70.0,71.0,F,,,,0,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be between 72-73°F on Se,72.0,73.0,F,,,,0,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be between 74-75°F on Se,74.0,75.0,F,,,,1,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be between 76-77°F on Se,76.0,77.0,F,,,,0,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be between 78-79°F on Se,78.0,79.0,F,,,,0,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be between 80-81°F on Se,80.0,81.0,F,0.05,,,0,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be between 82-83°F on Se,82.0,83.0,F,0.02,,,0,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be between 84-85°F on Se,84.0,85.0,F,0.002,,,0,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be between 86-87°F on Se,86.0,87.0,F,0.001,,,0,23.767,1.484,3
+New York,2026-09-02,Will the highest temperature in New York City be 88°F or higher on Sep,88.0,,F,0.001,,,0,23.767,1.484,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be 83°F or below on September ,,83.0,F,0.001,,,0,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be between 84-85°F on Septembe,84.0,85.0,F,0.001,,,0,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be between 86-87°F on Septembe,86.0,87.0,F,0.02,,,0,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be between 88-89°F on Septembe,88.0,89.0,F,0.04,,,0,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be between 90-91°F on Septembe,90.0,91.0,F,0.09,,,0,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be between 92-93°F on Septembe,92.0,93.0,F,0.43,,,0,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be between 94-95°F on Septembe,94.0,95.0,F,,,,1,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be between 96-97°F on Septembe,96.0,97.0,F,,,,0,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be between 98-99°F on Septembe,98.0,99.0,F,0.03,,,0,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be between 100-101°F on Septem,100.0,101.0,F,0.001,,,0,35.0,1.735,3
+Chicago,2026-09-02,Will the highest temperature in Chicago be 102°F or higher on Septembe,102.0,,F,0.001,,,0,35.0,1.735,3
+London,2026-09-02,Will the highest temperature in London be 17°C or below on September 2,,17.0,C,0.0026,,,0,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 18°C on September 2?,18.0,18.0,C,0.01,,,0,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 19°C on September 2?,19.0,19.0,C,0.05,,,0,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 20°C on September 2?,20.0,20.0,C,,,,0,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 21°C on September 2?,21.0,21.0,C,,,,1,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 22°C on September 2?,22.0,22.0,C,,,,0,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 23°C on September 2?,23.0,23.0,C,,,,0,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 24°C on September 2?,24.0,24.0,C,,,,0,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 25°C on September 2?,25.0,25.0,C,0.001,,,0,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 26°C on September 2?,26.0,26.0,C,0.001,,,0,20.9,1.114,3
+London,2026-09-02,Will the highest temperature in London be 27°C or higher on September ,27.0,,C,0.004,,,0,20.9,1.114,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be 87°F or below on September 2,,87.0,F,0.005,,,0,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.01,,,0,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,0.04,,,0,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,0.11,,,0,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,,,,0,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,,,,0,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,,,,0,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,0.04,,,1,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,0.006,,,0,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be between 104-105°F on Septemb,104.0,105.0,F,0.001,,,0,36.133,0.635,3
+Dallas,2026-09-02,Will the highest temperature in Dallas be 106°F or higher on September,106.0,,F,0.001,,,0,36.133,0.635,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be 63°F or below on Sept,,63.0,F,0.006,,,0,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,0.02,,,0,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,0.04,,,0,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,0.13,,,0,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,,,,0,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,,,,1,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.0602,,,0,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,0.01,,,0,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be between 78-79°F on Se,78.0,79.0,F,0.08,,,0,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be between 80-81°F on Se,80.0,81.0,F,0.001,,,0,22.767,0.503,3
+San Francisco,2026-09-02,Will the highest temperature in San Francisco be 82°F or higher on Sep,82.0,,F,0.001,,,0,22.767,0.503,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 26°C or below on September 2?,,26.0,C,0.001,,,0,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 27°C on September 2?,27.0,27.0,C,0.007,,,0,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 28°C on September 2?,28.0,28.0,C,0.03,,,0,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 29°C on September 2?,29.0,29.0,C,0.08,,,0,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 30°C on September 2?,30.0,30.0,C,0.26,,,0,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 31°C on September 2?,31.0,31.0,C,,,,1,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 32°C on September 2?,32.0,32.0,C,,,,0,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 33°C on September 2?,33.0,33.0,C,0.02,,,0,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 34°C on September 2?,34.0,34.0,C,0.01,,,0,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 35°C on September 2?,35.0,35.0,C,0.001,,,0,30.067,0.404,3
+Tokyo,2026-09-02,Will the highest temperature in Tokyo be 36°C or higher on September 2,36.0,,C,0.001,,,0,30.067,0.404,3
+Paris,2026-09-02,Will the highest temperature in Paris be 20°C or below on September 2?,,20.0,C,0.001,,,0,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 21°C on September 2?,21.0,21.0,C,0.001,,,0,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 22°C on September 2?,22.0,22.0,C,0.001,,,0,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 23°C on September 2?,23.0,23.0,C,0.05,,,0,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 24°C on September 2?,24.0,24.0,C,,,,0,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 25°C on September 2?,25.0,25.0,C,,,,0,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 26°C on September 2?,26.0,26.0,C,,,,1,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 27°C on September 2?,27.0,27.0,C,,,,0,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 28°C on September 2?,28.0,28.0,C,0.001,,,0,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 29°C on September 2?,29.0,29.0,C,0.001,,,0,24.633,1.57,3
+Paris,2026-09-02,Will the highest temperature in Paris be 30°C or higher on September 2,30.0,,C,0.001,,,0,24.633,1.57,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 22°C or below on Se,,22.0,C,0.001,,,0,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 23°C on September 2,23.0,23.0,C,0.001,,,0,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 24°C on September 2,24.0,24.0,C,0.001,,,0,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 25°C on September 2,25.0,25.0,C,0.007,,,0,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 26°C on September 2,26.0,26.0,C,0.08,,,0,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 27°C on September 2,27.0,27.0,C,0.24,,,0,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 28°C on September 2,28.0,28.0,C,,,,1,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 29°C on September 2,29.0,29.0,C,0.23,,,0,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 30°C on September 2,30.0,30.0,C,0.03,,,0,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 31°C on September 2,31.0,31.0,C,0.006,,,0,26.367,1.747,3
+Seoul,2026-09-02,Will the highest temperature in Seoul (Incheon) be 32°C or higher on S,32.0,,C,0.001,,,0,26.367,1.747,3
+New York,2026-09-03,Will the highest temperature in New York City be 72°F or below on Sept,,72.0,F,0.01,,,0,29.5,0.917,3
+New York,2026-09-03,Will the highest temperature in New York City be between 73-74°F on Se,73.0,74.0,F,0.06,,,0,29.5,0.917,3
+New York,2026-09-03,Will the highest temperature in New York City be between 75-76°F on Se,75.0,76.0,F,0.22,,,0,29.5,0.917,3
+New York,2026-09-03,Will the highest temperature in New York City be between 77-78°F on Se,77.0,78.0,F,0.29,,,1,29.5,0.917,3
+New York,2026-09-03,Will the highest temperature in New York City be between 79-80°F on Se,79.0,80.0,F,0.22,,,0,29.5,0.917,3
+New York,2026-09-03,Will the highest temperature in New York City be between 81-82°F on Se,81.0,82.0,F,0.16,,,0,29.5,0.917,3
+New York,2026-09-03,Will the highest temperature in New York City be 83°F or higher on Sep,83.0,,F,0.03,,,0,29.5,0.917,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be 79°F or below on September ,,79.0,F,0.005,,,0,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be between 80-81°F on Septembe,80.0,81.0,F,0.001,,,0,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be between 82-83°F on Septembe,82.0,83.0,F,0.01,,,0,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be between 84-85°F on Septembe,84.0,85.0,F,0.13,,,0,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be between 86-87°F on Septembe,86.0,87.0,F,,,,0,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be between 88-89°F on Septembe,88.0,89.0,F,,,,0,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be between 90-91°F on Septembe,90.0,91.0,F,,,,1,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be between 92-93°F on Septembe,92.0,93.0,F,,,,0,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be between 94-95°F on Septembe,94.0,95.0,F,0.02,,,0,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be between 96-97°F on Septembe,96.0,97.0,F,0.001,,,0,34.2,2.3,3
+Chicago,2026-09-03,Will the highest temperature in Chicago be 98°F or higher on September,98.0,,F,0.01,,,0,34.2,2.3,3
+London,2026-09-03,Will the highest temperature in London be 19°C or below on September 3,,19.0,C,0.001,,,0,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 20°C on September 3?,20.0,20.0,C,0.001,,,0,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 21°C on September 3?,21.0,21.0,C,0.001,,,0,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 22°C on September 3?,22.0,22.0,C,0.01,,,0,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 23°C on September 3?,23.0,23.0,C,0.02,,,0,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 24°C on September 3?,24.0,24.0,C,,,,0,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 25°C on September 3?,25.0,25.0,C,,,,0,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 26°C on September 3?,26.0,26.0,C,,,,1,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 27°C on September 3?,27.0,27.0,C,,,,0,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 28°C on September 3?,28.0,28.0,C,,,,0,25.8,1.153,3
+London,2026-09-03,Will the highest temperature in London be 29°C or higher on September ,29.0,,C,0.001,,,0,25.8,1.153,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be 83°F or below on September 3,,83.0,F,0.02,,,0,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be between 84-85°F on September,84.0,85.0,F,0.002,,,0,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be between 86-87°F on September,86.0,87.0,F,,,,0,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.22,,,0,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,,,,1,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,,,,0,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,0.0758,,,0,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,0.04,,,0,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,0.02,,,0,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,0.002,,,0,31.733,0.902,3
+Dallas,2026-09-03,Will the highest temperature in Dallas be 102°F or higher on September,102.0,,F,0.0015,,,0,31.733,0.902,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be 61°F or below on Sept,,61.0,F,,,,0,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be between 62-63°F on Se,62.0,63.0,F,,,,0,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,0.01,,,0,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,0.07,,,0,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,0.3,,,0,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,,,,1,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,0.15,,,0,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,,,,0,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,0.01,,,0,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be between 78-79°F on Se,78.0,79.0,F,0.005,,,0,21.667,1.002,3
+San Francisco,2026-09-03,Will the highest temperature in San Francisco be 80°F or higher on Sep,80.0,,F,0.002,,,0,21.667,1.002,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 25°C or below on September 3?,,25.0,C,0.001,,,0,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 26°C on September 3?,26.0,26.0,C,0.005,,,0,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 27°C on September 3?,27.0,27.0,C,0.006,,,0,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 28°C on September 3?,28.0,28.0,C,0.02,,,0,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 29°C on September 3?,29.0,29.0,C,0.05,,,0,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 30°C on September 3?,30.0,30.0,C,,,,0,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 31°C on September 3?,31.0,31.0,C,,,,1,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 32°C on September 3?,32.0,32.0,C,,,,0,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 33°C on September 3?,33.0,33.0,C,0.06,,,0,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 34°C on September 3?,34.0,34.0,C,0.01,,,0,30.767,0.987,3
+Tokyo,2026-09-03,Will the highest temperature in Tokyo be 35°C or higher on September 3,35.0,,C,0.002,,,0,30.767,0.987,3
+Paris,2026-09-03,Will the highest temperature in Paris be 25°C or below on September 3?,,25.0,C,,,,0,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 26°C on September 3?,26.0,26.0,C,,,,0,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 27°C on September 3?,27.0,27.0,C,,,,1,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 28°C on September 3?,28.0,28.0,C,,,,0,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 29°C on September 3?,29.0,29.0,C,,,,0,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 30°C on September 3?,30.0,30.0,C,0.002,,,0,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 31°C on September 3?,31.0,31.0,C,0.001,,,0,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 32°C on September 3?,32.0,32.0,C,0.001,,,0,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 33°C on September 3?,33.0,33.0,C,0.001,,,0,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 34°C on September 3?,34.0,34.0,C,0.001,,,0,25.0,0.529,3
+Paris,2026-09-03,Will the highest temperature in Paris be 35°C or higher on September 3,35.0,,C,0.001,,,0,25.0,0.529,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 24°C or below on Se,,24.0,C,0.001,,,0,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 25°C on September 3,25.0,25.0,C,0.001,,,0,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 26°C on September 3,26.0,26.0,C,0.001,,,0,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 27°C on September 3,27.0,27.0,C,0.002,,,0,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 28°C on September 3,28.0,28.0,C,0.01,,,0,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 29°C on September 3,29.0,29.0,C,,,,0,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 30°C on September 3,30.0,30.0,C,,,,0,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 31°C on September 3,31.0,31.0,C,,,,1,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 32°C on September 3,32.0,32.0,C,,,,0,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 33°C on September 3,33.0,33.0,C,0.0043,,,0,28.7,1.706,3
+Seoul,2026-09-03,Will the highest temperature in Seoul (Incheon) be 34°C or higher on S,34.0,,C,0.001,,,0,28.7,1.706,3
+New York,2026-09-04,Will the highest temperature in New York City be 73°F or below on Sept,,73.0,F,0.005,,,0,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be between 74-75°F on Se,74.0,75.0,F,0.002,,,0,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be between 76-77°F on Se,76.0,77.0,F,0.005,,,0,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be between 78-79°F on Se,78.0,79.0,F,0.02,,,0,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be between 80-81°F on Se,80.0,81.0,F,0.06,,,0,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be between 82-83°F on Se,82.0,83.0,F,,,,0,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be between 84-85°F on Se,84.0,85.0,F,,,,1,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be between 86-87°F on Se,86.0,87.0,F,,,,0,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be between 88-89°F on Se,88.0,89.0,F,,,,0,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be between 90-91°F on Se,90.0,91.0,F,0.01,,,0,28.2,0.656,3
+New York,2026-09-04,Will the highest temperature in New York City be 92°F or higher on Sep,92.0,,F,0.0062,,,0,28.2,0.656,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be 79°F or below on September ,,79.0,F,0.001,,,0,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be between 80-81°F on Septembe,80.0,81.0,F,0.001,,,0,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be between 82-83°F on Septembe,82.0,83.0,F,0.03,,,0,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be between 84-85°F on Septembe,84.0,85.0,F,0.05,,,0,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be between 86-87°F on Septembe,86.0,87.0,F,,,,0,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be between 88-89°F on Septembe,88.0,89.0,F,,,,0,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be between 90-91°F on Septembe,90.0,91.0,F,,,,0,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be between 92-93°F on Septembe,92.0,93.0,F,,,,1,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be between 94-95°F on Septembe,94.0,95.0,F,,,,0,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be between 96-97°F on Septembe,96.0,97.0,F,0.01,,,0,35.067,0.874,3
+Chicago,2026-09-04,Will the highest temperature in Chicago be 98°F or higher on September,98.0,,F,0.01,,,0,35.067,0.874,3
+London,2026-09-04,Will the highest temperature in London be 61°F or below on September 4,,61.0,F,0.002,,,0,21.5,0.755,3
+London,2026-09-04,Will the highest temperature in London be between 62-63°F on September,62.0,63.0,F,0.02,,,0,21.5,0.755,3
+London,2026-09-04,Will the highest temperature in London be between 64-65°F on September,64.0,65.0,F,0.0476,,,0,21.5,0.755,3
+London,2026-09-04,Will the highest temperature in London be between 66-67°F on September,66.0,67.0,F,0.25,,,0,21.5,0.755,3
+London,2026-09-04,Will the highest temperature in London be between 68-69°F on September,68.0,69.0,F,0.44,,,1,21.5,0.755,3
+London,2026-09-04,Will the highest temperature in London be between 70-71°F on September,70.0,71.0,F,0.0697,,,0,21.5,0.755,3
+London,2026-09-04,Will the highest temperature in London be 72°F or higher on September ,72.0,,F,0.025,,,0,21.5,0.755,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be 85°F or below on September 4,,85.0,F,0.002,,,0,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be between 86-87°F on September,86.0,87.0,F,0.001,,,0,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.03,,,0,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,0.14,,,0,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,0.35,,,0,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,,,,0,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,,,,0,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,,,,1,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,,,,0,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,0.001,,,0,34.267,1.93,3
+Dallas,2026-09-04,Will the highest temperature in Dallas be 104°F or higher on September,104.0,,F,0.001,,,0,34.267,1.93,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be 61°F or below on Sept,,61.0,F,0.001,,,0,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be between 62-63°F on Se,62.0,63.0,F,0.01,,,0,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,,,,0,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,0.07,,,0,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,,,,0,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,,,,1,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,0.06,,,0,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.01,,,0,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,,,,0,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be between 78-79°F on Se,78.0,79.0,F,0.001,,,0,20.967,0.666,3
+San Francisco,2026-09-04,Will the highest temperature in San Francisco be 80°F or higher on Sep,80.0,,F,0.001,,,0,20.967,0.666,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 21°C or below on September 4?,,21.0,C,0.001,,,0,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 22°C on September 4?,22.0,22.0,C,0.001,,,0,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 23°C on September 4?,23.0,23.0,C,0.002,,,0,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 24°C on September 4?,24.0,24.0,C,0.02,,,0,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 25°C on September 4?,25.0,25.0,C,0.08,,,0,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 26°C on September 4?,26.0,26.0,C,0.29,,,0,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 27°C on September 4?,27.0,27.0,C,,,,1,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 28°C on September 4?,28.0,28.0,C,,,,0,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 29°C on September 4?,29.0,29.0,C,0.02,,,0,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 30°C on September 4?,30.0,30.0,C,0.01,,,0,26.867,0.603,3
+Tokyo,2026-09-04,Will the highest temperature in Tokyo be 31°C or higher on September 4,31.0,,C,0.01,,,0,26.867,0.603,3
+Paris,2026-09-04,Will the highest temperature in Paris be 24°C or below on September 4?,,24.0,C,0.001,,,0,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 25°C on September 4?,25.0,25.0,C,0.006,,,0,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 26°C on September 4?,26.0,26.0,C,0.03,,,0,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 27°C on September 4?,27.0,27.0,C,,,,0,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 28°C on September 4?,28.0,28.0,C,,,,1,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 29°C on September 4?,29.0,29.0,C,,,,0,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 30°C on September 4?,30.0,30.0,C,,,,0,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 31°C on September 4?,31.0,31.0,C,,,,0,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 32°C on September 4?,32.0,32.0,C,0.001,,,0,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 33°C on September 4?,33.0,33.0,C,0.001,,,0,28.033,1.57,3
+Paris,2026-09-04,Will the highest temperature in Paris be 34°C or higher on September 4,34.0,,C,0.001,,,0,28.033,1.57,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 23°C or below on Se,,23.0,C,0.001,,,0,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 24°C on September 4,24.0,24.0,C,0.001,,,0,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 25°C on September 4,25.0,25.0,C,0.001,,,0,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 26°C on September 4,26.0,26.0,C,0.001,,,0,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 27°C on September 4,27.0,27.0,C,0.01,,,0,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 28°C on September 4,28.0,28.0,C,0.04,,,0,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 29°C on September 4,29.0,29.0,C,,,,0,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 30°C on September 4,30.0,30.0,C,,,,1,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 31°C on September 4,31.0,31.0,C,,,,0,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 32°C on September 4,32.0,32.0,C,0.0249,,,0,28.2,1.153,3
+Seoul,2026-09-04,Will the highest temperature in Seoul (Incheon) be 33°C or higher on S,33.0,,C,0.014,,,0,28.2,1.153,3
+New York,2026-09-05,Will the highest temperature in New York City be 69°F or below on Sept,,69.0,F,0.001,,,0,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be between 70-71°F on Se,70.0,71.0,F,0.001,,,0,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be between 72-73°F on Se,72.0,73.0,F,0.001,,,0,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be between 74-75°F on Se,74.0,75.0,F,0.01,,,0,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be between 76-77°F on Se,76.0,77.0,F,,,,0,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be between 78-79°F on Se,78.0,79.0,F,,,,1,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be between 80-81°F on Se,80.0,81.0,F,,,,0,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be between 82-83°F on Se,82.0,83.0,F,,,,0,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be between 84-85°F on Se,84.0,85.0,F,0.01,,,0,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be between 86-87°F on Se,86.0,87.0,F,0.003,,,0,25.967,0.723,3
+New York,2026-09-05,Will the highest temperature in New York City be 88°F or higher on Sep,88.0,,F,0.001,,,0,25.967,0.723,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be 73°F or below on September ,,73.0,F,0.001,,,0,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be between 74-75°F on Septembe,74.0,75.0,F,0.001,,,0,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be between 76-77°F on Septembe,76.0,77.0,F,,,,0,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be between 78-79°F on Septembe,78.0,79.0,F,,,,0,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be between 80-81°F on Septembe,80.0,81.0,F,,,,1,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be between 82-83°F on Septembe,82.0,83.0,F,0.3642,,,0,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be between 84-85°F on Septembe,84.0,85.0,F,,,,0,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be between 86-87°F on Septembe,86.0,87.0,F,0.07,,,0,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be between 88-89°F on Septembe,88.0,89.0,F,0.02,,,0,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be between 90-91°F on Septembe,90.0,91.0,F,0.01,,,0,28.8,0.529,3
+Chicago,2026-09-05,Will the highest temperature in Chicago be 92°F or higher on September,92.0,,F,0.001,,,0,28.8,0.529,3
+London,2026-09-05,Will the highest temperature in London be 18°C or below on September 5,,18.0,C,0.001,,,0,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 19°C on September 5?,19.0,19.0,C,0.001,,,0,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 20°C on September 5?,20.0,20.0,C,0.003,,,0,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 21°C on September 5?,21.0,21.0,C,,,,0,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 22°C on September 5?,22.0,22.0,C,,,,0,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 23°C on September 5?,23.0,23.0,C,,,,1,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 24°C on September 5?,24.0,24.0,C,,,,0,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 25°C on September 5?,25.0,25.0,C,,,,0,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 26°C on September 5?,26.0,26.0,C,0.002,,,0,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 27°C on September 5?,27.0,27.0,C,0.001,,,0,22.267,0.306,3
+London,2026-09-05,Will the highest temperature in London be 28°C or higher on September ,28.0,,C,0.001,,,0,22.267,0.306,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be 85°F or below on September 5,,85.0,F,0.001,,,0,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be between 86-87°F on September,86.0,87.0,F,0.001,,,0,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.001,,,0,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,0.002,,,0,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,0.01,,,0,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,,,,0,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,,,,0,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,,,,1,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,,,,0,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,,,,0,37.233,0.929,3
+Dallas,2026-09-05,Will the highest temperature in Dallas be 104°F or higher on September,104.0,,F,0.001,,,0,37.233,0.929,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be 59°F or below on Sept,,59.0,F,0.005,,,0,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be between 60-61°F on Se,60.0,61.0,F,0.001,,,0,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be between 62-63°F on Se,62.0,63.0,F,0.02,,,0,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,0.03,,,0,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,0.05,,,0,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,0.24,,,0,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,,,,0,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,,,,1,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,,,,0,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,0.02,,,0,20.833,1.724,3
+San Francisco,2026-09-05,Will the highest temperature in San Francisco be 78°F or higher on Sep,78.0,,F,0.01,,,0,20.833,1.724,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 21°C or below on September 5?,,21.0,C,0.001,,,0,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 22°C on September 5?,22.0,22.0,C,0.0019,,,0,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 23°C on September 5?,23.0,23.0,C,,,,0,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 24°C on September 5?,24.0,24.0,C,,,,0,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 25°C on September 5?,25.0,25.0,C,,,,1,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 26°C on September 5?,26.0,26.0,C,,,,0,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 27°C on September 5?,27.0,27.0,C,,,,0,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 28°C on September 5?,28.0,28.0,C,0.01,,,0,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 29°C on September 5?,29.0,29.0,C,0.002,,,0,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 30°C on September 5?,30.0,30.0,C,0.002,,,0,25.033,1.55,3
+Tokyo,2026-09-05,Will the highest temperature in Tokyo be 31°C or higher on September 5,31.0,,C,0.001,,,0,25.033,1.55,3
+Paris,2026-09-05,Will the highest temperature in Paris be 20°C or below on September 5?,,20.0,C,0.001,,,0,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 21°C on September 5?,21.0,21.0,C,0.001,,,0,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 22°C on September 5?,22.0,22.0,C,0.001,,,0,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 23°C on September 5?,23.0,23.0,C,,,,0,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 24°C on September 5?,24.0,24.0,C,,,,0,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 25°C on September 5?,25.0,25.0,C,,,,1,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 26°C on September 5?,26.0,26.0,C,,,,0,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 27°C on September 5?,27.0,27.0,C,,,,0,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 28°C on September 5?,28.0,28.0,C,0.003,,,0,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 29°C on September 5?,29.0,29.0,C,0.0018,,,0,24.267,1.069,3
+Paris,2026-09-05,Will the highest temperature in Paris be 30°C or higher on September 5,30.0,,C,0.001,,,0,24.267,1.069,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 23°C or below on Se,,23.0,C,0.001,,,0,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 24°C on September 5,24.0,24.0,C,0.001,,,0,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 25°C on September 5,25.0,25.0,C,0.002,,,0,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 26°C on September 5,26.0,26.0,C,0.01,,,0,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 27°C on September 5,27.0,27.0,C,0.01,,,0,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 28°C on September 5,28.0,28.0,C,,,,0,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 29°C on September 5,29.0,29.0,C,,,,1,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 30°C on September 5,30.0,30.0,C,,,,0,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 31°C on September 5,31.0,31.0,C,0.0145,,,0,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 32°C on September 5,32.0,32.0,C,0.004,,,0,27.533,0.85,3
+Seoul,2026-09-05,Will the highest temperature in Seoul (Incheon) be 33°C or higher on S,33.0,,C,0.001,,,0,27.533,0.85,3
+New York,2026-09-06,Will the highest temperature in New York City be 65°F or below on Sept,,65.0,F,0.001,,,0,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be between 66-67°F on Se,66.0,67.0,F,0.001,,,0,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be between 68-69°F on Se,68.0,69.0,F,0.001,,,0,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be between 70-71°F on Se,70.0,71.0,F,,,,0,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be between 72-73°F on Se,72.0,73.0,F,,,,0,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be between 74-75°F on Se,74.0,75.0,F,,,,1,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be between 76-77°F on Se,76.0,77.0,F,,,,0,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be between 78-79°F on Se,78.0,79.0,F,,,,0,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be between 80-81°F on Se,80.0,81.0,F,0.011,,,0,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be between 82-83°F on Se,82.0,83.0,F,0.002,,,0,24.133,0.208,3
+New York,2026-09-06,Will the highest temperature in New York City be 84°F or higher on Sep,84.0,,F,0.001,,,0,24.133,0.208,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be 71°F or below on September ,,71.0,F,0.002,,,0,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be between 72-73°F on Septembe,72.0,73.0,F,0.01,,,0,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be between 74-75°F on Septembe,74.0,75.0,F,0.04,,,0,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be between 76-77°F on Septembe,76.0,77.0,F,0.33,,,0,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be between 78-79°F on Septembe,78.0,79.0,F,0.54,,,1,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be between 80-81°F on Septembe,80.0,81.0,F,0.09,,,0,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be between 82-83°F on Septembe,82.0,83.0,F,0.01,,,0,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be between 84-85°F on Septembe,84.0,85.0,F,0.01,,,0,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be between 86-87°F on Septembe,86.0,87.0,F,0.001,,,0,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be between 88-89°F on Septembe,88.0,89.0,F,0.001,,,0,25.067,1.504,3
+Chicago,2026-09-06,Will the highest temperature in Chicago be 90°F or higher on September,90.0,,F,0.001,,,0,25.067,1.504,3
+London,2026-09-06,Will the highest temperature in London be 22°C or below on September 6,,22.0,C,0.002,,,0,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 23°C on September 6?,23.0,23.0,C,0.01,,,0,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 24°C on September 6?,24.0,24.0,C,0.04,,,0,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 25°C on September 6?,25.0,25.0,C,,,,0,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 26°C on September 6?,26.0,26.0,C,,,,0,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 27°C on September 6?,27.0,27.0,C,,,,1,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 28°C on September 6?,28.0,28.0,C,,,,0,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 29°C on September 6?,29.0,29.0,C,,,,0,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 30°C on September 6?,30.0,30.0,C,0.001,,,0,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 31°C on September 6?,31.0,31.0,C,0.001,,,0,25.467,0.611,3
+London,2026-09-06,Will the highest temperature in London be 32°C or higher on September ,32.0,,C,0.001,,,0,25.467,0.611,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be 87°F or below on September 6,,87.0,F,0.001,,,0,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.001,,,0,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,0.001,,,0,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,0.002,,,0,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,0.01,,,0,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,,,,0,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,,,,1,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,,,,0,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,,,,0,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be between 104-105°F on Septemb,104.0,105.0,F,0.01,,,0,38.2,0.346,3
+Dallas,2026-09-06,Will the highest temperature in Dallas be 106°F or higher on September,106.0,,F,0.001,,,0,38.2,0.346,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be 59°F or below on Sept,,59.0,F,0.002,,,0,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be between 60-61°F on Se,60.0,61.0,F,0.005,,,0,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be between 62-63°F on Se,62.0,63.0,F,0.01,,,0,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,0.01,,,0,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,0.03,,,0,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,,,,0,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,0.46,,,1,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,0.12,,,0,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.001,,,0,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,,,,0,20.167,1.124,3
+San Francisco,2026-09-06,Will the highest temperature in San Francisco be 78°F or higher on Sep,78.0,,F,0.002,,,0,20.167,1.124,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 19°C or below on September 6?,,19.0,C,0.001,,,0,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 20°C on September 6?,20.0,20.0,C,0.001,,,0,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 21°C on September 6?,21.0,21.0,C,0.01,,,0,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 22°C on September 6?,22.0,22.0,C,0.04,,,0,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 23°C on September 6?,23.0,23.0,C,,,,1,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 24°C on September 6?,24.0,24.0,C,,,,0,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 25°C on September 6?,25.0,25.0,C,,,,0,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 26°C on September 6?,26.0,26.0,C,,,,0,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 27°C on September 6?,27.0,27.0,C,0.0236,,,0,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 28°C on September 6?,28.0,28.0,C,0.004,,,0,24.067,0.814,3
+Tokyo,2026-09-06,Will the highest temperature in Tokyo be 29°C or higher on September 6,29.0,,C,0.002,,,0,24.067,0.814,3
+Paris,2026-09-06,Will the highest temperature in Paris be 26°C or below on September 6?,,26.0,C,,,,0,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 27°C on September 6?,27.0,27.0,C,,,,0,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 28°C on September 6?,28.0,28.0,C,,,,1,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 29°C on September 6?,29.0,29.0,C,,,,0,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 30°C on September 6?,30.0,30.0,C,,,,0,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 31°C on September 6?,31.0,31.0,C,,,,0,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 32°C on September 6?,32.0,32.0,C,,,,0,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 33°C on September 6?,33.0,33.0,C,0.001,,,0,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 34°C on September 6?,34.0,34.0,C,,,,0,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 35°C on September 6?,35.0,35.0,C,,,,0,28.767,1.662,3
+Paris,2026-09-06,Will the highest temperature in Paris be 36°C or higher on September 6,36.0,,C,,,,0,28.767,1.662,3

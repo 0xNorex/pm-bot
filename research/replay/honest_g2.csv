@@ -1,0 +1,601 @@
+city,date,question,lo,hi,unit,yes_24h,yes_3h,yes_s4,won,fcst_mu,fcst_spread,n_models
+New York,2026-09-24,Will the highest temperature in New York City be 57°F or below on Sept,,57.0,F,0.001,0.001,0.001,0,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be between 58-59°F on Se,58.0,59.0,F,0.001,0.001,0.001,0,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be between 60-61°F on Se,60.0,61.0,F,0.002,0.001,0.001,0,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be between 62-63°F on Se,62.0,63.0,F,0.01,0.01,0.001,0,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be between 64-65°F on Se,64.0,65.0,F,,0.17,0.001,0,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be between 66-67°F on Se,66.0,67.0,F,,,0.001,0,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be between 68-69°F on Se,68.0,69.0,F,,,0.9902,1,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be between 70-71°F on Se,70.0,71.0,F,,0.02,0.01,0,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be between 72-73°F on Se,72.0,73.0,F,0.002,0.002,0.001,0,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be between 74-75°F on Se,74.0,75.0,F,0.001,0.0042,0.0024,0,18.5,0.458,3
+New York,2026-09-24,Will the highest temperature in New York City be 76°F or higher on Sep,76.0,,F,0.001,0.001,0.001,0,18.5,0.458,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be 57°F or below on September ,,57.0,F,0.001,0.001,0.001,0,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 58-59°F on Septembe,58.0,59.0,F,0.001,0.001,0.001,0,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 60-61°F on Septembe,60.0,61.0,F,0.001,0.001,0.001,0,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 62-63°F on Septembe,62.0,63.0,F,0.005,0.001,0.001,0,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 64-65°F on Septembe,64.0,65.0,F,,0.02,0.001,0,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 66-67°F on Septembe,66.0,67.0,F,0.18,0.11,0.001,0,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 68-69°F on Septembe,68.0,69.0,F,,0.51,0.999,1,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 70-71°F on Septembe,70.0,71.0,F,,0.33,0.001,0,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 72-73°F on Septembe,72.0,73.0,F,0.03,0.03,0.001,0,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be between 74-75°F on Septembe,74.0,75.0,F,0.005,0.0011,0.001,0,18.733,0.252,3
+Chicago,2026-09-24,Will the highest temperature in Chicago be 76°F or higher on September,76.0,,F,0.001,0.001,0.001,0,18.733,0.252,3
+London,2026-09-24,Will the highest temperature in London be 16°C or below on September 2,,16.0,C,0.001,0.001,0.001,0,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 17°C on September 24?,17.0,17.0,C,0.001,0.001,0.001,0,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 18°C on September 24?,18.0,18.0,C,0.001,0.001,0.001,0,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 19°C on September 24?,19.0,19.0,C,0.01,0.004,0.001,0,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 20°C on September 24?,20.0,20.0,C,,,0.001,0,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 21°C on September 24?,21.0,21.0,C,,,0.99,1,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 22°C on September 24?,22.0,22.0,C,,,0.01,0,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 23°C on September 24?,23.0,23.0,C,,,0.001,0,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 24°C on September 24?,24.0,24.0,C,,0.04,0.001,0,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 25°C on September 24?,25.0,25.0,C,0.003,0.002,0.0011,0,22.067,0.306,3
+London,2026-09-24,Will the highest temperature in London be 26°C or higher on September ,26.0,,C,0.001,0.001,0.001,0,22.067,0.306,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be 85°F or below on September 2,,85.0,F,0.001,0.002,0.001,0,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be between 86-87°F on September,86.0,87.0,F,0.005,0.004,0.001,0,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.023,0.01,0.001,0,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,0.17,0.07,0.001,0,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,,,0.9795,1,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,,0.34,0.0676,0,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,,0.16,0.002,0,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,0.022,0.023,0.001,0,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,0.001,0.005,0.001,0,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,0.001,0.001,0.001,0,34.467,0.379,3
+Dallas,2026-09-24,Will the highest temperature in Dallas be 104°F or higher on September,104.0,,F,0.001,0.001,0.001,0,34.467,0.379,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be 67°F or below on Sept,,67.0,F,0.01,0.0598,0.001,0,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,0.02,0.03,0.001,0,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,0.12,0.11,0.001,0,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,0.27,0.17,0.001,0,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.24,0.26,0.001,0,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,,0.222,0.998,1,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be between 78-79°F on Se,78.0,79.0,F,,,0.001,0,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be between 80-81°F on Se,80.0,81.0,F,0.01,0.019,0.001,0,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be between 82-83°F on Se,82.0,83.0,F,0.01,0.001,0.001,0,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be between 84-85°F on Se,84.0,85.0,F,0.01,0.001,0.002,0,23.3,0.9,3
+San Francisco,2026-09-24,Will the highest temperature in San Francisco be 86°F or higher on Sep,86.0,,F,0.01,0.001,0.001,0,23.3,0.9,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 23°C or below on September 24,,23.0,C,0.0028,0.001,0.001,0,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 24°C on September 24?,24.0,24.0,C,0.0083,0.001,0.001,0,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 25°C on September 24?,25.0,25.0,C,0.03,0.001,0.001,0,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 26°C on September 24?,26.0,26.0,C,,0.001,0.001,0,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 27°C on September 24?,27.0,27.0,C,,0.98,0.99,1,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 28°C on September 24?,28.0,28.0,C,,0.002,0.003,0,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 29°C on September 24?,29.0,29.0,C,,0.001,0.001,0,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 30°C on September 24?,30.0,30.0,C,0.01,0.001,0.001,0,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 31°C on September 24?,31.0,31.0,C,0.01,0.001,0.001,0,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 32°C on September 24?,32.0,32.0,C,0.001,0.001,0.001,0,27.433,1.069,3
+Tokyo,2026-09-24,Will the highest temperature in Tokyo be 33°C or higher on September 2,33.0,,C,0.001,0.001,0.001,0,27.433,1.069,3
+Paris,2026-09-24,Will the highest temperature in Paris be 18°C or below on September 24,,18.0,C,0.001,0.001,0.001,0,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 19°C on September 24?,19.0,19.0,C,0.001,0.001,0.001,0,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 20°C on September 24?,20.0,20.0,C,0.001,0.001,0.001,0,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 21°C on September 24?,21.0,21.0,C,0.001,0.001,0.001,0,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 22°C on September 24?,22.0,22.0,C,0.02,0.01,0.001,0,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 23°C on September 24?,23.0,23.0,C,,0.24,0.001,0,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 24°C on September 24?,24.0,24.0,C,,,0.98,1,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 25°C on September 24?,25.0,25.0,C,,,0.01,0,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 26°C on September 24?,26.0,26.0,C,,0.02,0.001,0,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 27°C on September 24?,27.0,27.0,C,0.001,0.001,0.001,0,23.9,0.6,3
+Paris,2026-09-24,Will the highest temperature in Paris be 28°C or higher on September 2,28.0,,C,0.002,0.001,0.001,0,23.9,0.6,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 20°C or below on Se,,20.0,C,0.001,0.001,0.001,0,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 21°C on September 2,21.0,21.0,C,0.001,0.001,0.001,0,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 22°C on September 2,22.0,22.0,C,0.001,0.001,0.001,0,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 23°C on September 2,23.0,23.0,C,0.02,0.001,0.001,0,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 24°C on September 2,24.0,24.0,C,0.1419,0.001,0.001,0,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 25°C on September 2,25.0,25.0,C,,0.999,0.999,1,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 26°C on September 2,26.0,26.0,C,,0.001,0.001,0,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 27°C on September 2,27.0,27.0,C,,0.001,0.001,0,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 28°C on September 2,28.0,28.0,C,0.002,0.001,0.001,0,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 29°C on September 2,29.0,29.0,C,0.006,0.001,0.001,0,24.8,1.609,3
+Seoul,2026-09-24,Will the highest temperature in Seoul (Incheon) be 30°C or higher on S,30.0,,C,0.001,0.001,0.001,0,24.8,1.609,3
+New York,2026-09-25,Will the highest temperature in New York City be 69°F or below on Sept,,69.0,F,0.002,0.001,0.001,0,19.9,1.044,3
+New York,2026-09-25,Will the highest temperature in New York City be between 70-71°F on Se,70.0,71.0,F,0.01,0.001,0.001,0,19.9,1.044,3
+New York,2026-09-25,Will the highest temperature in New York City be between 72-73°F on Se,72.0,73.0,F,0.04,0.25,0.001,0,19.9,1.044,3
+New York,2026-09-25,Will the highest temperature in New York City be between 74-75°F on Se,74.0,75.0,F,,0.48,0.001,0,19.9,1.044,3
+New York,2026-09-25,Will the highest temperature in New York City be between 76-77°F on Se,76.0,77.0,F,0.25,0.21,0.001,0,19.9,1.044,3
+New York,2026-09-25,Will the highest temperature in New York City be between 78-79°F on Se,78.0,79.0,F,,,0.999,1,19.9,1.044,3
+New York,2026-09-25,Will the highest temperature in New York City be 80°F or higher on Sep,80.0,,F,0.029,0.0014,0.001,0,19.9,1.044,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be 57°F or below on September ,,57.0,F,0.001,0.001,0.001,0,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 58-59°F on Septembe,58.0,59.0,F,0.001,0.001,0.001,0,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 60-61°F on Septembe,60.0,61.0,F,0.002,0.001,0.001,0,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 62-63°F on Septembe,62.0,63.0,F,0.01,0.021,0.001,0,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 64-65°F on Septembe,64.0,65.0,F,,0.1575,0.999,1,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 66-67°F on Septembe,66.0,67.0,F,,0.3341,0.002,0,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 68-69°F on Septembe,68.0,69.0,F,,0.36,0.001,0,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 70-71°F on Septembe,70.0,71.0,F,,0.1003,0.001,0,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 72-73°F on Septembe,72.0,73.0,F,0.03,0.01,0.001,0,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be between 74-75°F on Septembe,74.0,75.0,F,0.002,0.001,0.001,0,19.0,0.964,3
+Chicago,2026-09-25,Will the highest temperature in Chicago be 76°F or higher on September,76.0,,F,0.001,0.001,0.001,0,19.0,0.964,3
+London,2026-09-25,Will the highest temperature in London be 22°C or below on September 2,,22.0,C,,0.0524,0.001,0,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 23°C on September 25?,23.0,23.0,C,,0.34,0.001,0,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 24°C on September 25?,24.0,24.0,C,,,0.9866,1,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 25°C on September 25?,25.0,25.0,C,,,0.008,0,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 26°C on September 25?,26.0,26.0,C,,0.02,0.0013,0,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 27°C on September 25?,27.0,27.0,C,0.04,0.0021,0.003,0,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 28°C on September 25?,28.0,28.0,C,0.002,0.001,0.001,0,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 29°C on September 25?,29.0,29.0,C,0.001,0.001,0.001,0,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 30°C on September 25?,30.0,30.0,C,0.001,0.001,0.001,0,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 31°C on September 25?,31.0,31.0,C,0.001,0.001,0.001,0,24.133,1.457,3
+London,2026-09-25,Will the highest temperature in London be 32°C or higher on September ,32.0,,C,0.001,0.001,0.001,0,24.133,1.457,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be 85°F or below on September 2,,85.0,F,0.001,0.001,0.0052,0,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be between 86-87°F on September,86.0,87.0,F,0.001,0.0042,0.001,0,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,,0.11,0.001,0,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,,0.4575,0.001,0,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,,0.33,0.99,1,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,0.13,0.12,0.01,0,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,0.04,0.0196,0.002,0,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,0.003,0.002,0.001,0,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,0.001,0.001,0.001,0,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,0.001,0.001,0.001,0,33.233,0.451,3
+Dallas,2026-09-25,Will the highest temperature in Dallas be 104°F or higher on September,104.0,,F,0.001,0.001,0.001,0,33.233,0.451,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be 61°F or below on Sept,,61.0,F,0.002,0.001,0.001,0,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be between 62-63°F on Se,62.0,63.0,F,0.002,0.002,0.001,0,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,0.01,0.02,0.001,0,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,0.03,0.03,0.001,0,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,0.2,0.36,0.001,0,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,0.46,0.45,0.999,1,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,,0.1285,0.001,0,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.04,0.03,0.001,0,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,0.15,0.001,0.001,0,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be between 78-79°F on Se,78.0,79.0,F,0.01,0.001,0.0065,0,21.4,0.7,3
+San Francisco,2026-09-25,Will the highest temperature in San Francisco be 80°F or higher on Sep,80.0,,F,0.001,0.001,0.001,0,21.4,0.7,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 21°C or below on September 25,,21.0,C,0.001,0.001,0.001,0,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 22°C on September 25?,22.0,22.0,C,0.001,0.001,0.001,0,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 23°C on September 25?,23.0,23.0,C,0.01,0.001,0.001,0,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 24°C on September 25?,24.0,24.0,C,0.05,0.001,0.001,0,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 25°C on September 25?,25.0,25.0,C,,0.001,0.001,0,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 26°C on September 25?,26.0,26.0,C,,0.001,0.001,0,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 27°C on September 25?,27.0,27.0,C,,0.999,0.999,1,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 28°C on September 25?,28.0,28.0,C,,0.001,0.001,0,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 29°C on September 25?,29.0,29.0,C,0.01,0.001,0.001,0,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 30°C on September 25?,30.0,30.0,C,0.001,0.001,0.001,0,25.933,0.513,3
+Tokyo,2026-09-25,Will the highest temperature in Tokyo be 31°C or higher on September 2,31.0,,C,0.001,0.001,0.001,0,25.933,0.513,3
+Paris,2026-09-25,Will the highest temperature in Paris be 22°C or below on September 25,,22.0,C,,0.22,0.001,0,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 23°C on September 25?,23.0,23.0,C,0.001,0.009,0.001,0,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 24°C on September 25?,24.0,24.0,C,0.002,0.0108,0.001,0,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 25°C on September 25?,25.0,25.0,C,0.01,0.0159,0.001,0,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 26°C on September 25?,26.0,26.0,C,0.03,0.0343,0.001,0,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 27°C on September 25?,27.0,27.0,C,,0.19,0.001,0,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 28°C on September 25?,28.0,28.0,C,,,0.63,1,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 29°C on September 25?,29.0,29.0,C,,,0.3,0,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 30°C on September 25?,30.0,30.0,C,,0.02,0.001,0,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 31°C on September 25?,31.0,31.0,C,0.001,0.002,0.001,0,27.0,0.2,3
+Paris,2026-09-25,Will the highest temperature in Paris be 32°C or higher on September 2,32.0,,C,0.001,0.001,0.001,0,27.0,0.2,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 21°C or below on Se,,21.0,C,0.003,0.001,0.001,0,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 22°C on September 2,22.0,22.0,C,,0.001,0.001,0,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 23°C on September 2,23.0,23.0,C,,0.001,0.001,0,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 24°C on September 2,24.0,24.0,C,,0.999,0.999,1,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 25°C on September 2,25.0,25.0,C,,0.001,0.001,0,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 26°C on September 2,26.0,26.0,C,,0.001,0.001,0,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 27°C on September 2,27.0,27.0,C,,0.001,0.001,0,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 28°C on September 2,28.0,28.0,C,0.01,0.001,0.001,0,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 29°C on September 2,29.0,29.0,C,0.001,0.001,0.001,0,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 30°C on September 2,30.0,30.0,C,0.001,0.001,0.001,0,24.733,1.692,3
+Seoul,2026-09-25,Will the highest temperature in Seoul (Incheon) be 31°C or higher on S,31.0,,C,0.001,0.001,0.001,0,24.733,1.692,3
+New York,2026-09-26,Will the highest temperature in New York City be 57°F or below on Sept,,57.0,F,0.001,0.001,0.001,0,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be between 58-59°F on Se,58.0,59.0,F,0.02,0.001,0.001,0,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be between 60-61°F on Se,60.0,61.0,F,,,0.001,0,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be between 62-63°F on Se,62.0,63.0,F,,,0.99,1,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be between 64-65°F on Se,64.0,65.0,F,,,0.01,0,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be between 66-67°F on Se,66.0,67.0,F,,0.02,0.001,0,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be between 68-69°F on Se,68.0,69.0,F,0.04,0.003,0.001,0,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be between 70-71°F on Se,70.0,71.0,F,0.01,0.001,0.001,0,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be between 72-73°F on Se,72.0,73.0,F,0.002,0.001,0.001,0,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be between 74-75°F on Se,74.0,75.0,F,0.001,0.001,0.001,0,16.4,0.436,3
+New York,2026-09-26,Will the highest temperature in New York City be 76°F or higher on Sep,76.0,,F,0.001,0.001,0.001,0,16.4,0.436,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be 59°F or below on September ,,59.0,F,0.001,0.001,0.001,0,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 60-61°F on Septembe,60.0,61.0,F,0.001,0.001,0.001,0,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 62-63°F on Septembe,62.0,63.0,F,0.02,0.001,0.004,0,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 64-65°F on Septembe,64.0,65.0,F,,0.015,0.001,0,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 66-67°F on Septembe,66.0,67.0,F,,0.13,0.001,0,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 68-69°F on Septembe,68.0,69.0,F,,0.48,0.999,1,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 70-71°F on Septembe,70.0,71.0,F,,0.33,0.001,0,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 72-73°F on Septembe,72.0,73.0,F,0.06,0.04,0.001,0,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 74-75°F on Septembe,74.0,75.0,F,0.003,0.001,0.001,0,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be between 76-77°F on Septembe,76.0,77.0,F,0.001,0.001,0.001,0,19.733,0.503,3
+Chicago,2026-09-26,Will the highest temperature in Chicago be 78°F or higher on September,78.0,,F,0.001,0.001,0.001,0,19.733,0.503,3
+London,2026-09-26,Will the highest temperature in London be 55°F or below on September 2,,55.0,F,0.001,0.001,0.001,0,20.233,0.569,3
+London,2026-09-26,Will the highest temperature in London be between 56-57°F on September,56.0,57.0,F,0.0103,0.001,0.001,0,20.233,0.569,3
+London,2026-09-26,Will the highest temperature in London be between 58-59°F on September,58.0,59.0,F,0.16,0.11,0.001,0,20.233,0.569,3
+London,2026-09-26,Will the highest temperature in London be between 60-61°F on September,60.0,61.0,F,,0.7,0.999,1,20.233,0.569,3
+London,2026-09-26,Will the highest temperature in London be between 62-63°F on September,62.0,63.0,F,0.43,0.32,0.001,0,20.233,0.569,3
+London,2026-09-26,Will the highest temperature in London be between 64-65°F on September,64.0,65.0,F,,0.026,0.001,0,20.233,0.569,3
+London,2026-09-26,Will the highest temperature in London be 66°F or higher on September ,66.0,,F,0.0493,0.004,0.001,0,20.233,0.569,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be 85°F or below on September 2,,85.0,F,0.01,0.003,0.001,0,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be between 86-87°F on September,86.0,87.0,F,0.02,0.002,0.001,0,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.23,0.02,0.001,0,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,,0.09,0.001,0,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,,0.51,0.002,0,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,,0.3224,0.992,1,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,0.02,0.05,0.001,0,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,0.01,0.02,0.002,0,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,0.003,0.001,0.001,0,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,0.001,0.001,0.001,0,33.567,0.839,3
+Dallas,2026-09-26,Will the highest temperature in Dallas be 104°F or higher on September,104.0,,F,0.001,0.001,0.001,0,33.567,0.839,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be 59°F or below on Sept,,59.0,F,0.001,0.001,0.001,0,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be between 60-61°F on Se,60.0,61.0,F,0.007,0.001,0.001,0,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be between 62-63°F on Se,62.0,63.0,F,0.01,0.001,0.001,0,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,0.03,0.05,0.001,0,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,0.21,0.17,0.001,0,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,0.43,0.44,0.998,1,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,,0.2677,0.001,0,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,0.05,0.05,0.001,0,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.0116,0.03,0.001,0,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,0.005,0.001,0.007,0,21.167,2.06,3
+San Francisco,2026-09-26,Will the highest temperature in San Francisco be 78°F or higher on Sep,78.0,,F,0.001,0.001,0.001,0,21.167,2.06,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 18°C or below on September 26,,18.0,C,0.001,0.001,0.001,0,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 19°C on September 26?,19.0,19.0,C,0.001,0.001,0.001,0,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 20°C on September 26?,20.0,20.0,C,0.003,0.001,0.001,0,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 21°C on September 26?,21.0,21.0,C,0.04,0.001,0.001,0,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 22°C on September 26?,22.0,22.0,C,0.19,0.001,0.001,0,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 23°C on September 26?,23.0,23.0,C,,0.999,0.999,1,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 24°C on September 26?,24.0,24.0,C,,0.001,0.001,0,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 25°C on September 26?,25.0,25.0,C,0.08,0.001,0.001,0,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 26°C on September 26?,26.0,26.0,C,0.012,0.001,0.001,0,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 27°C on September 26?,27.0,27.0,C,0.002,0.001,0.001,0,22.5,1.054,3
+Tokyo,2026-09-26,Will the highest temperature in Tokyo be 28°C or higher on September 2,28.0,,C,0.001,0.001,0.001,0,22.5,1.054,3
+Paris,2026-09-26,Will the highest temperature in Paris be 20°C or below on September 26,,20.0,C,0.01,0.003,0.001,0,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 21°C on September 26?,21.0,21.0,C,0.01,0.001,0.001,0,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 22°C on September 26?,22.0,22.0,C,,,0.001,0,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 23°C on September 26?,23.0,23.0,C,,,0.9511,1,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 24°C on September 26?,24.0,24.0,C,,,0.01,0,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 25°C on September 26?,25.0,25.0,C,,0.3,0.0012,0,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 26°C on September 26?,26.0,26.0,C,,0.02,0.001,0,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 27°C on September 26?,27.0,27.0,C,0.01,0.002,0.001,0,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 28°C on September 26?,28.0,28.0,C,0.005,0.001,0.001,0,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 29°C on September 26?,29.0,29.0,C,0.001,0.001,0.001,0,24.3,1.179,3
+Paris,2026-09-26,Will the highest temperature in Paris be 30°C or higher on September 2,30.0,,C,0.001,0.001,0.001,0,24.3,1.179,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 21°C or below on Se,,21.0,C,0.001,0.001,0.001,0,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 22°C on September 2,22.0,22.0,C,0.001,0.001,0.001,0,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 23°C on September 2,23.0,23.0,C,0.02,0.001,0.001,0,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 24°C on September 2,24.0,24.0,C,,0.001,0.001,0,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 25°C on September 2,25.0,25.0,C,,0.001,0.001,0,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 26°C on September 2,26.0,26.0,C,,0.999,0.999,1,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 27°C on September 2,27.0,27.0,C,0.04,0.001,0.001,0,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 28°C on September 2,28.0,28.0,C,0.0074,0.001,0.001,0,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 29°C on September 2,29.0,29.0,C,0.001,0.001,0.001,0,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 30°C on September 2,30.0,30.0,C,0.001,0.001,0.001,0,23.8,1.345,3
+Seoul,2026-09-26,Will the highest temperature in Seoul (Incheon) be 31°C or higher on S,31.0,,C,0.001,0.001,0.001,0,23.8,1.345,3
+New York,2026-09-27,Will the highest temperature in New York City be 55°F or below on Sept,,55.0,F,0.001,0.001,0.001,0,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be between 56-57°F on Se,56.0,57.0,F,0.001,0.001,0.001,0,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be between 58-59°F on Se,58.0,59.0,F,0.002,0.001,0.001,0,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be between 60-61°F on Se,60.0,61.0,F,0.028,0.01,0.001,0,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be between 62-63°F on Se,62.0,63.0,F,,0.04,0.001,0,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be between 64-65°F on Se,64.0,65.0,F,,,0.98,1,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be between 66-67°F on Se,66.0,67.0,F,,,0.008,0,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be between 68-69°F on Se,68.0,69.0,F,,0.15,0.002,0,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be between 70-71°F on Se,70.0,71.0,F,0.02,0.01,0.001,0,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be between 72-73°F on Se,72.0,73.0,F,0.005,0.001,0.001,0,19.133,0.513,3
+New York,2026-09-27,Will the highest temperature in New York City be 74°F or higher on Sep,74.0,,F,0.002,0.001,0.002,0,19.133,0.513,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be 59°F or below on September ,,59.0,F,0.001,0.001,0.001,0,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 60-61°F on Septembe,60.0,61.0,F,0.001,0.001,0.001,0,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 62-63°F on Septembe,62.0,63.0,F,0.001,0.001,0.0029,0,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 64-65°F on Septembe,64.0,65.0,F,0.001,0.002,0.001,0,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 66-67°F on Septembe,66.0,67.0,F,0.001,0.002,0.001,0,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 68-69°F on Septembe,68.0,69.0,F,0.05,0.1874,0.001,0,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 70-71°F on Septembe,70.0,71.0,F,,0.42,0.001,0,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 72-73°F on Septembe,72.0,73.0,F,,0.39,0.999,1,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 74-75°F on Septembe,74.0,75.0,F,0.14,0.03,0.002,0,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be between 76-77°F on Septembe,76.0,77.0,F,0.001,0.002,0.001,0,20.9,0.755,3
+Chicago,2026-09-27,Will the highest temperature in Chicago be 78°F or higher on September,78.0,,F,0.002,0.001,0.001,0,20.9,0.755,3
+London,2026-09-27,Will the highest temperature in London be 17°C or below on September 2,,17.0,C,0.001,0.0012,0.001,0,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 18°C on September 27?,18.0,18.0,C,0.001,0.005,0.005,0,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 19°C on September 27?,19.0,19.0,C,0.0014,0.0031,0.001,0,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 20°C on September 27?,20.0,20.0,C,0.008,0.003,0.001,0,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 21°C on September 27?,21.0,21.0,C,,0.06,0.001,0,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 22°C on September 27?,22.0,22.0,C,,,0.999,1,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 23°C on September 27?,23.0,23.0,C,,,0.001,0,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 24°C on September 27?,24.0,24.0,C,,0.04,0.001,0,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 25°C on September 27?,25.0,25.0,C,0.02,0.001,0.001,0,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 26°C on September 27?,26.0,26.0,C,0.001,0.001,0.003,0,22.8,0.8,3
+London,2026-09-27,Will the highest temperature in London be 27°C or higher on September ,27.0,,C,0.001,0.001,0.001,0,22.8,0.8,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be 87°F or below on September 2,,87.0,F,0.01,0.001,0.003,0,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.02,0.01,0.001,0,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,0.1,0.1,0.001,0,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,,0.34,0.001,0,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,,0.39,0.998,1,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,,0.13,0.003,0,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,0.0575,0.03,0.001,0,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,0.02,0.002,0.001,0,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,0.005,0.005,0.002,0,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be between 104-105°F on Septemb,104.0,105.0,F,0.001,0.001,0.001,0,35.667,0.551,3
+Dallas,2026-09-27,Will the highest temperature in Dallas be 106°F or higher on September,106.0,,F,0.002,0.001,0.001,0,35.667,0.551,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be 53°F or below on Sept,,53.0,F,0.002,0.001,0.001,0,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be between 54-55°F on Se,54.0,55.0,F,0.001,0.001,0.001,0,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be between 56-57°F on Se,56.0,57.0,F,0.002,0.001,0.001,0,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be between 58-59°F on Se,58.0,59.0,F,0.01,0.001,0.001,0,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be between 60-61°F on Se,60.0,61.0,F,0.01,0.001,0.0011,0,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be between 62-63°F on Se,62.0,63.0,F,0.02,0.01,0.001,0,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,0.29,0.24,0.998,1,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,0.5,0.59,0.002,0,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,0.18,0.15,0.001,0,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,0.016,0.004,0.001,0,18.967,0.569,3
+San Francisco,2026-09-27,Will the highest temperature in San Francisco be 72°F or higher on Sep,72.0,,F,0.003,0.002,0.001,0,18.967,0.569,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 18°C or below on September 27,,18.0,C,0.001,0.001,0.001,0,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 19°C on September 27?,19.0,19.0,C,0.003,0.001,0.001,0,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 20°C on September 27?,20.0,20.0,C,0.0062,0.001,0.001,0,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 21°C on September 27?,21.0,21.0,C,0.02,0.001,0.001,0,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 22°C on September 27?,22.0,22.0,C,0.2,0.001,0.001,0,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 23°C on September 27?,23.0,23.0,C,0.35,0.001,0.001,0,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 24°C on September 27?,24.0,24.0,C,0.33,0.999,0.995,1,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 25°C on September 27?,25.0,25.0,C,,0.001,0.001,0,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 26°C on September 27?,26.0,26.0,C,0.01,0.001,0.001,0,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 27°C on September 27?,27.0,27.0,C,0.001,0.001,0.001,0,24.033,1.012,3
+Tokyo,2026-09-27,Will the highest temperature in Tokyo be 28°C or higher on September 2,28.0,,C,0.002,0.001,0.001,0,24.033,1.012,3
+Paris,2026-09-27,Will the highest temperature in Paris be 22°C or below on September 27,,22.0,C,0.001,0.001,0.001,0,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 23°C on September 27?,23.0,23.0,C,0.004,0.001,0.001,0,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 24°C on September 27?,24.0,24.0,C,0.006,0.005,0.001,0,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 25°C on September 27?,25.0,25.0,C,0.04,0.02,0.001,0,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 26°C on September 27?,26.0,26.0,C,,0.1752,0.001,0,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 27°C on September 27?,27.0,27.0,C,,0.53,0.001,0,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 28°C on September 27?,28.0,28.0,C,,,0.98,1,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 29°C on September 27?,29.0,29.0,C,,0.006,0.01,0,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 30°C on September 27?,30.0,30.0,C,0.002,0.002,0.001,0,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 31°C on September 27?,31.0,31.0,C,0.001,0.001,0.001,0,26.5,0.781,3
+Paris,2026-09-27,Will the highest temperature in Paris be 32°C or higher on September 2,32.0,,C,0.001,0.001,0.001,0,26.5,0.781,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 20°C or below on Se,,20.0,C,0.001,0.001,0.001,0,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 21°C on September 2,21.0,21.0,C,0.001,0.001,0.001,0,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 22°C on September 2,22.0,22.0,C,0.001,0.001,0.001,0,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 23°C on September 2,23.0,23.0,C,0.01,0.001,0.001,0,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 24°C on September 2,24.0,24.0,C,0.03,0.001,0.001,0,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 25°C on September 2,25.0,25.0,C,0.3564,0.001,0.001,0,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 26°C on September 2,26.0,26.0,C,,0.999,0.999,1,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 27°C on September 2,27.0,27.0,C,,0.001,0.001,0,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 28°C on September 2,28.0,28.0,C,0.003,0.001,0.001,0,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 29°C on September 2,29.0,29.0,C,0.001,0.001,0.001,0,24.533,1.65,3
+Seoul,2026-09-27,Will the highest temperature in Seoul (Incheon) be 30°C or higher on S,30.0,,C,0.001,0.001,0.001,0,24.533,1.65,3
+New York,2026-09-28,Will the highest temperature in New York City be 59°F or below on Sept,,59.0,F,0.02,0.001,0.001,0,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be between 60-61°F on Se,60.0,61.0,F,,0.17,0.001,0,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be between 62-63°F on Se,62.0,63.0,F,,,0.977,1,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be between 64-65°F on Se,64.0,65.0,F,,,0.0402,0,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be between 66-67°F on Se,66.0,67.0,F,,0.0444,0.001,0,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be between 68-69°F on Se,68.0,69.0,F,0.02,0.003,0.001,0,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be between 70-71°F on Se,70.0,71.0,F,0.0041,0.001,0.001,0,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be between 72-73°F on Se,72.0,73.0,F,0.001,0.001,0.001,0,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be between 74-75°F on Se,74.0,75.0,F,0.002,0.001,0.002,0,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be between 76-77°F on Se,76.0,77.0,F,0.001,0.001,0.001,0,17.133,0.451,3
+New York,2026-09-28,Will the highest temperature in New York City be 78°F or higher on Sep,78.0,,F,0.001,0.001,0.001,0,17.133,0.451,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be 63°F or below on September ,,63.0,F,0.001,0.001,0.001,0,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 64-65°F on Septembe,64.0,65.0,F,0.001,0.001,0.001,0,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 66-67°F on Septembe,66.0,67.0,F,0.003,0.001,0.005,0,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 68-69°F on Septembe,68.0,69.0,F,,0.009,0.001,0,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 70-71°F on Septembe,70.0,71.0,F,0.0847,0.1,0.001,0,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 72-73°F on Septembe,72.0,73.0,F,,0.52,0.999,1,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 74-75°F on Septembe,74.0,75.0,F,,0.3691,0.001,0,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 76-77°F on Septembe,76.0,77.0,F,0.04,0.04,0.001,0,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 78-79°F on Septembe,78.0,79.0,F,0.002,0.002,0.001,0,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be between 80-81°F on Septembe,80.0,81.0,F,0.001,0.001,0.001,0,22.033,0.666,3
+Chicago,2026-09-28,Will the highest temperature in Chicago be 82°F or higher on September,82.0,,F,0.001,0.001,0.001,0,22.033,0.666,3
+London,2026-09-28,Will the highest temperature in London be 14°C or below on September 2,,14.0,C,0.001,0.001,0.001,0,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 15°C on September 28?,15.0,15.0,C,0.001,0.001,0.001,0,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 16°C on September 28?,16.0,16.0,C,0.003,0.001,0.001,0,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 17°C on September 28?,17.0,17.0,C,0.03,0.002,0.001,0,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 18°C on September 28?,18.0,18.0,C,,0.09,0.001,0,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 19°C on September 28?,19.0,19.0,C,,,0.998,1,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 20°C on September 28?,20.0,20.0,C,,,0.008,0,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 21°C on September 28?,21.0,21.0,C,0.03,0.02,0.001,0,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 22°C on September 28?,22.0,22.0,C,0.002,0.001,0.001,0,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 23°C on September 28?,23.0,23.0,C,0.001,0.001,0.002,0,19.267,0.635,3
+London,2026-09-28,Will the highest temperature in London be 24°C or higher on September ,24.0,,C,0.001,0.001,0.001,0,19.267,0.635,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be 87°F or below on September 2,,87.0,F,0.005,0.001,0.001,0,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.02,0.02,0.001,0,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,,,0.001,0,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,,0.47,0.9782,1,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,,0.3013,0.018,0,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,0.09,0.05,0.002,0,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,0.01,0.01,0.001,0,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,0.01,0.001,0.001,0,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,0.001,0.001,0.001,0,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be between 104-105°F on Septemb,104.0,105.0,F,0.001,0.001,0.001,0,32.833,1.498,3
+Dallas,2026-09-28,Will the highest temperature in Dallas be 106°F or higher on September,106.0,,F,0.001,0.001,0.001,0,32.833,1.498,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be 61°F or below on Sept,,61.0,F,,0.002,0.002,0,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be between 62-63°F on Se,62.0,63.0,F,0.001,0.001,0.001,0,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be between 64-65°F on Se,64.0,65.0,F,0.12,0.002,0.001,0,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be between 66-67°F on Se,66.0,67.0,F,,0.11,0.001,0,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be between 68-69°F on Se,68.0,69.0,F,,,0.999,1,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,,0.37,0.001,0,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,0.21,0.1999,0.001,0,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.16,0.03,0.001,0,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,0.0159,0.003,0.001,0,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be between 78-79°F on Se,78.0,79.0,F,,0.001,0.001,0,23.033,0.252,3
+San Francisco,2026-09-28,Will the highest temperature in San Francisco be 80°F or higher on Sep,80.0,,F,,0.001,0.001,0,23.033,0.252,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 18°C or below on September 28,,18.0,C,0.001,0.001,0.001,0,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 19°C on September 28?,19.0,19.0,C,0.001,0.001,0.001,0,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 20°C on September 28?,20.0,20.0,C,0.004,0.001,0.001,0,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 21°C on September 28?,21.0,21.0,C,0.002,0.001,0.001,0,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 22°C on September 28?,22.0,22.0,C,0.01,0.001,0.001,0,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 23°C on September 28?,23.0,23.0,C,0.08,0.001,0.001,0,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 24°C on September 28?,24.0,24.0,C,,0.001,0.001,0,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 25°C on September 28?,25.0,25.0,C,0.31,0.001,0.001,0,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 26°C on September 28?,26.0,26.0,C,,0.999,0.999,1,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 27°C on September 28?,27.0,27.0,C,,0.001,0.001,0,23.767,1.361,3
+Tokyo,2026-09-28,Will the highest temperature in Tokyo be 28°C or higher on September 2,28.0,,C,0.01,0.001,0.001,0,23.767,1.361,3
+Paris,2026-09-28,Will the highest temperature in Paris be 21°C or below on September 28,,21.0,C,0.005,0.013,0.001,0,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 22°C on September 28?,22.0,22.0,C,,0.06,0.001,0,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 23°C on September 28?,23.0,23.0,C,,0.195,0.001,0,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 24°C on September 28?,24.0,24.0,C,,,0.96,1,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 25°C on September 28?,25.0,25.0,C,,,0.03,0,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 26°C on September 28?,26.0,26.0,C,,,0.002,0,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 27°C on September 28?,27.0,27.0,C,,0.01,0.001,0,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 28°C on September 28?,28.0,28.0,C,0.03,0.002,0.001,0,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 29°C on September 28?,29.0,29.0,C,0.003,0.001,0.001,0,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 30°C on September 28?,30.0,30.0,C,0.004,0.001,0.001,0,25.4,1.323,3
+Paris,2026-09-28,Will the highest temperature in Paris be 31°C or higher on September 2,31.0,,C,0.001,0.001,0.001,0,25.4,1.323,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 17°C or below on Se,,17.0,C,0.001,0.001,0.001,0,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 18°C on September 2,18.0,18.0,C,0.0015,0.0015,0.0015,0,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 19°C on September 2,19.0,19.0,C,0.001,0.001,0.001,0,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 20°C on September 2,20.0,20.0,C,0.001,0.001,0.001,0,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 21°C on September 2,21.0,21.0,C,0.002,0.001,0.001,0,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 22°C on September 2,22.0,22.0,C,0.026,0.001,0.001,0,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 23°C on September 2,23.0,23.0,C,,0.999,0.999,1,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 24°C on September 2,24.0,24.0,C,,0.001,0.001,0,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 25°C on September 2,25.0,25.0,C,,0.001,0.001,0,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 26°C on September 2,26.0,26.0,C,0.01,0.001,0.001,0,22.8,1.044,3
+Seoul,2026-09-28,Will the highest temperature in Seoul (Incheon) be 27°C or higher on S,27.0,,C,0.003,0.001,0.001,0,22.8,1.044,3
+New York,2026-09-29,Will the highest temperature in New York City be 74°F or below on Sept,,74.0,F,,,0.9954,1,20.6,0.458,3
+New York,2026-09-29,Will the highest temperature in New York City be between 75-76°F on Se,75.0,76.0,F,0.06,0.07,0.001,0,20.6,0.458,3
+New York,2026-09-29,Will the highest temperature in New York City be between 77-78°F on Se,77.0,78.0,F,,0.6699,0.001,0,20.6,0.458,3
+New York,2026-09-29,Will the highest temperature in New York City be between 79-80°F on Se,79.0,80.0,F,0.47,0.2,0.001,0,20.6,0.458,3
+New York,2026-09-29,Will the highest temperature in New York City be between 81-82°F on Se,81.0,82.0,F,,0.0596,0.001,0,20.6,0.458,3
+New York,2026-09-29,Will the highest temperature in New York City be between 83-84°F on Se,83.0,84.0,F,0.0767,0.015,0.001,0,20.6,0.458,3
+New York,2026-09-29,Will the highest temperature in New York City be 85°F or higher on Sep,85.0,,F,0.01,0.006,0.0012,0,20.6,0.458,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be 65°F or below on September ,,65.0,F,0.001,0.001,0.001,0,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 66-67°F on Septembe,66.0,67.0,F,0.001,0.001,0.001,0,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 68-69°F on Septembe,68.0,69.0,F,0.001,0.001,0.001,0,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 70-71°F on Septembe,70.0,71.0,F,0.001,0.003,0.001,0,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 72-73°F on Septembe,72.0,73.0,F,0.02,0.016,0.001,0,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 74-75°F on Septembe,74.0,75.0,F,,0.09,0.001,0,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 76-77°F on Septembe,76.0,77.0,F,,0.54,0.001,0,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 78-79°F on Septembe,78.0,79.0,F,,,0.998,1,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 80-81°F on Septembe,80.0,81.0,F,0.01,0.007,0.001,0,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be between 82-83°F on Septembe,82.0,83.0,F,0.001,0.001,0.001,0,23.967,1.041,3
+Chicago,2026-09-29,Will the highest temperature in Chicago be 84°F or higher on September,84.0,,F,0.001,0.001,0.001,0,23.967,1.041,3
+London,2026-09-29,Will the highest temperature in London be 18°C or below on September 2,,18.0,C,0.001,0.001,0.001,0,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 19°C on September 29?,19.0,19.0,C,0.001,0.001,0.001,0,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 20°C on September 29?,20.0,20.0,C,0.001,0.001,0.001,0,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 21°C on September 29?,21.0,21.0,C,0.001,0.001,0.001,0,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 22°C on September 29?,22.0,22.0,C,0.003,0.001,0.001,0,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 23°C on September 29?,23.0,23.0,C,,,0.992,1,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 24°C on September 29?,24.0,24.0,C,,,0.004,0,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 25°C on September 29?,25.0,25.0,C,,,0.001,0,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 26°C on September 29?,26.0,26.0,C,,,0.001,0,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 27°C on September 29?,27.0,27.0,C,,0.038,0.001,0,25.067,0.586,3
+London,2026-09-29,Will the highest temperature in London be 28°C or higher on September ,28.0,,C,0.001,0.001,0.003,0,25.067,0.586,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be 85°F or below on September 2,,85.0,F,0.001,0.001,0.001,0,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be between 86-87°F on September,86.0,87.0,F,,0.006,0.001,0,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,,0.001,0.001,0,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,,0.071,0.001,0,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,,0.59,0.001,0,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,,,0.998,1,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,,0.04,0.012,0,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,0.027,0.001,0.0121,0,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be between 100-101°F on Septemb,100.0,101.0,F,,0.001,0.001,0,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be between 102-103°F on Septemb,102.0,103.0,F,0.001,0.001,0.001,0,34.667,0.451,3
+Dallas,2026-09-29,Will the highest temperature in Dallas be 104°F or higher on September,104.0,,F,0.001,0.001,0.001,0,34.667,0.451,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be 69°F or below on Sept,,69.0,F,0.001,0.012,0.001,0,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be between 70-71°F on Se,70.0,71.0,F,0.03,0.016,0.001,0,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be between 72-73°F on Se,72.0,73.0,F,0.12,0.0915,0.001,0,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.26,0.23,0.001,0,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,,0.28,0.001,0,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be between 78-79°F on Se,78.0,79.0,F,0.2,0.21,0.999,1,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be between 80-81°F on Se,80.0,81.0,F,,0.1,0.001,0,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be between 82-83°F on Se,82.0,83.0,F,,0.017,0.001,0,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be between 84-85°F on Se,84.0,85.0,F,,0.003,0.001,0,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be between 86-87°F on Se,86.0,87.0,F,,0.001,0.001,0,27.2,1.127,3
+San Francisco,2026-09-29,Will the highest temperature in San Francisco be 88°F or higher on Sep,88.0,,F,0.001,0.001,0.001,0,27.2,1.127,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 17°C or below on September 29,,17.0,C,0.001,0.001,0.001,0,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 18°C on September 29?,18.0,18.0,C,0.001,0.001,0.001,0,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 19°C on September 29?,19.0,19.0,C,0.001,0.001,0.001,0,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 20°C on September 29?,20.0,20.0,C,0.002,0.001,0.001,0,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 21°C on September 29?,21.0,21.0,C,0.02,0.001,0.001,0,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 22°C on September 29?,22.0,22.0,C,0.17,0.001,0.001,0,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 23°C on September 29?,23.0,23.0,C,,0.999,0.999,1,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 24°C on September 29?,24.0,24.0,C,,0.001,0.001,0,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 25°C on September 29?,25.0,25.0,C,0.03,0.001,0.001,0,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 26°C on September 29?,26.0,26.0,C,0.01,0.001,0.001,0,22.567,0.503,3
+Tokyo,2026-09-29,Will the highest temperature in Tokyo be 27°C or higher on September 2,27.0,,C,0.001,0.001,0.001,0,22.567,0.503,3
+Paris,2026-09-29,Will the highest temperature in Paris be 21°C or below on September 29,,21.0,C,0.001,0.001,0.001,0,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 22°C on September 29?,22.0,22.0,C,0.001,0.001,0.001,0,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 23°C on September 29?,23.0,23.0,C,0.001,0.001,0.001,0,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 24°C on September 29?,24.0,24.0,C,0.001,0.008,0.008,0,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 25°C on September 29?,25.0,25.0,C,0.003,0.001,0.001,0,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 26°C on September 29?,26.0,26.0,C,0.02,0.014,0.001,0,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 27°C on September 29?,27.0,27.0,C,,0.05,0.001,0,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 28°C on September 29?,28.0,28.0,C,,,0.995,1,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 29°C on September 29?,29.0,29.0,C,,,0.004,0,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 30°C on September 29?,30.0,30.0,C,,0.044,0.001,0,27.6,0.2,3
+Paris,2026-09-29,Will the highest temperature in Paris be 31°C or higher on September 2,31.0,,C,0.0049,0.008,0.001,0,27.6,0.2,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 18°C or below on Se,,18.0,C,0.001,0.001,0.001,0,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 19°C on September 2,19.0,19.0,C,0.001,0.001,0.001,0,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 20°C on September 2,20.0,20.0,C,0.001,0.002,0.002,0,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 21°C on September 2,21.0,21.0,C,0.002,0.001,0.001,0,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 22°C on September 2,22.0,22.0,C,0.01,0.001,0.001,0,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 23°C on September 2,23.0,23.0,C,,0.001,0.001,0,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 24°C on September 2,24.0,24.0,C,,0.999,0.999,1,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 25°C on September 2,25.0,25.0,C,,0.001,0.001,0,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 26°C on September 2,26.0,26.0,C,0.02,0.001,0.001,0,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 27°C on September 2,27.0,27.0,C,0.003,0.003,0.003,0,22.867,1.45,3
+Seoul,2026-09-29,Will the highest temperature in Seoul (Incheon) be 28°C or higher on S,28.0,,C,0.001,0.001,0.001,0,22.867,1.45,3
+New York,2026-09-30,Will the highest temperature in New York City be 72°F or below on Sept,,72.0,F,0.01,0.001,0.001,0,23.3,0.854,3
+New York,2026-09-30,Will the highest temperature in New York City be between 73-74°F on Se,73.0,74.0,F,0.03,0.008,0.001,0,23.3,0.854,3
+New York,2026-09-30,Will the highest temperature in New York City be between 75-76°F on Se,75.0,76.0,F,,0.0704,0.001,0,23.3,0.854,3
+New York,2026-09-30,Will the highest temperature in New York City be between 77-78°F on Se,77.0,78.0,F,,0.18,0.001,0,23.3,0.854,3
+New York,2026-09-30,Will the highest temperature in New York City be between 79-80°F on Se,79.0,80.0,F,,0.5118,0.999,1,23.3,0.854,3
+New York,2026-09-30,Will the highest temperature in New York City be between 81-82°F on Se,81.0,82.0,F,,0.16,0.001,0,23.3,0.854,3
+New York,2026-09-30,Will the highest temperature in New York City be 83°F or higher on Sep,83.0,,F,0.0467,0.018,0.001,0,23.3,0.854,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be 65°F or below on September ,,65.0,F,0.0648,0.001,0.001,0,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 66-67°F on Septembe,66.0,67.0,F,,0.001,0.001,0,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 68-69°F on Septembe,68.0,69.0,F,0.46,0.001,0.001,0,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 70-71°F on Septembe,70.0,71.0,F,,0.9,0.998,1,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 72-73°F on Septembe,72.0,73.0,F,0.04,0.111,0.002,0,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 74-75°F on Septembe,74.0,75.0,F,0.02,0.005,0.0011,0,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 76-77°F on Septembe,76.0,77.0,F,0.0076,0.001,0.001,0,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 78-79°F on Septembe,78.0,79.0,F,0.0049,0.001,0.001,0,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 80-81°F on Septembe,80.0,81.0,F,0.001,0.001,0.001,0,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be between 82-83°F on Septembe,82.0,83.0,F,0.001,0.001,0.001,0,19.2,1.153,3
+Chicago,2026-09-30,Will the highest temperature in Chicago be 84°F or higher on September,84.0,,F,0.001,0.001,0.001,0,19.2,1.153,3
+London,2026-09-30,Will the highest temperature in London be 16°C or below on September 3,,16.0,C,0.001,0.002,0.002,0,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 17°C on September 30?,17.0,17.0,C,0.001,0.001,0.001,0,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 18°C on September 30?,18.0,18.0,C,0.001,0.001,0.001,0,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 19°C on September 30?,19.0,19.0,C,0.001,0.001,0.001,0,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 20°C on September 30?,20.0,20.0,C,0.003,0.001,0.001,0,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 21°C on September 30?,21.0,21.0,C,0.02,0.001,0.001,0,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 22°C on September 30?,22.0,22.0,C,,0.1,0.001,0,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 23°C on September 30?,23.0,23.0,C,,0.37,0.001,0,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 24°C on September 30?,24.0,24.0,C,,,0.999,1,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 25°C on September 30?,25.0,25.0,C,,,0.001,0,22.7,0.436,3
+London,2026-09-30,Will the highest temperature in London be 26°C or higher on September ,26.0,,C,0.002,0.01,0.001,0,22.7,0.436,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be 81°F or below on September 3,,81.0,F,0.001,0.001,0.001,0,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be between 82-83°F on September,82.0,83.0,F,0.001,0.001,0.001,0,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be between 84-85°F on September,84.0,85.0,F,0.001,0.001,0.001,0,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be between 86-87°F on September,86.0,87.0,F,0.0034,0.013,0.001,0,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be between 88-89°F on September,88.0,89.0,F,0.06,0.04,0.001,0,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be between 90-91°F on September,90.0,91.0,F,,0.25,0.999,1,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be between 92-93°F on September,92.0,93.0,F,0.42,0.417,0.001,0,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be between 94-95°F on September,94.0,95.0,F,,0.27,0.001,0,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be between 96-97°F on September,96.0,97.0,F,0.04,0.05,0.001,0,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be between 98-99°F on September,98.0,99.0,F,0.005,0.003,0.001,0,34.167,0.451,3
+Dallas,2026-09-30,Will the highest temperature in Dallas be 100°F or higher on September,100.0,,F,0.005,0.001,0.001,0,34.167,0.451,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be 73°F or below on Sept,,73.0,F,0.07,0.05,0.001,0,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be between 74-75°F on Se,74.0,75.0,F,0.16,0.17,0.001,0,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be between 76-77°F on Se,76.0,77.0,F,,,0.999,1,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be between 78-79°F on Se,78.0,79.0,F,,0.26,0.0051,0,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be between 80-81°F on Se,80.0,81.0,F,,0.15,0.006,0,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be between 82-83°F on Se,82.0,83.0,F,0.047,0.03,0.005,0,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be between 84-85°F on Se,84.0,85.0,F,0.013,0.003,0.002,0,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be between 86-87°F on Se,86.0,87.0,F,0.005,0.002,0.001,0,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be between 88-89°F on Se,88.0,89.0,F,0.005,0.001,0.001,0,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be between 90-91°F on Se,90.0,91.0,F,0.005,0.001,0.001,0,27.133,1.514,3
+San Francisco,2026-09-30,Will the highest temperature in San Francisco be 92°F or higher on Sep,92.0,,F,0.001,0.001,0.001,0,27.133,1.514,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 19°C or below on September 30,,19.0,C,0.07,0.001,0.001,0,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 20°C on September 30?,20.0,20.0,C,,0.9806,0.987,1,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 21°C on September 30?,21.0,21.0,C,,0.01,0.01,0,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 22°C on September 30?,22.0,22.0,C,,0.0015,0.0015,0,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 23°C on September 30?,23.0,23.0,C,0.05,0.001,0.001,0,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 24°C on September 30?,24.0,24.0,C,0.01,0.001,0.001,0,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 25°C on September 30?,25.0,25.0,C,0.005,0.001,0.001,0,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 26°C on September 30?,26.0,26.0,C,0.001,0.001,0.001,0,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 27°C on September 30?,27.0,27.0,C,0.001,0.001,0.001,0,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 28°C on September 30?,28.0,28.0,C,0.001,0.001,0.001,0,20.833,1.626,3
+Tokyo,2026-09-30,Will the highest temperature in Tokyo be 29°C or higher on September 3,29.0,,C,0.001,0.001,0.001,0,20.833,1.626,3
+Paris,2026-09-30,Will the highest temperature in Paris be 18°C or below on September 30,,18.0,C,0.001,0.001,0.001,0,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 19°C on September 30?,19.0,19.0,C,0.001,0.001,0.001,0,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 20°C on September 30?,20.0,20.0,C,0.006,0.001,0.001,0,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 21°C on September 30?,21.0,21.0,C,0.0864,0.001,0.001,0,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 22°C on September 30?,22.0,22.0,C,0.12,0.001,0.001,0,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 23°C on September 30?,23.0,23.0,C,,0.001,0.001,0,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 24°C on September 30?,24.0,24.0,C,,0.98,0.9963,1,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 25°C on September 30?,25.0,25.0,C,,0.02,0.001,0,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 26°C on September 30?,26.0,26.0,C,,0.001,0.001,0,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 27°C on September 30?,27.0,27.0,C,0.007,0.001,0.001,0,24.0,1.044,3
+Paris,2026-09-30,Will the highest temperature in Paris be 28°C or higher on September 3,28.0,,C,0.001,0.001,0.001,0,24.0,1.044,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 19°C or below on Se,,19.0,C,0.008,0.001,0.001,0,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 20°C on September 3,20.0,20.0,C,0.001,0.001,0.001,0,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 21°C on September 3,21.0,21.0,C,0.001,0.001,0.001,0,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 22°C on September 3,22.0,22.0,C,0.004,0.001,0.001,0,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 23°C on September 3,23.0,23.0,C,0.03,0.001,0.001,0,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 24°C on September 3,24.0,24.0,C,,0.001,0.001,0,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 25°C on September 3,25.0,25.0,C,,0.999,0.999,1,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 26°C on September 3,26.0,26.0,C,,0.001,0.0012,0,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 27°C on September 3,27.0,27.0,C,0.003,0.001,0.001,0,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 28°C on September 3,28.0,28.0,C,0.001,0.001,0.001,0,23.8,0.917,3
+Seoul,2026-09-30,Will the highest temperature in Seoul (Incheon) be 29°C or higher on S,29.0,,C,0.001,0.001,0.001,0,23.8,0.917,3
