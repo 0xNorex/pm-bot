@@ -4,7 +4,7 @@ import math
 import re
 import structlog
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from typing import TYPE_CHECKING, Any
 from zoneinfo import ZoneInfo
 
@@ -229,6 +229,65 @@ async def fetch_day_high(
         local_time=now_local,
         is_past_cutoff=now_local.hour >= CUTOFF_HOUR,
     )
+
+
+def _obs_dt(m: dict) -> datetime | None:
+    """Parse a METAR report timestamp (ISO string or epoch, either field)."""
+    for key in ("reportTime", "obsTime"):
+        v = m.get(key)
+        if v is None:
+            continue
+        try:
+            if isinstance(v, (int, float)):
+                return datetime.fromtimestamp(v, tz=timezone.utc)
+            return datetime.fromisoformat(str(v).replace("Z", "+00:00"))
+        except (ValueError, TypeError, OSError):
+            continue
+    return None
+
+
+async def fetch_day_high_for_date(
+    client: httpx.AsyncClient,
+    city: str,
+    day: date,
+) -> float | None:
+    """Final METAR day high (C) for a PAST local date at the settlement station.
+
+    Uses the AWC `date` parameter to page historical reports; returns the
+    max temp among reports whose local date == day, or None.
+    """
+    icao = CITY_ICAO.get(city)
+    if not icao:
+        return None
+    tz = ZoneInfo(CITY_TZ.get(city, "UTC"))
+    end_local = datetime(day.year, day.month, day.day, 23, 59, tzinfo=tz)
+    date_param = end_local.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    try:
+        resp = await client.get(
+            AWC_URL,
+            params={"ids": icao, "format": "json", "taf": "false", "hours": "48", "date": date_param},
+        )
+        resp.raise_for_status()
+        data = resp.json()
+    except Exception:
+        return None
+    best: float | None = None
+    for m in data if isinstance(data, list) else []:
+        t = m.get("temp")
+        if t is None:
+            continue
+        ot = _obs_dt(m)
+        if ot is None:
+            continue
+        try:
+            tv = float(t)
+        except (ValueError, TypeError):
+            continue
+        if ot.astimezone(tz).date() != day:
+            continue
+        if best is None or tv > best:
+            best = tv
+    return best
 
 
 def resolve_icao_from_description(description: str) -> str | None:

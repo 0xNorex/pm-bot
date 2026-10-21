@@ -757,6 +757,16 @@ class TradingDaemon:
 
         self.db.set_state_json("daily_reset", {"date": today})
 
+        # Backfill forecast_log actuals for elapsed target dates (the
+        # settle-time backfill promised by no_fade never existed, so
+        # actual_c stayed empty — found in the 2026-10-21 loss audit).
+        try:
+            from pm_bot.strategies.no_fade import backfill_forecast_actuals
+
+            asyncio.create_task(backfill_forecast_actuals(self._http_client))
+        except Exception:
+            pass
+
     def _write_heartbeat(self) -> None:
         try:
             self.heartbeat_path.parent.mkdir(parents=True, exist_ok=True)

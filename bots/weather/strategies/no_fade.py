@@ -29,11 +29,14 @@ Sizing: flat $20/trade for paper; Kelly once live calibration is confirmed.
 
 from __future__ import annotations
 
+import csv
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime
 from math import erf, sqrt
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
+from pm_bot.core.observation import CITY_TZ, fetch_day_high_for_date
 from pm_bot.models.market import (
     ForecastResult,
     Recommendation,
@@ -91,20 +94,100 @@ class NoFadeConfig:
     min_no_price: float = 0.05     # don't buy NO below 5c (dust)
 
 
+_FORECAST_LOG_HEADER = ["fetched_at", "city", "target_date", "fcst_c", "spread_c",
+                        "bias_c", "sigma_c", "members", "model", "actual_c"]
+
+
 def _append_forecast_log(city: str, target: str, fcst_c: float, spread_c: float, bias_c: float, sigma_c: float, members: int = 0, model: str = "") -> None:
     """Append (forecast, spread, emos sigma, members, model) for live recalibration.
 
-    Actuals are backfilled at settle time; rows with spread_c logged let us
-    refit EMOS (a, b) by min-CRPS once enough pairs accumulate.
+    Actuals are backfilled by backfill_forecast_actuals() once the target
+    date has elapsed; rows with spread_c logged let us refit EMOS (a, b)
+    by min-CRPS once enough pairs accumulate.
     """
     try:
         FORECAST_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
-        if not FORECAST_LOG_PATH.exists():
-            FORECAST_LOG_PATH.write_text("fetched_at,city,target_date,fcst_c,spread_c,bias_c,sigma_c,members,model,actual_c\n")
-        with FORECAST_LOG_PATH.open("a") as f:
-            f.write(f"{date.today().isoformat()},{city},{target},{fcst_c:.2f},{spread_c:.2f},{bias_c:.2f},{sigma_c:.2f},{members},{model},\n")
+        new_file = not FORECAST_LOG_PATH.exists()
+        with FORECAST_LOG_PATH.open("a", newline="") as f:
+            w = csv.writer(f)
+            if new_file:
+                w.writerow(_FORECAST_LOG_HEADER)
+            w.writerow([date.today().isoformat(), city, target, f"{fcst_c:.2f}",
+                        f"{spread_c:.2f}", f"{bias_c:.2f}", f"{sigma_c:.2f}",
+                        members, model, ""])
     except OSError:
         pass  # logging must never break trading
+
+
+def _read_forecast_log() -> list[list[str]]:
+    """Tolerant read of forecast_log.csv.
+
+    Legacy rows (2026-10-20/21) were written unquoted, so the model field
+    may itself contain commas. The first 8 fields are fixed and the last
+    field is actual_c; everything in between is rejoined as the model.
+    """
+    if not FORECAST_LOG_PATH.exists():
+        return []
+    rows: list[list[str]] = []
+    with FORECAST_LOG_PATH.open(newline="") as f:
+        for raw in csv.reader(f):
+            if not raw or raw[0] == "fetched_at" or len(raw) < 10:
+                continue
+            rows.append(raw[:8] + [",".join(raw[8:-1]), raw[-1]])
+    return rows
+
+
+def _parse_target_date(target: str, fetched_at: str) -> date | None:
+    try:
+        year = int(fetched_at[:4])
+        return datetime.strptime(f"{target} {year}", "%B %d %Y").date()
+    except (ValueError, IndexError):
+        return None
+
+
+async def backfill_forecast_actuals(client) -> int:
+    """Fill actual_c for elapsed target dates from historical METAR.
+
+    The append path promised settle-time backfill but none existed, so
+    actual_c stayed empty for every row (found 2026-10-21, live-loss
+    audit). Fetches the settlement-station day high once per
+    (city, target date) and rewrites the log with proper CSV quoting.
+    Returns the number of rows filled; never raises.
+    """
+    try:
+        rows = _read_forecast_log()
+        if not rows:
+            return 0
+        pending: set[tuple[str, date]] = set()
+        for r in rows:
+            if r[9].strip():
+                continue
+            day = _parse_target_date(r[2], r[0])
+            if day is None:
+                continue
+            tz = ZoneInfo(CITY_TZ.get(r[1], "UTC"))
+            if day < datetime.now(tz).date():
+                pending.add((r[1], day))
+        actuals: dict[tuple[str, date], float] = {}
+        for city, day in sorted(pending):
+            v = await fetch_day_high_for_date(client, city, day)
+            if v is not None:
+                actuals[(city, day)] = v
+        if not actuals:
+            return 0
+        filled = 0
+        with FORECAST_LOG_PATH.open("w", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(_FORECAST_LOG_HEADER)
+            for r in rows:
+                day = _parse_target_date(r[2], r[0])
+                if not r[9].strip() and day is not None and (r[1], day) in actuals:
+                    r[9] = f"{actuals[(r[1], day)]:.1f}"
+                    filled += 1
+                w.writerow(r)
+        return filled
+    except Exception:
+        return 0
 
 
 class NoFadeStrategy(Strategy):
