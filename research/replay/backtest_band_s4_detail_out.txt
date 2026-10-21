@@ -1,0 +1,78 @@
+dataset: 5099 buckets
+band live config: [0.15,0.6] min_edge=0.05
+=== BAND: live rule vs raw control (live cities, costB) ===
+band-LIVE (fair step, edge>=0.05)            n= 208 win=80.8% pnl=$  +428.01 avg=$+2.06
+band-RAW (buy all in band)                   n= 208 win=80.8% pnl=$  +428.01 avg=$+2.06
+band-LIVE all 8 cities                       n= 257 win=83.7% pnl=$  +746.52 avg=$+2.90
+
+=== BAND grid (live fair, sub-band x min_edge) ===
+band [0.15,0.45] edge>=0.00                  n= 186 win=82.3% pnl=$  +326.34 avg=$+1.75
+band [0.15,0.45] edge>=0.05                  n= 186 win=82.3% pnl=$  +326.34 avg=$+1.75
+band [0.15,0.45] edge>=0.10                  n= 127 win=79.5% pnl=$  +269.47 avg=$+2.12
+band [0.15,0.50] edge>=0.00                  n= 205 win=81.5% pnl=$  +450.51 avg=$+2.20
+band [0.15,0.50] edge>=0.05                  n= 205 win=81.5% pnl=$  +450.51 avg=$+2.20
+band [0.15,0.50] edge>=0.10                  n= 146 win=78.8% pnl=$  +393.64 avg=$+2.70
+band [0.15,0.55] edge>=0.00                  n= 208 win=80.8% pnl=$  +428.01 avg=$+2.06
+band [0.15,0.55] edge>=0.05                  n= 208 win=80.8% pnl=$  +428.01 avg=$+2.06
+band [0.15,0.55] edge>=0.10                  n= 149 win=77.9% pnl=$  +371.14 avg=$+2.49
+band [0.15,0.60] edge>=0.00                  n= 208 win=80.8% pnl=$  +428.01 avg=$+2.06
+band [0.15,0.60] edge>=0.05                  n= 208 win=80.8% pnl=$  +428.01 avg=$+2.06
+band [0.15,0.60] edge>=0.10                  n= 149 win=77.9% pnl=$  +371.14 avg=$+2.49
+band [0.20,0.45] edge>=0.00                  n= 140 win=80.0% pnl=$  +292.43 avg=$+2.09
+band [0.20,0.45] edge>=0.05                  n= 140 win=80.0% pnl=$  +292.43 avg=$+2.09
+band [0.20,0.45] edge>=0.10                  n= 127 win=79.5% pnl=$  +269.47 avg=$+2.12
+band [0.20,0.50] edge>=0.00                  n= 159 win=79.2% pnl=$  +416.60 avg=$+2.62
+band [0.20,0.50] edge>=0.05                  n= 159 win=79.2% pnl=$  +416.60 avg=$+2.62
+band [0.20,0.50] edge>=0.10                  n= 146 win=78.8% pnl=$  +393.64 avg=$+2.70
+band [0.20,0.55] edge>=0.00                  n= 162 win=78.4% pnl=$  +394.10 avg=$+2.43
+band [0.20,0.55] edge>=0.05                  n= 162 win=78.4% pnl=$  +394.10 avg=$+2.43
+band [0.20,0.55] edge>=0.10                  n= 149 win=77.9% pnl=$  +371.14 avg=$+2.49
+band [0.20,0.60] edge>=0.00                  n= 162 win=78.4% pnl=$  +394.10 avg=$+2.43
+band [0.20,0.60] edge>=0.05                  n= 162 win=78.4% pnl=$  +394.10 avg=$+2.43
+band [0.20,0.60] edge>=0.10                  n= 149 win=77.9% pnl=$  +371.14 avg=$+2.49
+band [0.25,0.45] edge>=0.00                  n= 100 win=77.0% pnl=$  +228.14 avg=$+2.28
+band [0.25,0.45] edge>=0.05                  n= 100 win=77.0% pnl=$  +228.14 avg=$+2.28
+band [0.25,0.45] edge>=0.10                  n=  87 win=75.9% pnl=$  +205.18 avg=$+2.36
+band [0.25,0.50] edge>=0.00                  n= 119 win=76.5% pnl=$  +352.31 avg=$+2.96
+band [0.25,0.50] edge>=0.05                  n= 119 win=76.5% pnl=$  +352.31 avg=$+2.96
+band [0.25,0.50] edge>=0.10                  n= 106 win=75.5% pnl=$  +329.35 avg=$+3.11
+band [0.25,0.55] edge>=0.00                  n= 122 win=75.4% pnl=$  +329.81 avg=$+2.70
+band [0.25,0.55] edge>=0.05                  n= 122 win=75.4% pnl=$  +329.81 avg=$+2.70
+band [0.25,0.55] edge>=0.10                  n= 109 win=74.3% pnl=$  +306.85 avg=$+2.82
+band [0.25,0.60] edge>=0.00                  n= 122 win=75.4% pnl=$  +329.81 avg=$+2.70
+band [0.25,0.60] edge>=0.05                  n= 122 win=75.4% pnl=$  +329.81 avg=$+2.70
+band [0.25,0.60] edge>=0.10                  n= 109 win=74.3% pnl=$  +306.85 avg=$+2.82
+
+=== BAND time halves (split 2026-09-19) ===
+band-LIVE first half                         n=  92 win=81.5% pnl=$  +232.07 avg=$+2.52
+band-LIVE second half                        n= 116 win=80.2% pnl=$  +195.94 avg=$+1.69
+band-RAW first half                          n=  92 win=81.5% pnl=$  +232.07 avg=$+2.52
+band-RAW second half                         n= 116 win=80.2% pnl=$  +195.94 avg=$+1.69
+
+=== BAND-LIVE per city ===
+band-LIVE New York                           n=  44 win=72.7% pnl=$   +30.75 avg=$+0.70
+band-LIVE Chicago                            n=  34 win=91.2% pnl=$  +163.19 avg=$+4.80
+band-LIVE London                             n=  55 win=78.2% pnl=$  +115.83 avg=$+2.11
+band-LIVE Dallas                             n=  19 win=84.2% pnl=$   +34.93 avg=$+1.84
+band-LIVE San Francisco                      n=  56 win=82.1% pnl=$   +83.31 avg=$+1.49
+
+band-LIVE halve-winning-fills stress pnl=$-218.81 (vs $+428.01)
+band-LIVE winner-shuffle placebo: real=$+428.01 null mean=$-958.67 p95=$-751.11 frac(null>=real)=0.000
+
+=== S4 grid (ERA5 rm16 proxy, yes_s4 prices, costB) ===
+s4 drift=0.30 sig=0.25 edge>=0.08 maxNO=0.98   n=   2 pnl=$    +3.66
+s4 drift=0.30 sig=0.25 edge>=0.08 maxNO=0.95   n=   2 pnl=$    +3.66
+s4 drift=0.15 sig=0.25 edge>=0.08 maxNO=0.98   n=   2 pnl=$    +3.66
+s4 drift=0.15 sig=0.25 edge>=0.08 maxNO=0.95   n=   2 pnl=$    +3.66
+s4 drift=0.00 sig=0.35 edge>=0.08 maxNO=0.98   n=   2 pnl=$    +3.66
+s4 drift=0.00 sig=0.35 edge>=0.08 maxNO=0.95   n=   2 pnl=$    +3.66
+s4 drift=0.00 sig=0.25 edge>=0.08 maxNO=0.98   n=   2 pnl=$    +3.66
+s4 drift=0.00 sig=0.25 edge>=0.08 maxNO=0.95   n=   2 pnl=$    +3.66
+  ... worst cells:
+s4 drift=0.30 sig=0.35 edge>=0.03 maxNO=0.95   n=   3 pnl=$   -17.26
+s4 drift=0.15 sig=0.50 edge>=0.03 maxNO=0.95   n=   3 pnl=$   -17.26
+s4 drift=0.00 sig=0.50 edge>=0.03 maxNO=0.95   n=   3 pnl=$   -17.26
+
+s4 LIVE config (drift .15 sig .35 e.03 max.98) n=   9 win=88.9% pnl=$   -13.17 avg=$-1.46
+s4 LIVE first half (Sep20-Oct4)              n=   4 win=100.0% pnl=$    +1.92 avg=$+0.48
+s4 LIVE second half (Oct5-19)                n=   5 win=80.0% pnl=$   -15.09 avg=$-3.02

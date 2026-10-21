@@ -29,7 +29,9 @@ class FillModel:
         if price <= self.tail_low or price >= self.tail_very_high:
             return self.fill_prob_tail
         if price <= self.tail_high or price >= self.tail_high2:
-            return self.fill_prob_tail
+            # Inside-spread tier (was returning fill_prob_tail, which made
+            # fill_prob_inside unreachable dead config — fixed 2026-10-21).
+            return self.fill_prob_inside
         return self.fill_prob_at_best
 
 

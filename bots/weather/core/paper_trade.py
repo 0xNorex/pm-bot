@@ -369,15 +369,24 @@ class PaperTradeDB:
         if bucket is None:
             return 0.0
 
+        # Settlement follows the station's DISPLAYED value, i.e. the
+        # native reading rounded half-up (verified 2026-10: gamma agrees
+        # with displayed-value rounding ~99.7%). floor() here called a
+        # 13.5C day a 13C day and contradicted the real resolution —
+        # fixed 2026-10-21. NOTE: the live daemon settles from gamma
+        # prices (_paper_settle); this helper is currently unused.
+        def _rhu(x: float) -> int:
+            return floor(x + 0.5)
+
         if bucket.is_low_tail:
-            hit = floor(observed_temp_c) <= floor(bucket.temp_high_c)
+            hit = _rhu(observed_temp_c) <= floor(bucket.temp_high_c)
         elif bucket.is_high_tail:
-            hit = floor(observed_temp_c) >= floor(bucket.temp_low_c)
+            hit = _rhu(observed_temp_c) >= floor(bucket.temp_low_c)
         elif bucket.temp_unit == "F" or temp_unit.upper() == "F":
-            obs_f = floor(observed_temp_c * 1.8 + 32.0)
+            obs_f = _rhu(observed_temp_c * 1.8 + 32.0)
             hit = floor(bucket.temp_low) <= obs_f <= floor(bucket.temp_high)
         else:
-            hit = floor(observed_temp_c) == floor(bucket.temp_low_c)
+            hit = _rhu(observed_temp_c) == floor(bucket.temp_low_c)
 
         return self.settle_market(market_id, winning_side="YES" if hit else "NO")
 
