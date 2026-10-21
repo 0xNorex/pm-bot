@@ -29,6 +29,7 @@ from pm_bot.core.polymarket import fetch_weather_events
 from pm_bot.core.risk import RiskManager, RiskCheckResult
 from pm_bot.core.weather import fetch_forecast
 from pm_bot.core.observation import fetch_day_high, fetch_observation, filter_recommendations
+from pm_bot.core.price_archive import archive_cycle
 from pm_bot.core.staged_entry import apply_staged_entry_for_event
 from pm_bot.models.config import DEFAULT_CITIES, STRATEGY_DEFAULTS, resolve_city_alias
 from pm_bot.models.market import Recommendation, ForecastResult
@@ -244,6 +245,15 @@ class TradingDaemon:
             dh = await fetch_day_high(client, city)
             if dh:
                 day_highs[city] = dh
+
+        # S4-rebuild M1 (2026-10-21): archive every bucket's live prices
+        # + running day-high each cycle (pre-guard, raw fetch) so the
+        # early-trigger recalibration has real intraday paths.
+        if self.dry_run:
+            try:
+                archive_cycle(events, day_highs)
+            except Exception as e:
+                log.warning("price_archive_failed", error=str(e))
 
         # City guard: skip cities whose rolling 60d win rate is
         # significantly below breakeven (binomial test, paper DB).
